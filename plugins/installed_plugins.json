@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "plugins": {
+    "claude-code-setup@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\moody\\.claude\\plugins\\cache\\claude-plugins-official\\claude-code-setup\\1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-04-28T00:34:58.002Z",
+        "lastUpdated": "2026-04-28T00:34:58.002Z"
+      }
+    ],
+    "context7@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\moody\\.claude\\plugins\\cache\\claude-plugins-official\\context7\\unknown",
+        "version": "unknown",
+        "installedAt": "2026-04-28T00:37:44.857Z",
+        "lastUpdated": "2026-04-28T00:37:44.857Z"
+      }
+    ],
+    "claude-md-management@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\moody\\.claude\\plugins\\cache\\claude-plugins-official\\claude-md-management\\1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-04-28T00:41:22.431Z",
+        "lastUpdated": "2026-04-28T00:41:22.431Z"
+      }
+    ],
+    "feature-dev@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\moody\\.claude\\plugins\\cache\\claude-plugins-official\\feature-dev\\unknown",
+        "version": "unknown",
+        "installedAt": "2026-04-28T00:44:23.745Z",
+        "lastUpdated": "2026-04-28T00:44:23.745Z"
+      }
+    ],
+    "firecrawl@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\moody\\.claude\\plugins\\cache\\claude-plugins-official\\firecrawl\\1.0.8",
+        "version": "1.0.8",
+        "installedAt": "2026-04-28T03:31:18.974Z",
+        "lastUpdated": "2026-04-28T03:31:18.974Z",
+        "gitCommitSha": "51839816f0487d862b505f1b08a990cf0b461211"
+      }
+    ],
+    "remember@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\moody\\.claude\\plugins\\cache\\claude-plugins-official\\remember\\0.5.0",
+        "version": "0.5.0",
+        "installedAt": "2026-04-28T16:37:00.523Z",
+        "lastUpdated": "2026-04-28T16:37:00.523Z",
+        "gitCommitSha": "914445ac5f06a164800ea90ba4db41a0486321ae"
+      }
+    ],
+    "mem0@mem0-plugins": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\moody\\.claude\\plugins\\cache\\mem0-plugins\\mem0\\0.1.1",
+        "version": "0.1.1",
+        "installedAt": "2026-04-28T17:03:45.835Z",
+        "lastUpdated": "2026-04-28T17:03:45.835Z",
+        "gitCommitSha": "ece7ff6b84b3e55336fcf2e17253b074d2d5166d"
+      }
+    ],
+    "security-guidance@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\moody\\.claude\\plugins\\cache\\claude-plugins-official\\security-guidance\\unknown",
+        "version": "unknown",
+        "installedAt": "2026-04-28T17:07:03.621Z",
+        "lastUpdated": "2026-04-28T17:07:03.621Z"
+      }
+    ],
+    "watch@claude-video": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\moody\\.claude\\plugins\\cache\\claude-video\\watch\\0.1.2",
+        "version": "0.1.2",
+        "installedAt": "2026-05-01T23:00:00.000Z",
+        "lastUpdated": "2026-05-01T23:00:00.000Z",
+        "gitCommitSha": "755c157466738dda102c939158a0116b972925a3"
+      }
+    ]
+  }
+}

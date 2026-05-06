@@ -1,0 +1,26 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "C:\\Users\\moody\\.claude\\plugins\\marketplaces\\claude-plugins-official",
+    "lastUpdated": "2026-04-28T17:23:34.376Z"
+  },
+  "mem0-plugins": {
+    "source": {
+      "source": "github",
+      "repo": "mem0ai/mem0"
+    },
+    "installLocation": "C:\\Users\\moody\\.claude\\plugins\\marketplaces\\mem0-plugins",
+    "lastUpdated": "2026-04-28T17:03:26.177Z"
+  },
+  "claude-video": {
+    "source": {
+      "source": "github",
+      "repo": "bradautomates/claude-video"
+    },
+    "installLocation": "C:\\Users\\moody\\.claude\\plugins\\marketplaces\\claude-video",
+    "lastUpdated": "2026-05-01T23:00:00.000Z"
+  }
+}

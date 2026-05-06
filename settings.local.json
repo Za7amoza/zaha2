@@ -1,0 +1,33 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python C:\\Users\\moody\\.claude\\hooks\\backup_py.py"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "mcp__mem0-cloud__search_memories",
+      "mcp__mem0-cloud__get_memories",
+      "Bash(python -m json.tool)",
+      "mcp__mem0-cloud__add_memory"
+    ],
+    "deny": [
+      "Write(.env*)",
+      "Edit(.env*)",
+      "Write(**/.env*)",
+      "Edit(**/.env*)",
+      "Write(**/secrets*)",
+      "Edit(**/secrets*)",
+      "Write(secrets*)",
+      "Edit(secrets*)"
+    ]
+  }
+}

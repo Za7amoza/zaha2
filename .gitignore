@@ -1,0 +1,22 @@
+# Credentials & auth — never commit
+.credentials.json
+session-env/
+
+# Conversation history — too large + sensitive
+sessions/
+projects/
+history.jsonl
+shell-snapshots/
+
+# Cached downloads — regenerable
+cache/
+
+# Auto-generated backups
+backups/
+
+# Temp files
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+*.tmp
