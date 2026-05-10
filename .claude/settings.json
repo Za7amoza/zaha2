@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(firecrawl scrape *)",
+      "Bash(firecrawl map *)",
+      "Bash(git push *)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Get-Content *)",
+      "mcp__ccd_session__mark_chapter",
+      "mcp__5cb776ca-48a2-4ec9-bc7e-c00da6eaf11a__search_files",
+      "mcp__5cb776ca-48a2-4ec9-bc7e-c00da6eaf11a__list_recent_files"
+    ]
+  }
+}

@@ -1,6 +1,18 @@
 # Credentials & auth — never commit
 .credentials.json
 session-env/
+.env
+.env.*
+secrets*
+
+# Claude local-only settings (personal paths + broad wildcards — never commit)
+.claude/settings.local.json
+
+# Scraped content cache (large + may contain third-party tokens)
+.firecrawl/
+
+# Research deliverable with candidate PII — stay local
+Junior_Accountant_Research_2026.md
 
 # Conversation history — too large + sensitive
 sessions/
