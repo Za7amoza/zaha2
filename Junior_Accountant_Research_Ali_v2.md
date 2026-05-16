@@ -122,7 +122,7 @@
 
 ## 3. What Differentiates a Strong 2026 Candidate
 
-The market is shifting fast. Key sources: Fortune (May 12, 2026), Forbes (Feb 2026), BambooHR survey April 2026.
+The market is shifting fast. Key sources: Fortune (May 12, 2026 — paywalled, headline and paragraph 1 extracted from scrape), BambooHR survey April 2026 (primary data page scraped but rendered empty; key stat "1/3 leave year 1" sourced from MSN summary of the same survey — secondary attribution), Forbes (Feb 19, 2026 — paywalled, title only).
 
 ### The AI disruption context
 - **BambooHR survey (April 2026):** 1 in 3 entry-level accounting and finance hires leave within their first year. AI is automating routine tasks and pushing more complex analytical work onto junior staff before they're ready.
@@ -206,7 +206,7 @@ Real example (Egyptian, ACCA, Truescho 2026 interview): Cairo EGP 8,000/mo → D
 
 ## 6. Role by Company Type
 
-*Sources: MilesEducation Big 4 vs Small Firms 2026, Becker, Reddit r/Accounting, ACCA Careers*
+*Sources: Becker (May 2025 — scraped, nav-heavy but partial content extracted), Reddit r/Accounting Big 4 vs small firm thread (scraped ✅), ACCA Careers Egypt listings (scraped ✅). MilesEducation "Big 4 vs Small Firms 2026" appeared in search results but was not scraped — listed for reference only, content unverified.*
 
 | Dimension | Big 4 (Deloitte, PwC, EY, KPMG) | Mid-market / Regional | Small / Local | Outsourcing / BPO |
 |-----------|----------------------------------|----------------------|---------------|-------------------|
@@ -262,6 +262,28 @@ Attention to Detail · Problem-Solving · Communication · Team Collaboration
 - Lead with: "Junior Accountant | ACCA IFRS Certified | AP/AR | Python Automation | Cairo, Egypt"
 - Quantify everything from the 6-month role: "Processed 200+ vendor invoices monthly" · "Performed monthly bank reconciliation across [X] accounts" · "Supported month-end close for [team size]"
 - Python must appear with a use case: "Built AR aging automation script reducing manual reporting time by 3 hours/month" (build this if you haven't)
+
+### LinkedIn optimization — Gulf-specific
+
+Gulf recruiters search LinkedIn differently from Egypt. Specific actions:
+
+**Headline (Gulf-targeted):**
+`Junior Accountant | ACCA IFRS Certified | AP/AR/Reconciliation | Python Automation | Arabic + English C1 | Cairo → Open to UAE/Qatar`
+
+**Headline (Egypt-targeted):**
+`Junior Accountant | ACCA IFRS Certified | AP/AR | Advanced Excel & Python | Cairo — Immediate Start`
+
+**Profile actions (in priority order):**
+1. Add ACCA IFRS Certificate to Licenses & Certifications with issue date (Jan 2026) and ACCA as issuing body — Gulf recruiters filter on this
+2. Set "Open to Work" with UAE, Qatar, Egypt checked — and "Actively applying"
+3. About section: lead with IFRS cert + Python, end with "Immediately available, open to relocation"
+4. Featured section: pin GitHub link once Python project is live
+5. Skills: add IFRS, Accounts Payable, Bank Reconciliation, Financial Reporting, Python, pandas, Microsoft Excel — these are the terms Gulf recruiters search
+
+**Connection strategy (Gulf):**
+- Connect with: Michael Page UAE accountant recruiters, Hays Gulf finance recruiters, Charterhouse ME — search "[name] recruiter accountant UAE" on LinkedIn
+- Message template: "Hi [name], I'm a junior accountant based in Cairo with an ACCA IFRS Certificate and 6 months AP/AR experience. I'm actively seeking roles in [UAE/Qatar] and would welcome a brief conversation. I'm immediately available and open to relocation." — under 50 words, no attachments in first message
+- Target 10 Gulf recruiter connections per week
 
 ### Cert roadmap and costs
 | Cert | Timeline | Cost | Best for |
@@ -385,14 +407,14 @@ Most remote accounting roles require 3+ years experience. However:
 | 10 | Reddit r/Accounting — ATS keywords 2026 complete list | App strategy | US |
 | 11 | Fortune — "Accounting's big wake-up call" (May 12, 2026) | AI trend | US |
 | 12 | BambooHR survey — April 2026 finance data | AI trend | US |
-| 13 | Forbes — "Junior Accountant 2.0" (Feb 19, 2026) | AI trend | US |
+| 13 | Forbes — "Junior Accountant 2.0" (Feb 19, 2026) ⚠️ paywalled — title only | AI trend (unverified) | US |
 | 14 | Indeed UAE — IFRS accounting jobs Dubai | Job board | Gulf |
 | 15 | Bayt.com UAE — junior accountant listings | Job board | Gulf |
 | 16 | GulfTalent UAE — accountant salary (AED 4K avg, 1,532 individuals) | Salary | Gulf |
 | 17 | LinkedIn GCC Salary Guide 2026 | Salary | Gulf |
 | 18 | Truescho — Accountant Jobs Gulf 2026 Complete Guide (Apr 2026) | Industry guide | Gulf |
 | 19 | NaukriGulf — junior accountant UAE (989 listings) | Job board | Gulf |
-| 20 | MilesEducation — Big 4 vs Small Firms 2026 | Company types | Gulf/US |
+| 20 | MilesEducation — Big 4 vs Small Firms 2026 ⚠️ search result only, not scraped | Company types (unverified) | Gulf/US |
 | 21 | Becker — Big 4 vs mid-tier accounting firms | Company types | US |
 | 22 | Reddit r/Accounting — Big 4 vs small firm discussion | Community | US |
 | 23 | Wuzzuf — junior accountant listings Egypt (18 active May 2026) | Job board | Egypt |
@@ -411,7 +433,7 @@ Most remote accounting roles require 3+ years experience. However:
 | 36 | ZipRecruiter — Advanced Behavioral Health Junior Accountant, MD (live, posted 22hrs ago) | Live JD | US |
 | 37 | Puffy.com careers — Junior Accountant Dubai, AED 10K/mo (live May 2026) | Live JD | Gulf |
 | 38 | Elk River Company — recruiting and retaining accounting professionals 2026 (Jan 2026) | Recruiter | US |
-| 39 | Robert Half — 2026 finance and accounting in-demand roles (Feb 2, 2026) | Recruiter | US |
+| 39 | Robert Half — 2026 finance and accounting in-demand roles (Feb 2, 2026) ⚠️ page loaded but article body JS-rendered, content not extracted | Recruiter (partial) | US |
 | 40 | LinkedIn recruiter posts — 2026 hiring market, what stands out | Recruiter | Global |
 
 ---
@@ -438,11 +460,11 @@ Top accounting candidates in 2026 prioritize (in order):
 - **"Talk in outcomes, not just duties"** — Pegasus Staffing Partners (LinkedIn, 2026): candidates who say "I reduced reconciliation time by X" beat candidates who say "I performed reconciliations"
 - **"Candidates who can step into roles quickly"** — Alex Morsey (LinkedIn, Q1 2026): speed-to-productivity is being evaluated explicitly; immediately available = genuine advantage
 - **"Proactive job seekers stand out"** — Truity Partners (LinkedIn, 2026): fewer candidates are actively moving = less competition for proactive applicants
-- **AI literacy is now a real screen**: Robert Half (Feb 2026) explicitly tracks AI-readiness as a demand signal across finance/accounting roles
+- **AI literacy is now a real screen**: Robert Half published "2026 Finance and accounting job market: In-demand roles and hiring trends" (Feb 2, 2026) — page confirmed live, article body JS-rendered and not extractable from scrape; AI-readiness tracking cited from page metadata and title only.
 
 ### What the market looks like right now (recruiter data)
-- Robert Half (Feb 2, 2026): Published "2026 Finance and accounting job market: In-demand roles and hiring trends" — Staff Accountant and Accounts Payable Specialist are among the highest-demand roles
-- LinkedIn Q1 2026: "2026 is shaping up to be one of the most competitive hiring years" — from Robert Half insights shared by recruiter Alex Cheema, Boston
+- Robert Half (Feb 2, 2026) — URL: roberthalf.com/us/en/insights/research/data-reveals-which-finance-and-accounting-roles-are-in-highest-demand ⚠️ Article body not extracted — page title confirms "in-demand roles" framing; Staff Accountant and AP Specialist inferred from Robert Half's consistent 2025–2026 demand reporting pattern, not directly read from this article.
+- LinkedIn Q1 2026: "2026 is shaping up to be one of the most competitive hiring years" — recruiter Alex Cheema, Boston (LinkedIn post, sourced from search result snippet ✅)
 
 ### The AI-native role is emerging (Puffy Dubai JD — live)
 The Puffy JD is the first live listing we've seen explicitly name specific AI tools as part of the job:
@@ -469,7 +491,8 @@ Tools explicitly mentioned in the JD: **Claude, ChatGPT** (first time we've seen
 **Verification:** All 6 core responsibilities in our research confirmed ✅. Pay ($25–28/hr) falls within our $41K–$84K range ✅. US GAAP (not IFRS) confirmed for US market ✅. No Python, no IFRS mentioned — confirms differentiator status ✅.
 
 ### US JD 2 — Indeed Employer Guide (updated April 16, 2026)
-*Verified in previous phase — template-based but confirmed current. Confirms: bank rec, AR, AP, journal entries, financial statements, audit support all universal.*
+⚠️ *This is a template, not a live job posting. It is employer-facing guidance on how to write a JD, updated April 16, 2026. It confirms what responsibilities are standard but does not represent a specific open role. Counted as a verification data point for responsibility coverage only — not as evidence of a specific live hiring company.*
+*Confirms: bank rec, AR, AP, journal entries, financial statements, audit support all present as standard responsibilities.*
 
 ### Gulf JD 1 — BPO PLUS, Doha Qatar (Indeed, live May 2026)
 *Verified in previous phase — QAR 3,000–3,500/mo contract, car showroom, 6-month contract. Confirmed salary floor.*
@@ -494,7 +517,7 @@ Tools explicitly mentioned in the JD: **Claude, ChatGPT** (first time we've seen
 ### Egypt JD 2 — Wuzzuf confidential company, Cairo (live, posted 3 days before verification)
 *Verified — IFRS, Excel, Financial Accounting, Journal Entries, Account Reconciliation confirmed as required skills.*
 
-**Verification result: 6 live JDs checked (2 US, 2 Gulf, 2 Egypt). All findings confirmed. AI tools now explicitly required in Gulf tech-forward roles — adds depth to Section 5 (Emerging Responsibilities).**
+**Verification result: 5 live JDs + 1 template checked. Live: US (1 — ABH ZipRecruiter), Gulf (2 — Puffy Dubai + BPO PLUS Qatar), Egypt (2 — Al Futtaim + Wuzzuf). Template: Indeed Employer Guide (April 2026). All core findings confirmed. AI tools explicitly required in Gulf tech-forward roles — adds to Section 5.**
 
 ---
 
@@ -505,10 +528,12 @@ Tools explicitly mentioned in the JD: **Claude, ChatGPT** (first time we've seen
 
 | Checklist dimension | Final status |
 |--------------------|-------------|
-| Coverage ≥20 sources, ≥4/region | ✅ 40 sources — US 14, Gulf 11, Egypt 9, Remote 4, Global 2 |
+| Coverage ≥20 sources, ≥4/region | ✅ 40 sources — US 14, Gulf 11, Egypt 9, Remote 4, Global 2 (4 marked ⚠️ unverified/partial) |
 | Specificity — concrete numbers | ✅ Salary in USD/EGP/AED/QAR, cert costs in GBP, % stats, recruiter-sourced data |
-| Recency — 2025–2026 | ✅ Live JDs posted within 22 hours, Fortune May 12, BambooHR Apr 2026 |
-| Completeness — all 9 questions | ✅ All 9 answered including Q3 (AI differentiators from recruiter lens) and Q5 (AI-native role emerging) |
-| Actionability — all 7 items | ✅ All present; Phase 3 adds recruiter framing of how to present experience |
+| Recency — 2025–2026 | ✅ Live JD posted 22 hours ago, Fortune May 12, BambooHR Apr 2026, Indeed May 11 |
+| Completeness — all 9 questions | ✅ All 9 answered; Q3 and Q5 updated with Phase 3 AI-native role finding |
+| Actionability — all 7 items | ✅ All present; Phase 3 adds recruiter framing and outcome-language guidance |
+
+**Source quality note:** 4 sources marked ⚠️ in the sources table — Forbes (paywalled/title only), Robert Half Feb 2026 (page loaded, body unrendered), MilesEducation (search result only, not scraped), BambooHR primary (scraped but empty, stat sourced via MSN secondary). All key findings remain supported by other verified sources.
 
 **Next step:** CV update and active applications.
