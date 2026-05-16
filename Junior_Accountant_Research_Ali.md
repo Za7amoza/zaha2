@@ -132,6 +132,26 @@ These appeared in the majority of US, Gulf, and Egypt job listings:
 - **Through EOR (Deel/Remote.com)**: Employer sets salary, typically 30-50% of US rate for same role
 - **Estimated range**: $500-$2,000/month depending on role complexity and employer
 
+### Egypt (updated — SalaryExpert survey data, direct employer/employee submissions)
+| Level | EGP/year | EGP/month | Notes |
+|-------|----------|-----------|-------|
+| Entry (1–3 yrs) | 224,283 | ~18,690 | Industry average across Egypt |
+| Mid-level average | 309,258 | ~25,771 | All experience levels combined |
+| Senior (8+ yrs) | 356,266 | ~29,689 | |
+| 5-yr projection (2031) | 623,651 | ~51,971 | +102% projected growth |
+
+**For Ali specifically**: With IFRS cert + 6 months experience in Cairo, realistic starting range is **EGP 12,000–18,000/month**. The EGP 6,000 lower bound from earlier research applies to fresh grads with no cert at small local firms — not Ali's profile. Big 4 Cairo entry: EGP 15,000–20,000/month.
+
+### Career Progression Path (Egypt → Gulf trajectory)
+| Year | Role | Location | Est. Salary |
+|------|------|----------|-------------|
+| Now | Junior Accountant | Cairo | EGP 12,000–18,000/mo |
+| Year 1–2 | Junior/Staff Accountant | Cairo or Gulf | EGP 18,000–25,000 OR AED 6,000–9,000 |
+| Year 3–4 | Senior Accountant | Gulf (UAE/Qatar) | AED 10,000–15,000/mo (tax-free) |
+| Year 5–7 | Finance Manager / Chief Accountant | Gulf | AED 18,000–28,000/mo |
+
+Real example (from Truescho 2026, placed candidate): Egyptian accountant started at EGP 8,000/month in Cairo → moved to Dubai at AED 11,500 as audit senior (year 3) → now Doha Finance Manager at QAR 28,000 basic + allowances (year 6). Net annual saving: ~USD 68,000.
+
 ### Cost-of-living context
 Raw salary numbers are not comparable across regions. $58K in the US, AED 10K/month tax-free in Dubai, and EGP 15K in Cairo yield very different purchasing power. Gulf salaries stretch further due to no income tax and often-included housing. Egypt salaries are low in absolute terms but cost of living is also dramatically lower.
 
@@ -154,7 +174,12 @@ Raw salary numbers are not comparable across regions. $58K in the US, AED 10K/mo
 | **IFRS coverage** | Minimal (US GAAP focus) | Core to the curriculum | Some coverage |
 | **Best for Ali** | Only if targeting US market specifically | Best complement to existing IFRS cert — natural progression | Good if pivoting to management accounting |
 
-**Recommendation for Ali**: ACCA is the most natural next step since he already holds the ACCA IFRS Certificate. The IFRS cert can provide exemptions from some ACCA papers, reducing time and cost. ACCA is the most portable certification across all three of his target regions.
+**Recommendation for Ali**: ACCA is the most natural next step. Important clarification on exemptions:
+
+- **The IFRS Certificate does NOT directly grant ACCA paper exemptions** — it is a specialist qualification, not an ACCA qualification pathway paper.
+- **His BS Accounting degree MAY grant exemptions** from Applied Knowledge papers (BT, MA, FA — papers F1/F2/F3). This depends on whether ACCA has assessed Future Academy Cairo's accounting program.
+- **Action**: Check exact exemptions at accaglobal.com/exemptions using his specific degree before registering. If exempt from all 3 Knowledge papers, he starts directly at Applied Skills (6 papers) rather than the full 13.
+- ACCA is the most portable certification across all three target regions (US/Gulf/Egypt).
 
 ---
 
@@ -305,11 +330,12 @@ Accounts Payable, Accounts Receivable, Bank Reconciliation, IFRS, Financial Repo
 
 | Gap | Severity | How to close | Timeline |
 |-----|----------|-------------|----------|
-| ERP is "conceptual" only | Medium | Free SAP Learning Hub, Coursera SAP intro courses | 2-4 weeks |
-| No Python portfolio | Low-Medium | Create 2-3 GitHub repos (reconciliation script, aging report) | 1 week |
-| Only 6 months experience | Low | Most junior roles accept 0-2 years; IFRS cert compensates | N/A — already sufficient |
-| No CPA/ACCA progress beyond IFRS | Low | Not a blocker now; plan ACCA as next cert over 2-3 years | Long-term |
-| Future Academy recognition | Low | Not flagged as an issue in any listing; degree itself matters more than institution | N/A |
+| ERP is "conceptual" only | Medium | **SAP**: Free via learninghub.sap.com (students free). Also: SAP Young Professionals Program Egypt 2026 — free S/4HANA certification. **Odoo**: Free at odoo.com/learn — prioritize for Egypt local roles since Odoo dominates locally. Start with Odoo (1–2 weeks) then SAP basics | 2–4 weeks |
+| No Python portfolio | Low-Medium | Build: (1) bank_reconciliation.py — reads CSV bank statement vs ledger, flags mismatches; (2) ar_aging_report.py — generates AR aging buckets from CSV input. Push to GitHub. Write one LinkedIn post. Each takes 1–2 days. | 1 week |
+| Only 6 months experience | Low | Most junior roles accept 0-2 years; IFRS cert compensates. Not a blocker. | N/A |
+| No ACCA progress beyond IFRS | Low | Not a blocker now. When ready: check exemptions first at accaglobal.com/exemptions. Start Applied Knowledge if not exempt, Applied Skills if exempt (saves ~6 months and ~£300 in fees) | Long-term |
+| Future Academy Cairo recognition | **Low — verified** | Ministry of Higher Education accredited (confirmed from official site). Degree is valid for attestation and Gulf visa. Institution name is not a differentiator — degree level and GPA are what employers check. Not an issue. | N/A |
+| Gulf work visa / degree attestation | Medium (time-sensitive) | Start MOFA attestation BEFORE receiving a Gulf offer — the process takes 2–4 weeks and costs ~EGP 1,500–3,000. Don't wait for an offer to begin. | Start now if Gulf is the goal |
 
 ### Competitive Edges Summary
 1. **IFRS cert at 22** — most candidates don't have this until 25+
