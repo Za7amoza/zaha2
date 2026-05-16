@@ -131,7 +131,7 @@ The market is shifting fast. Key sources: Fortune (May 12, 2026 — paywalled, h
 
 ### Ali's actual differentiators (ranked by market rarity)
 1. **Python automation** — nearly zero junior accountants have this. In a market where AI is replacing rote data entry, someone who can script the automation rather than just be replaced by it is worth hiring. Build 1–2 GitHub projects to prove it.
-2. **IFRS cert at 22** — most candidates get this at 25–30. In Gulf markets where IFRS is the standard, this signals genuine knowledge, not just exposure.
+2. **IFRS cert at 22** — anecdotally, most candidates pursue IFRS certification mid-career (25–30 range); getting it immediately post-graduation at 22 is uncommon and signals proactive initiative. Not directly sourced — inferred from ACCA's stated candidate demographics and recruiter commentary. In Gulf markets where IFRS is the standard, this signals genuine knowledge, not just exposure.
 3. **C1 English + Native Arabic** — Gulf employers pay a premium for bilingual accountants who can handle Arabic-language reporting, local vendor communication, and English-language corporate reporting simultaneously.
 4. **Advanced Excel** — exceeds requirements for virtually every junior listing across all three markets.
 5. **Immediately available** — no notice period.
@@ -156,12 +156,12 @@ ERP is conceptual only. This is the single biggest blocker for mid-size and larg
 
 | Level | Qatar (QAR/mo) | UAE (AED/mo) | Saudi Arabia (SAR/mo) |
 |-------|---------------|-------------|----------------------|
-| Junior (0–2 yrs) | 6,000–9,000 | 6,000–10,000 | 4,000–6,000 |
+| Junior (0–2 yrs) | 6,000–9,000 | **4,000–7,000** | 4,000–6,000 |
 | Mid (3–6 yrs) | 10,000–15,000 | 10,000–15,000 | 8,000–15,000 |
 | Senior (7–10 yrs) | 18,000–25,000 | 15,000–22,000 | 15,000–22,000 |
 
-- LinkedIn GCC Guide 2026: Entry-level (0–2 yrs) AED 4K–6K; Mid-level (3–5 yrs) AED 8K–12K
-- GulfTalent UAE average all experience: AED 4,000/mo · Low AED 2,500 · High AED 7,000
+⚠️ **UAE junior salary — source conflict resolved:** GulfTalent (1,532 individuals surveyed) shows UAE accountant average = AED 4,000/mo, high = AED 7,000. LinkedIn GCC Guide says entry-level (0–2 yrs) = AED 4K–6K. Truescho placed-candidate data shows AED 6K–9K. The UAE junior range above (AED 4K–7K) reflects the GulfTalent/LinkedIn consensus for true entry-level. Truescho's higher range (AED 6K–10K) likely reflects candidates with 1–2 years experience or partial ACCA progress. **Ali should target AED 5K–7K as a realistic first offer; AED 8K–10K is achievable after 12–18 months.**
+
 - **ACCA/CPA premium:** +15–25% UAE; +20–30% Qatar/Saudi
 - **Saudization warning:** Saudi Arabia's 70% localization quota in accounting severely limits expat junior hiring. Target UAE and Qatar first.
 
@@ -213,7 +213,7 @@ Real example (Egyptian, ACCA, Truescho 2026 interview): Cairo EGP 8,000/mo → D
 | **Entry path** | Graduate programs, structured intake (Jan/Sep) | Direct application, referrals | Word-of-mouth, LinkedIn | Direct, high-volume |
 | **IFRS value** | **Very high** | High | Low-medium | **High** (foreign clients) |
 | **ERP required** | SAP / Oracle — often required | Varies | QuickBooks / Odoo | Varies |
-| **Salary (Egypt entry)** | EGP 15,000–20,000/mo | EGP 10,000–15,000/mo | EGP 8,000–12,000/mo | EGP 10,000–16,000/mo |
+| **Salary (Egypt entry)** | EGP 15,000–20,000/mo *(estimate — no primary Big 4 Cairo salary source)* | EGP 10,000–15,000/mo *(estimate)* | EGP 8,000–12,000/mo *(estimate)* | EGP 10,000–16,000/mo *(estimate)* |
 | **Training** | Structured, funded ACCA program | Ad-hoc | On-the-job | Process-focused |
 | **Career path** | Clear ladder, promotion cycles | Depends on firm size | Limited ceiling | Remote-compatible path |
 | **Best for Ali** | If ACCA progress planned | Strong fit | Quickest offer | Fastest remote pathway |
@@ -230,7 +230,7 @@ Real example (Egyptian, ACCA, Truescho 2026 interview): Cairo EGP 8,000/mo → D
 | Key cert | CPA | **ACCA / IFRS** | ACCA / local | ACCA most portable |
 | Entry salary | $41K–$84K/yr | AED 6K–10K/mo (tax-free) | EGP 12K–18K/mo | $800–$2,000/mo |
 | IFRS value | Low (GAAP market) | **Essential** | High & growing | **High** for intl employers |
-| Job volume | Very high | High (177 Cairo ACCA jobs alone) | Medium (18 Wuzzuf, 177 ACCA) | Low for junior |
+| Job volume | Very high | High (989 UAE on NaukriGulf; 126 IFRS roles Dubai on NaukriGulf) | Medium (18 Wuzzuf, 177 ACCA Cairo) | Low for junior |
 | Arabic advantage | Not relevant | **Premium** | Native expected | Not usually relevant |
 | Ali's fit | Low (GAAP gap) | **High** | **Very high** | Medium |
 
@@ -260,7 +260,7 @@ Attention to Detail · Problem-Solving · Communication · Team Collaboration
 
 ### Resume structure for Ali
 - Lead with: "Junior Accountant | ACCA IFRS Certified | AP/AR | Python Automation | Cairo, Egypt"
-- Quantify everything from the 6-month role: "Processed 200+ vendor invoices monthly" · "Performed monthly bank reconciliation across [X] accounts" · "Supported month-end close for [team size]"
+- Quantify everything from the 6-month role with Ali's real numbers: "[X] vendor invoices monthly" · "Bank reconciliation across [X] accounts" · "Month-end close for [team size]" — placeholder brackets must be filled with actual figures before applying
 - Python must appear with a use case: "Built AR aging automation script reducing manual reporting time by 3 hours/month" (build this if you haven't)
 
 ### LinkedIn optimization — Gulf-specific
@@ -405,8 +405,8 @@ Most remote accounting roles require 3+ years experience. However:
 | 8 | ResumeWorded — junior accountant resume 2026 | App strategy | US |
 | 9 | JobAlign — ATS keywords 2026 (200+ apps/position stat) | App strategy | US |
 | 10 | Reddit r/Accounting — ATS keywords 2026 complete list | App strategy | US |
-| 11 | Fortune — "Accounting's big wake-up call" (May 12, 2026) | AI trend | US |
-| 12 | BambooHR survey — April 2026 finance data | AI trend | US |
+| 11 | Fortune — "Accounting's big wake-up call" (May 12, 2026) ⚠️ paywalled — headline + first paragraph only | AI trend (partial) | US |
+| 12 | BambooHR survey — April 2026 finance data ⚠️ primary page empty; "1/3 leave year 1" stat via MSN summary (secondary) | AI trend (secondary) | US |
 | 13 | Forbes — "Junior Accountant 2.0" (Feb 19, 2026) ⚠️ paywalled — title only | AI trend (unverified) | US |
 | 14 | Indeed UAE — IFRS accounting jobs Dubai | Job board | Gulf |
 | 15 | Bayt.com UAE — junior accountant listings | Job board | Gulf |
@@ -524,7 +524,7 @@ Tools explicitly mentioned in the JD: **Claude, ChatGPT** (first time we've seen
 ## Research Status — COMPLETE (Phase 3 done)
 
 **Loop completed:** May 2026
-**Phases run:** Phase 1 → scored (2 fail, 2 partial, 1 pass) → Phase 2 → scored (all 5 pass) → Phase 3 recruiter content + 6 live JD verification → complete
+**Phases run:** Phase 1 → scored (2 fail, 2 partial, 1 pass) → Phase 2 → scored (all 5 pass) → Phase 3 recruiter content + JD verification (5 live + 1 template) → complete
 
 | Checklist dimension | Final status |
 |--------------------|-------------|
