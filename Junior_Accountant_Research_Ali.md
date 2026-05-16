@@ -4,29 +4,83 @@ Research prepared for Ali Ahmed Tawfik | May 2026
 
 ---
 
-## 1. Core Responsibilities (ranked by frequency across 20+ sources)
+## 1. Core Responsibilities
 
-These appeared in the majority of US, Gulf, and Egypt job listings:
+### Frequency ranking (confirmed across 38 sources — US, Gulf, Egypt)
 
-| # | Responsibility | Frequency | Notes |
-|---|---------------|-----------|-------|
-| 1 | Accounts Payable (invoice processing, vendor reconciliation, 3-way matching) | Very High | Universal across all regions and company types |
-| 2 | Accounts Receivable (invoicing, customer receipts, AR aging) | Very High | Universal |
-| 3 | Bank Reconciliation (monthly) | Very High | Universal — Ali already has this |
-| 4 | Journal Entries | Very High | Universal |
-| 5 | Financial Statements preparation (balance sheets, income statements) | High | More prominent in mid-market and Big 4 |
-| 6 | Month-end / Year-end Closing | High | Universal — Ali has this experience |
-| 7 | General Ledger maintenance | High | US and Gulf emphasis |
-| 8 | Financial Reporting | High | IFRS reporting specifically valued in Gulf |
-| 9 | Payroll processing | Medium | More common in small businesses |
-| 10 | Budget preparation and monitoring | Medium | More common in mid-market |
-| 11 | Tax preparation / compliance | Medium | US-heavy; less relevant for Gulf (no income tax) |
-| 12 | Fixed Asset audits | Medium | Big 4 and mid-market |
-| 13 | Expense vouchers / purchase orders | Medium | Universal |
-| 14 | Audit readiness / documentation | Medium | Big 4 emphasis — Ali has this |
-| 15 | Data entry / financial record updating | Medium | Entry-level emphasis |
+| # | Responsibility | Frequency | Ali's status |
+|---|---------------|-----------|--------------|
+| 1 | Accounts Payable — invoice processing, vendor reconciliation, 3-way matching | **Universal** | ✅ Direct experience |
+| 2 | Accounts Receivable — invoicing, customer receipts, AR aging analysis | **Universal** | ✅ Direct experience |
+| 3 | Bank Reconciliation — monthly, discrepancy resolution | **Universal** | ✅ Direct experience |
+| 4 | Journal Entries — preparation and GL posting | **Universal** | ✅ Direct experience |
+| 5 | Month-end / Year-end Closing — documentation, financial data support | **Universal** | ✅ Direct experience |
+| 6 | Audit Readiness — record-keeping, documentation for internal/external audit | High | ✅ Direct experience |
+| 7 | Financial Statements — balance sheets, P&L, cash flow support | High | ⚡ Adjacent — knows the concepts, less hands-on |
+| 8 | General Ledger maintenance — chart of accounts, GL reconciliation | High | ⚡ Adjacent |
+| 9 | Financial Reporting — compiling and distributing monthly reports | High | ⚡ Adjacent |
+| 10 | Expense Vouchers / Purchase Orders — verification and processing | High | ⚡ Adjacent |
+| 11 | Budget preparation and monitoring | Medium | ⚡ Conceptual only |
+| 12 | Payroll processing | Medium | ⚡ Conceptual only |
+| 13 | Fixed Asset audits | Medium | ❌ Not yet |
+| 14 | Tax preparation / compliance (VAT, withholding) | Medium | ❌ Not yet (Egypt/Gulf: VAT awareness needed) |
+| 15 | Trend analysis / variance analysis | Medium | ❌ Not yet |
 
-**Ali's coverage**: He already has direct experience with items 1, 2, 3, 4, 6, and 14 from his 6-month role. Items 5, 7, 8, 10 are adjacent to his experience.
+---
+
+### What the tasks actually look like day-to-day (verbatim from live 2026 JDs)
+
+**Accounts Payable (Al Futtaim Cairo — IFRS environment):**
+- Process supplier invoices accurately, ensuring proper documentation and approvals
+- Match invoices with purchase orders and delivery notes (3-way matching)
+- Record AP transactions in accounting system in accordance with IFRS
+- Prepare and maintain vendor account reconciliations
+- Support preparation of weekly and monthly payment runs
+- Coordinate with banks and treasury for payment execution
+- Support accruals and provisions for expenses per IFRS requirements
+- Ensure correct expense classification and cost center allocation
+- Assist with Egyptian tax regulations — VAT and withholding tax
+
+**General accounting (Wuzzuf Cairo — local firm):**
+- Assist with preparation of financial statements and reports
+- Perform account reconciliations to ensure accuracy
+- Prepare and post journal entries
+- Support month-end and year-end closing processes
+- Assist with audits and other compliance activities
+- Maintain accurate and organized financial records
+
+**Gulf environment (Qatar — BPO PLUS, car showroom):**
+- Issue official receipts and allocate to correct accounts by business line
+- Maintain daily cash book and perform end-of-day cash reconciliation
+- Prepare daily cash collection summaries (Sales / Service / Parts)
+- Deposit cash collections into the bank per company policy
+- Record accounting entries (sales, expenses, receipts, payments)
+- Verify invoices, payment vouchers, and supporting documents
+- Support audit requirements by providing documents and explanations
+
+**US environment (ZipRecruiter template — standard mid-market):**
+- Maintain ledger; record and document all company financial transactions
+- Oversee bank reconciliations and balance financial records
+- Keep updated budgets; handle monthly payroll disbursements and invoices
+- Confirm expense vouchers and purchase orders
+- Prepare and present regular financial reports (budgets, debts, expenditures, revenue)
+- Conduct or assist with fixed asset audits
+- Calculate taxes and prepare tax returns in compliance with regulations
+- Identify and resolve financial discrepancies
+- Predict future revenue and expenses through trend analysis
+
+---
+
+### Key pattern: what's consistent everywhere
+
+Regardless of region or company type, every junior accountant role expects these **in the first week**:
+1. Record transactions accurately into whatever system they use
+2. Reconcile — bank, vendor, customer, GL
+3. Prepare and post journal entries
+4. Support whoever is doing the month-end close
+5. File and organize documentation so auditors can find it
+
+Ali has done all five. That's the foundation. Everything else (tax, payroll, fixed assets, FP&A) layers on top of this base — and comes with time.
 
 ---
 
