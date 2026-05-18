@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ali Ahmed Tawfik — Junior Accountant Job Search Guide 2026</title>
+<style>
+  :root {
+    --navy: #1a2744;
+    --teal: #0d7377;
+    --teal-light: #14a085;
+    --amber: #f59e0b;
+    --red: #dc2626;
+    --green: #16a34a;
+    --bg: #f8f9fb;
+    --card: #ffffff;
+    --border: #e2e8f0;
+    --text: #1e293b;
+    --muted: #64748b;
+    --urgent: #fff3cd;
+    --urgent-border: #f59e0b;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    font-size: 15px;
+  }
+
+  /* NAV */
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--navy);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  nav::-webkit-scrollbar { display: none; }
+  nav a {
+    color: rgba(255,255,255,0.75);
+    text-decoration: none;
+    padding: 1rem 1.1rem;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: color 0.15s, border-bottom 0.15s;
+    border-bottom: 3px solid transparent;
+  }
+  nav a:hover { color: #fff; border-bottom-color: var(--teal-light); }
+  nav .nav-brand {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 1.5rem;
+    padding: 1rem 0;
+    border-bottom: none;
+    white-space: nowrap;
+  }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, var(--navy) 0%, #2d3f6b 100%);
+    color: white;
+    padding: 3rem 2rem 2.5rem;
+  }
+  .hero-inner { max-width: 900px; margin: 0 auto; }
+  .hero h1 { font-size: 2rem; font-weight: 700; margin-bottom: 0.25rem; }
+  .hero .subtitle { color: rgba(255,255,255,0.7); font-size: 14px; margin-bottom: 1.5rem; }
+  .profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  .profile-item {
+    background: rgba(255,255,255,0.08);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    border: 1px solid rgba(255,255,255,0.12);
+  }
+  .profile-item .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: rgba(255,255,255,0.5); margin-bottom: 0.2rem; }
+  .profile-item .value { font-size: 14px; font-weight: 600; color: #fff; }
+  .how-to-use {
+    background: rgba(13,115,119,0.3);
+    border: 1px solid rgba(13,115,119,0.5);
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+  }
+  .how-to-use h3 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: #7dd3d4; margin-bottom: 0.6rem; }
+  .how-to-use ul { list-style: none; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+  .how-to-use li { font-size: 13px; color: rgba(255,255,255,0.85); }
+  .how-to-use li::before { content: "→ "; color: var(--teal-light); }
+
+  /* URGENT BANNER */
+  .urgent-banner {
+    background: var(--urgent);
+    border-left: 4px solid var(--urgent-border);
+    padding: 0.75rem 1.25rem;
+    font-size: 13.5px;
+    color: #78350f;
+    max-width: 900px;
+    margin: 1.25rem auto 0;
+  }
+  .urgent-banner strong { font-weight: 700; }
+
+  /* LAYOUT */
+  main { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+
+  /* SECTIONS */
+  section { margin-bottom: 3rem; }
+  h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid var(--teal);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  h2 .icon { font-size: 1.1rem; }
+  h3 { font-size: 1rem; font-weight: 600; color: var(--navy); margin: 1.25rem 0 0.75rem; }
+
+  /* CARDS */
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  /* DIFFERENTIATORS */
+  .diff-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 0.75rem; }
+  .diff-item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.9rem 1.1rem;
+    display: flex;
+    gap: 0.85rem;
+    align-items: flex-start;
+  }
+  .diff-rank {
+    background: var(--navy);
+    color: white;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .diff-item h4 { font-size: 14px; font-weight: 600; color: var(--navy); margin-bottom: 0.2rem; }
+  .diff-item p { font-size: 13px; color: var(--muted); }
+
+  /* STATUS BADGES */
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .badge-green { background: #dcfce7; color: #15803d; }
+  .badge-amber { background: #fef3c7; color: #92400e; }
+  .badge-red { background: #fee2e2; color: #991b1b; }
+  .badge-blue { background: #dbeafe; color: #1e40af; }
+  .badge-urgent { background: #fef3c7; color: #92400e; border: 1px solid #f59e0b; }
+
+  /* TABLES */
+  .table-wrap { overflow-x: auto; border-radius: 8px; border: 1px solid var(--border); }
+  table { width: 100%; border-collapse: collapse; background: var(--card); font-size: 14px; }
+  th {
+    background: var(--navy);
+    color: white;
+    padding: 0.7rem 1rem;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  td { padding: 0.7rem 1rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+  .col-green { border-left: 3px solid var(--green); }
+  .col-amber { border-left: 3px solid var(--amber); }
+  .col-red { border-left: 3px solid var(--red); }
+
+  /* SALARY GRID */
+  .salary-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+  .salary-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.1rem 1.25rem;
+    border-top: 3px solid var(--teal);
+  }
+  .salary-card.highlight { border-top-color: var(--navy); }
+  .salary-card h4 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 0.6rem; }
+  .salary-card .main-range { font-size: 1.15rem; font-weight: 700; color: var(--navy); }
+  .salary-card .sub { font-size: 12px; color: var(--muted); margin-top: 0.3rem; }
+  .salary-card .note { font-size: 12px; color: var(--amber); margin-top: 0.4rem; font-weight: 600; }
+
+  /* TRAJECTORY */
+  .trajectory {
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    margin-top: 0.75rem;
+  }
+  .traj-step {
+    flex: 1;
+    min-width: 150px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-right: none;
+    padding: 0.85rem 1rem;
+    position: relative;
+  }
+  .traj-step:last-child { border-right: 1px solid var(--border); border-radius: 0 8px 8px 0; }
+  .traj-step:first-child { border-radius: 8px 0 0 8px; }
+  .traj-step .year { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--teal); margin-bottom: 0.3rem; }
+  .traj-step .role { font-size: 13px; font-weight: 600; color: var(--navy); margin-bottom: 0.25rem; }
+  .traj-step .salary { font-size: 13px; color: var(--muted); }
+  .traj-arrow { display: flex; align-items: center; padding: 0 0; color: var(--teal); font-size: 1.2rem; }
+
+  /* ACTION PLAN */
+  #action {
+    background: white;
+    border: 2px solid var(--navy);
+    border-radius: 14px;
+    padding: 1.75rem 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 24px rgba(26,39,68,0.08);
+  }
+  #action h2 { border-color: var(--navy); }
+  .checklist { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.6rem; }
+  .checklist li {
+    display: flex;
+    gap: 0.6rem;
+    align-items: flex-start;
+    font-size: 14px;
+    padding: 0.5rem 0.75rem;
+    background: #f8f9fb;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+  }
+  .checklist li::before {
+    content: "☐";
+    color: var(--navy);
+    font-size: 15px;
+    flex-shrink: 0;
+    margin-top: -1px;
+  }
+  .tier-label {
+    display: inline-block;
+    padding: 0.35rem 0.9rem;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+  .tier-1 { background: #fee2e2; color: #991b1b; }
+  .tier-2 { background: #fef3c7; color: #92400e; }
+  .tier-3 { background: #dcfce7; color: #15803d; }
+  .priority-list { counter-reset: plist; list-style: none; }
+  .priority-list li {
+    counter-increment: plist;
+    display: flex;
+    gap: 0.85rem;
+    align-items: flex-start;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 14px;
+  }
+  .priority-list li:last-child { border-bottom: none; }
+  .priority-list li::before {
+    content: counter(plist);
+    background: var(--navy);
+    color: white;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* KEYWORDS */
+  .kw-group { margin-bottom: 0.85rem; }
+  .kw-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 0.5rem; }
+  .kw-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .kw-tag {
+    background: var(--navy);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 12.5px;
+    font-weight: 500;
+  }
+  .kw-tag.secondary { background: #e2e8f0; color: var(--navy); }
+
+  /* INTERVIEW */
+  .interview-item {
+    border-left: 3px solid var(--teal);
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.6rem;
+    background: var(--card);
+    border-radius: 0 6px 6px 0;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--teal);
+  }
+  .interview-q { font-size: 13.5px; font-weight: 600; color: var(--navy); margin-bottom: 0.3rem; }
+  .interview-a { font-size: 13px; color: var(--muted); }
+  .interview-a em { color: var(--teal); font-style: normal; font-weight: 600; }
+
+  /* WARNING BOX */
+  .warning-box {
+    background: #fff7ed;
+    border: 1px solid #fed7aa;
+    border-left: 4px solid #f97316;
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    font-size: 14px;
+    color: #7c2d12;
+    margin-top: 0.75rem;
+  }
+  .warning-box strong { color: #ea580c; }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 12px;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+  }
+
+  @media (max-width: 640px) {
+    nav a { padding: 0.9rem 0.75rem; font-size: 12px; }
+    .hero { padding: 2rem 1.25rem 1.75rem; }
+    .hero h1 { font-size: 1.5rem; }
+    main { padding: 1.25rem 1rem 3rem; }
+    #action { padding: 1.25rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <span class="nav-brand">Ali's Job Guide</span>
+  <a href="#profile">Profile</a>
+  <a href="#differentiators">Strengths</a>
+  <a href="#responsibilities">Responsibilities</a>
+  <a href="#salary">Salary</a>
+  <a href="#strategy">Strategy</a>
+  <a href="#action">Action Plan ★</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <h1>Ali Ahmed Tawfik</h1>
+    <div class="subtitle">Junior Accountant Job Search Guide · May 2026 · 40 sources · 5 live job descriptions verified</div>
+    <div class="profile-grid">
+      <div class="profile-item"><div class="label">Age & Location</div><div class="value">22 · Cairo, Egypt</div></div>
+      <div class="profile-item"><div class="label">Education</div><div class="value">BS Accounting, GPA 3.34 · Future Academy Cairo</div></div>
+      <div class="profile-item"><div class="label">Certification</div><div class="value">ACCA IFRS Certificate · Jan 2026</div></div>
+      <div class="profile-item"><div class="label">Experience</div><div class="value">6 months AP/AR/Bank Rec/Month-End (Jan–Jun 2025)</div></div>
+      <div class="profile-item"><div class="label">Technical</div><div class="value">Advanced Excel · Python (pandas) · ERP (conceptual)</div></div>
+      <div class="profile-item"><div class="label">Languages</div><div class="value">Arabic (native) · English C1</div></div>
+    </div>
+    <div class="how-to-use">
+      <h3>How to use this guide</h3>
+      <ul>
+        <li><strong>10 min:</strong> Jump to Action Plan, run Tier 1 today</li>
+        <li><strong>30 min:</strong> Read Strengths + Strategy + Action Plan</li>
+        <li><strong>Full read:</strong> Top to bottom, all research included</li>
+        <li><strong>⚡ Most urgent:</strong> Al Futtaim listing (may expire) · Degree attestation if targeting Gulf</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<main>
+
+<!-- DIFFERENTIATORS -->
+<section id="differentiators">
+  <h2><span class="icon">⚡</span> Ali's Competitive Edge</h2>
+  <p style="color:var(--muted);font-size:14px;margin-bottom:1rem;">Ranked by how rare each is among junior accountants in 2026. These are the talking points for every application and interview.</p>
+  <div class="diff-grid">
+    <div class="diff-item">
+      <div class="diff-rank">1</div>
+      <div>
+        <h4>Python Automation</h4>
+        <p>Appears in &lt;1% of vanilla AP/AR listings. In a market where AI is replacing rote data entry, someone who scripts the automation is worth hiring.</p>
+      </div>
+    </div>
+    <div class="diff-item">
+      <div class="diff-rank">2</div>
+      <div>
+        <h4>IFRS Cert Post-Graduation</h4>
+        <p>Uncommon at 22. Most candidates pursue IFRS mid-career. Signals initiative. Essential in Gulf where IFRS is the standard.</p>
+      </div>
+    </div>
+    <div class="diff-item">
+      <div class="diff-rank">3</div>
+      <div>
+        <h4>Arabic + English C1</h4>
+        <p>Gulf employers pay a premium for bilingual accountants — Arabic for vendors and local reporting, English for corporate finance.</p>
+      </div>
+    </div>
+    <div class="diff-item">
+      <div class="diff-rank">4</div>
+      <div>
+        <h4>Advanced Excel</h4>
+        <p>PivotTables, XLOOKUP, financial functions. Exceeds requirements for virtually every junior listing in all three markets.</p>
+      </div>
+    </div>
+    <div class="diff-item">
+      <div class="diff-rank">5</div>
+      <div>
+        <h4>Immediately Available</h4>
+        <p>No notice period. Recruiters consistently flag this as a genuine advantage in 2026 — fewer candidates are actively moving.</p>
+      </div>
+    </div>
+    <div class="diff-item">
+      <div class="diff-rank">6</div>
+      <div>
+        <h4>Real AP/AR Experience</h4>
+        <p>6 months of actual work — not a fresh grad with zero hands-on. Covers the top 6 responsibilities employers test in interviews.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESPONSIBILITIES -->
+<section id="responsibilities">
+  <h2><span class="icon">📋</span> Core Responsibilities</h2>
+  <p style="color:var(--muted);font-size:14px;margin-bottom:1rem;">What employers actually test. Ranked by frequency across 40 sources including live job descriptions from Egypt, Gulf, and US.</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>#</th><th>Responsibility</th><th>Ali's Status</th></tr></thead>
+      <tbody>
+        <tr class="col-green"><td>1</td><td><strong>Accounts Payable</strong> — invoice processing, vendor reconciliation, 3-way matching</td><td><span class="badge badge-green">✓ Direct Experience</span></td></tr>
+        <tr class="col-green"><td>2</td><td><strong>Accounts Receivable</strong> — invoicing, customer receipts, AR aging analysis</td><td><span class="badge badge-green">✓ Direct Experience</span></td></tr>
+        <tr class="col-green"><td>3</td><td><strong>Bank Reconciliation</strong> — monthly, discrepancy resolution</td><td><span class="badge badge-green">✓ Direct Experience</span></td></tr>
+        <tr class="col-green"><td>4</td><td><strong>Journal Entries</strong> — preparation and GL posting</td><td><span class="badge badge-green">✓ Direct Experience</span></td></tr>
+        <tr class="col-green"><td>5</td><td><strong>Month-end / Year-end Closing</strong> — documentation, financial data support</td><td><span class="badge badge-green">✓ Direct Experience</span></td></tr>
+        <tr class="col-green"><td>6</td><td><strong>Audit Readiness</strong> — record-keeping, documentation for internal/external audit</td><td><span class="badge badge-green">✓ Direct Experience</span></td></tr>
+        <tr class="col-amber"><td>7</td><td>Financial Statements — balance sheets, P&amp;L, cash flow support</td><td><span class="badge badge-amber">Adjacent</span></td></tr>
+        <tr class="col-amber"><td>8</td><td>General Ledger maintenance</td><td><span class="badge badge-amber">Adjacent</span></td></tr>
+        <tr class="col-amber"><td>9</td><td>Financial Reporting — monthly report compilation</td><td><span class="badge badge-amber">Adjacent</span></td></tr>
+        <tr class="col-amber"><td>10</td><td>Expense vouchers / purchase orders</td><td><span class="badge badge-amber">Adjacent</span></td></tr>
+        <tr class="col-red"><td>13</td><td>VAT / Tax compliance (Egyptian VAT, UAE Corporate Tax 9%)</td><td><span class="badge badge-red">Gap</span></td></tr>
+        <tr class="col-red"><td>14</td><td>Fixed Asset audits</td><td><span class="badge badge-red">Gap</span></td></tr>
+        <tr class="col-red"><td>15</td><td>Trend / Variance analysis</td><td><span class="badge badge-red">Gap</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- SALARY -->
+<section id="salary">
+  <h2><span class="icon">💰</span> Salary Benchmarks (2026)</h2>
+
+  <div class="salary-grid">
+    <div class="salary-card">
+      <h4>🇺🇸 United States</h4>
+      <div class="main-range">$41K–$84K/yr</div>
+      <div class="sub">Avg $58,867 · Indeed May 2026 (1.3K salaries)<br>Live JD verified: $52K–$58K/yr</div>
+    </div>
+    <div class="salary-card highlight">
+      <h4>🇦🇪 UAE (tax-free)</h4>
+      <div class="main-range">AED 4,000–7,000/mo</div>
+      <div class="sub">Realistic first offer: AED 5,000–7,000<br>ACCA premium: +15–25%<br>Live verified: AED 10K at Puffy (1+ yr exp)</div>
+    </div>
+    <div class="salary-card">
+      <h4>🇶🇦 Qatar (tax-free)</h4>
+      <div class="main-range">QAR 6,000–9,000/mo</div>
+      <div class="sub">Corporate/permanent roles<br>BPO/contract floor: QAR 3,000–3,500</div>
+    </div>
+    <div class="salary-card">
+      <h4>🇸🇦 Saudi Arabia (tax-free)</h4>
+      <div class="main-range">SAR 4,000–6,000/mo</div>
+      <div class="note">⚠️ Avoid — Saudization 40% now, 70% by 2028</div>
+    </div>
+    <div class="salary-card">
+      <h4>🇪🇬 Egypt (Cairo)</h4>
+      <div class="main-range">EGP 12,000–18,000/mo</div>
+      <div class="sub">Ali's realistic range with IFRS cert<br>Big 4 Cairo: EGP 15K–20K (estimate)<br>~$240–$360/mo at EGP 50/$</div>
+    </div>
+    <div class="salary-card">
+      <h4>🌍 Remote (from Egypt)</h4>
+      <div class="main-range">$800–$2,000/mo</div>
+      <div class="sub">Via EOR (Deel/Remote.com)<br>Freelance (Upwork): $500–$1,500</div>
+    </div>
+  </div>
+
+  <h3>Career Trajectory</h3>
+  <div class="trajectory">
+    <div class="traj-step">
+      <div class="year">Now</div>
+      <div class="role">Junior Accountant · Cairo</div>
+      <div class="salary">EGP 12–18K/mo</div>
+    </div>
+    <div class="traj-step">
+      <div class="year">Year 2–3</div>
+      <div class="role">Staff Accountant · UAE</div>
+      <div class="salary">AED 5–10K/mo (tax-free)</div>
+    </div>
+    <div class="traj-step">
+      <div class="year">Year 4–6</div>
+      <div class="role">Senior Accountant · UAE/Qatar</div>
+      <div class="salary">AED 10–15K/mo</div>
+    </div>
+    <div class="traj-step">
+      <div class="year">Year 7+</div>
+      <div class="role">Finance Manager · Gulf</div>
+      <div class="salary">QAR 25–35K/mo</div>
+    </div>
+  </div>
+  <p style="font-size:12px;color:var(--muted);margin-top:0.5rem;">Real example (Truescho 2026 placed candidate): Cairo EGP 8K → Dubai AED 11.5K (yr 3) → Doha QAR 28K+ allowances (yr 6). Net annual saving ~USD 68,000.</p>
+</section>
+
+<!-- STRATEGY -->
+<section id="strategy">
+  <h2><span class="icon">🎯</span> Application Strategy</h2>
+
+  <div class="card" style="background:#f0fdf4;border-color:#86efac;">
+    <p style="font-size:13px;font-weight:700;color:#15803d;margin-bottom:0.5rem;">ATS Reality Check</p>
+    <p style="font-size:14px;">200+ applications per position · 71% auto-filter on specific standards/software · 7 seconds for first impression (JobAlign 2026)</p>
+  </div>
+
+  <h3>Resume Keywords — Must Be Present</h3>
+  <div class="kw-group">
+    <div class="kw-label">Core Accounting</div>
+    <div class="kw-tags">
+      <span class="kw-tag">Accounts Payable</span>
+      <span class="kw-tag">Accounts Receivable</span>
+      <span class="kw-tag">Bank Reconciliation</span>
+      <span class="kw-tag">Journal Entries</span>
+      <span class="kw-tag">General Ledger</span>
+      <span class="kw-tag">Month-End Close</span>
+      <span class="kw-tag">Financial Statements</span>
+      <span class="kw-tag">Audit</span>
+      <span class="kw-tag">Internal Controls</span>
+    </div>
+  </div>
+  <div class="kw-group">
+    <div class="kw-label">Standards &amp; Certs (Gulf/Egypt)</div>
+    <div class="kw-tags">
+      <span class="kw-tag">IFRS</span>
+      <span class="kw-tag">ACCA</span>
+      <span class="kw-tag">IAS 16</span>
+      <span class="kw-tag">IFRS 15</span>
+      <span class="kw-tag">IFRS 16</span>
+    </div>
+  </div>
+  <div class="kw-group">
+    <div class="kw-label">Software &amp; Tools</div>
+    <div class="kw-tags">
+      <span class="kw-tag">Advanced Excel</span>
+      <span class="kw-tag">PivotTables</span>
+      <span class="kw-tag">XLOOKUP</span>
+      <span class="kw-tag">Python</span>
+      <span class="kw-tag">pandas</span>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:1.25rem;">
+    <div class="kw-label" style="margin-bottom:0.5rem;">Resume Header</div>
+    <code style="font-size:13.5px;color:var(--navy);font-family:monospace;">Junior Accountant | ACCA IFRS Certified | AP/AR | Python Automation | Cairo, Egypt</code>
+  </div>
+  <div class="card">
+    <div class="kw-label" style="margin-bottom:0.5rem;">LinkedIn Headline — Gulf Targeted</div>
+    <code style="font-size:13px;color:var(--navy);font-family:monospace;">Junior Accountant | ACCA IFRS Certified | AP/AR/Reconciliation | Python Automation | Arabic + English C1 | Cairo → Open to UAE/Qatar</code>
+  </div>
+
+  <h3>Interview Questions — Ali's Exact Angles</h3>
+  <div class="interview-item">
+    <div class="interview-q">"Walk me through a bank reconciliation."</div>
+    <div class="interview-a">Describe your actual monthly process from the 6-month role — the system used, how you identified and resolved discrepancies.</div>
+  </div>
+  <div class="interview-item">
+    <div class="interview-q">"How do you handle an invoice discrepancy?"</div>
+    <div class="interview-a">3-way matching process from your AP work — purchase order, delivery note, invoice verification.</div>
+  </div>
+  <div class="interview-item">
+    <div class="interview-q">"What's the difference between IFRS and GAAP?"</div>
+    <div class="interview-a">Use your ACCA IFRS cert knowledge directly — IAS 16 (PPE), IFRS 15 (Revenue), IFRS 16 (Leases), conceptual framework. This is where the cert pays off.</div>
+  </div>
+  <div class="interview-item">
+    <div class="interview-q">"How does Python help in accounting?"</div>
+    <div class="interview-a"><em>"I automate recurring tasks — reconciliation scripts, aging reports — so I spend time on analysis, not data entry."</em></div>
+  </div>
+  <div class="interview-item">
+    <div class="interview-q">"Why do you want to work in the Gulf?" <span class="badge badge-blue">Gulf only</span></div>
+    <div class="interview-a"><em>"IFRS is the standard there. I want to work in an environment where my certification is baseline, not a niche skill — and where I can grow with professionals who take international standards seriously."</em></div>
+  </div>
+
+  <h3>Cert Roadmap</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Cert / Training</th><th>Time</th><th>Cost</th><th>Purpose</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Odoo Functional</strong></td><td>2–4 weeks</td><td><span class="badge badge-green">FREE · odoo.com/learn</span></td><td>Closes Egypt ERP gap immediately</td></tr>
+        <tr><td><strong>SAP Learning Hub</strong></td><td>2–4 weeks</td><td><span class="badge badge-green">FREE · learninghub.sap.com</span></td><td>Gulf/US ERP gap</td></tr>
+        <tr><td><strong>ACCA Applied Knowledge</strong> (BT, MA, FA)</td><td>6–12 months</td><td>~£523 yr 1 (incl. £140 sub)</td><td>Check exemptions first — may skip these 3 papers</td></tr>
+        <tr><td><strong>ACCA Full Qualification</strong></td><td>3–5 years</td><td>£2,000–£3,000+ total</td><td>Most portable cert globally</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="font-size:12px;color:var(--muted);margin-top:0.5rem;">⚠️ Check ACCA exemptions first: accaglobal.com/exemptions — Ali's BS Accounting degree may exempt him from BT/MA/FA, saving 6 months and ~£300 in fees.</p>
+</section>
+
+<!-- ACTION PLAN -->
+<section id="action">
+  <h2><span class="icon">🚀</span> Action Plan</h2>
+  <p style="font-size:14px;color:var(--muted);margin-bottom:1.5rem;">This is the most important section. Everything else is context — this is what to do.</p>
+
+  <h3>Pre-Application Checklist — Complete These First</h3>
+  <ul class="checklist">
+    <li><strong>CV:</strong> IFRS cert in header, role quantified with real numbers (no placeholder brackets), Python listed with a use case</li>
+    <li><strong>LinkedIn:</strong> Headline optimized, IFRS cert in Licenses &amp; Certifications, Featured section with GitHub link</li>
+    <li><strong>GitHub:</strong> bank_reconciliation.py — reads 2 CSVs (bank statement + ledger), matches by date/amount, outputs mismatches with reason column. Use pandas. Include a README.</li>
+    <li><strong>Wuzzuf profile:</strong> Complete and active</li>
+    <li><strong>Bayt.com profile:</strong> Complete with English CV version</li>
+    <li><strong>References:</strong> 1 contact from the 6-month role lined up</li>
+  </ul>
+
+  <div style="margin-top:1.75rem;">
+    <span class="tier-label tier-1">Tier 1 — Apply Today</span>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Channel</th><th>Action</th><th>Timeline</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Wuzzuf</strong></td><td><a href="https://wuzzuf.net/a/Junior-Accountant-Jobs-in-Egypt" target="_blank">wuzzuf.net/a/Junior-Accountant-Jobs-in-Egypt</a> — apply to all active listings (18 as of May 2026)</td><td>2–4 weeks</td></tr>
+          <tr><td><strong>⚠️ Al Futtaim Group Cairo</strong></td><td><span class="badge badge-urgent">URGENT — may expire</span> <a href="https://www.gulftalent.com/egypt/jobs/junior-accountant-568730" target="_blank">Apply now</a> — AP/IFRS role, fresh grad welcome. Direct match.</td><td>2–4 weeks</td></tr>
+          <tr><td><strong>ACCA Careers Egypt</strong></td><td><a href="https://jobs.accaglobal.com/jobs/cairo-africa/accountant" target="_blank">jobs.accaglobal.com/jobs/cairo-africa/accountant</a> — 177 Cairo listings, 20 approved employers</td><td>2–4 weeks</td></tr>
+          <tr><td><strong>LinkedIn Cairo</strong></td><td>Easy Apply — filter Entry Level, Accounting, Cairo</td><td>2–4 weeks</td></tr>
+          <tr><td><strong>Bayt.com Egypt</strong></td><td>Entry-level accounting Cairo listings</td><td>2–4 weeks</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div style="margin-top:1.5rem;">
+    <span class="tier-label tier-2">Tier 2 — Apply This Week</span>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Channel</th><th>Action</th><th>Prep Needed</th></tr></thead>
+        <tbody>
+          <tr><td><strong>EY Egypt</strong> <span class="badge badge-blue">Strongest ACCA signal</span></td><td><a href="https://jobs.accaglobal.com/employer/13285471/ey-egypt/" target="_blank">jobs.accaglobal.com/employer/13285471/ey-egypt</a></td><td>None — apply directly</td></tr>
+          <tr><td><strong>PwC Egypt</strong></td><td><a href="https://www.pwc.com/m1/en/careers/graduates-and-undergraduates.html" target="_blank">pwc.com/m1/en/careers</a> — filter Egypt, Jan/Sep intakes</td><td>GPA 3.34 &gt; 3.2 cutoff ✅</td></tr>
+          <tr><td><strong>Deloitte Egypt</strong></td><td><a href="https://middleeastjobs.deloitte.com" target="_blank">middleeastjobs.deloitte.com</a></td><td>Tailor CV</td></tr>
+          <tr><td><strong>Gulf — UAE first</strong></td><td>Bayt.com UAE, GulfTalent, NaukriGulf (989 UAE listings)</td><td>⚠️ Start degree attestation NOW</td></tr>
+          <tr><td><strong>Gulf Recruiters</strong></td><td>Hays (hays.ae) · Michael Page (michaelpage.ae) · Charterhouse (charterhouse.ae)</td><td>Gulf-format CV</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div style="margin-top:1.5rem;">
+    <span class="tier-label tier-3">Tier 3 — Apply This Month</span>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Channel</th><th>Gap to Close</th><th>Action</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Odoo Egypt roles</strong></td><td>Odoo ERP</td><td>2 weeks: <a href="https://odoo.com/learn" target="_blank">odoo.com/learn</a> (free)</td></tr>
+          <tr><td><strong>SAP Gulf roles</strong></td><td>SAP basics</td><td>2–4 weeks: <a href="https://learninghub.sap.com" target="_blank">learninghub.sap.com</a> (free for students)</td></tr>
+          <tr><td><strong>Upwork IFRS freelance</strong></td><td>Python portfolio</td><td>1 week: push bank_reconciliation.py, create Upwork profile</td></tr>
+          <tr><td><strong>BPO/outsourcing Cairo</strong></td><td>None — apply now</td><td>Search LinkedIn: "outsourcing accountant Cairo IFRS"</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div style="margin-top:1.75rem;">
+    <h3>Gap Analysis</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Gap</th><th>Severity</th><th>Fix</th><th>Time</th></tr></thead>
+        <tbody>
+          <tr><td><strong>ERP hands-on</strong></td><td><span class="badge badge-red">High</span></td><td>Odoo (Egypt) or SAP Learning Hub (Gulf) — write "training completed" not "experience"</td><td>2–4 weeks</td></tr>
+          <tr><td><strong>Python portfolio</strong></td><td><span class="badge badge-amber">Medium</span></td><td>2 GitHub projects (bank_reconciliation.py + ar_aging_report.py)</td><td>1 week</td></tr>
+          <tr><td><strong>Gulf degree attestation</strong></td><td><span class="badge badge-urgent">TIME-SENSITIVE</span></td><td>MOFA → UAE/Qatar Embassy in Cairo → destination MOFA. ~EGP 1,500–3,000. Start before receiving an offer.</td><td>Start now</td></tr>
+          <tr><td><strong>6 months experience</strong></td><td><span class="badge badge-green">Low</span></td><td>Most listings accept 0–3 yrs. IFRS cert compensates.</td><td>N/A</td></tr>
+          <tr><td><strong>No ACCA progress beyond IFRS</strong></td><td><span class="badge badge-green">Low (now)</span></td><td>Plan Applied Knowledge papers after landing first role</td><td>Long-term</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div style="margin-top:1.75rem;">
+    <h3>Priority Order</h3>
+    <ol class="priority-list">
+      <li><strong>Egypt local</strong> — fastest first offer, already in Cairo, no visa or attestation needed</li>
+      <li><strong>Big 4 Cairo</strong> — best training, funds ACCA progress, EY and PwC most accessible for Ali's profile</li>
+      <li><strong>Gulf / UAE then Qatar</strong> — highest income ceiling, IFRS standard, Arabic premium, tax-free</li>
+      <li><strong>Remote / freelance</strong> — hardest at junior level, but IFRS + Python creates a real niche path</li>
+    </ol>
+  </div>
+
+  <div class="warning-box" style="margin-top:1.5rem;">
+    <strong>⚠️ Saudi Arabia warning:</strong> Saudization quota is currently <strong>40%</strong>, rising to 70% by 2028. Entry-level expat accounting roles are severely restricted and will become more so every year. Focus Gulf efforts on UAE and Qatar first. Saudi only worth pursuing for specific multinationals (Aramco, SABIC) where ACCA/IFRS weight can overcome quota pressure.
+  </div>
+</section>
+
+</main>
+
+<footer>
+  Research prepared for Ali Ahmed Tawfik · May 2026 · 40 verified sources · 5 live job descriptions<br>
+  Full research document: <a href="https://github.com/Za7amoza/zaha2/blob/main/Junior_Accountant_Research_Ali_v2.md" target="_blank">github.com/Za7amoza/zaha2</a>
+</footer>
+
+</body>
+</html>
