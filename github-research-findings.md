@@ -63,6 +63,35 @@
 
 ---
 
+---
+
+## EvanLi Top100/Go.md -- 2026-05-18
+
+### Found (7+)
+- **github-mcp-server** (29,929★) — GitHub's *official* MCP Server. Plugs GitHub directly into Claude Code — browse repos, create PRs, manage issues, run checks in natural language. Adam's agentic OS gets full GitHub control without a browser. Score 9.
+- **Fabric** (41,751★) — Daniel Miessler's AI augmentation framework: 200+ pre-built prompt patterns (summarize YouTube, extract wisdom, write essays, analyse claims). One command turns any text into structured insight. Non-developer friendly once installed via Claude Code. Score 8.
+- **photoprism** (39,677★) — AI-powered self-hosted photo manager: auto-tagging, facial recognition, geo-maps, albums, sharing. Relevant for organising property photos from walkthroughs, before/afters, seller selfies — private, no Google/Apple required. Score 8.
+- **CasaOS** (33,846★) — Simple personal cloud OS for non-tech users: one-click app installs (n8n, Nextcloud, Jellyfin, etc.) from an App Store UI. The easiest home server for self-hosted agentic tools — designed to be set up in minutes. Score 8.
+- **glance** (34,206★) — Self-hosted personal dashboard aggregating multiple feeds: RSS, Reddit, Hacker News, weather, stocks, GitHub releases, custom iframes. Adam's morning briefing board — deal news, market signals, follow-up reminders. Score 8.
+- **Wox** (26,784★) — Cross-platform app launcher (Alfred-equivalent for Windows/Linux). Keyboard-driven instant search, plugin ecosystem. ADHD-friendly: zero mouse, everything in two keystrokes. Score 8.
+- **new-api** (33,918★) — Unified AI model hub with web dashboard: manage Anthropic, OpenAI, Gemini, local models under one API key + usage quota system. Adam runs multiple AI tools — this keeps billing and routing in one place. Score 7.
+- **ntfy** (30,234★) — Push notifications via plain HTTP PUT/POST to phone or desktop. When an agentic script finishes (n8n workflow, Ramp download, batch scrape), ntfy pings Adam's phone. No Zapier needed, completely self-hosted. Score 7.
+- **lux** (31,366★) — Fast video downloader supporting 20+ platforms (YouTube, Bilibili, Vimeo, etc.). Direct replacement for yt-dlp with a simpler CLI. Relevant: Ramp Academy course video downloads. Score 7.
+
+### Filtered
+**91 repos** — dev/infra/language/networking tools:
+- **Go runtime & language:** go (133k★), build-web-application-with-golang (43k★), the-way-to-go_ZH_CN (35k★), go-patterns (27k★), LeetCode-Go (33k★) — learning/dev resources
+- **Web frameworks:** gin (88k★), fiber (39k★), echo (32k★), beego (32k★), go-zero (33k★), kit (27k★) — developer-only
+- **Container/Kubernetes:** kubernetes (122k★), moby/Docker (71k★), compose (37k★), k3s (33k★), k9s (33k★), k6 (30k★), minikube (31k★), podman (31k★), helm (29k★), harbor (28k★), colima (28k★) — infra/DevOps
+- **Proxy/networking/bypass tools:** frp (106k★), v2ray-core (46k★), Xray-core (38k★), 3x-ui (37k★), nps (34k★), sing-box (33k★), headscale (38k★), tailscale (31k★), CloudflareSpeedTest (26k★), croc (35k★) — technical networking
+- **Infra/monitoring/storage:** prometheus (64k★), minio (60k★), etcd (51k★), milvus (44k★), terraform (48k★), vault (35k★), consul (29k★), loki (28k★), opentofu (28k★), seaweedfs (32k★), cockroach (32k★), tidb (40k★), restic (33k★), trivy (35k★), nuclei (28k★), gitleaks (27k★), trufflehog (26k★), authelia (27k★) — DevOps/security
+- **Dev libraries/tools:** cobra (43k★), gorm (39k★), bubbletea (42k★), esbuild (39k★), viper (30k★), fzf (80k★), lazygit (78k★), lazydocker (51k★), dive (53k★), wails (34k★), fyne (28k★), micro (28k★), act (70k★), mkcert (58k★), go-ethereum (51k★), pocketbase (58k★), beego (32k★) — developer tools
+- **Git/dev platforms:** gitea (55k★), gogs (47k★), harness (35k★), cli/gh (44k★), istio (38k★) — dev infrastructure
+- **Borderline filtered (score 5–6):** ollama (171k★) — runs LLMs locally but still CLI-heavy; LocalAI (46k★) — similar; rclone (57k★) — cloud storage sync but CLI; AdGuardHome (34k★) — useful ad blocker but network admin required; filebrowser (34k★) — web file browser but needs self-hosting; syncthing (84k★) — file sync but setup needed; 1Panel (35k★) — VPS panel; alist (49k★) — file listing WebDAV; memos (59k★) — notes app but Adam has Obsidian; wttr.in (29k★) — weather CLI; CLIProxyAPI (33k★) — API wrapper; hugo (88k★) — static site generator
+- **⚠️ Likely hallucinated entry:** picoclaw (#85, 29,049★) — "Tiny automation framework for creative task deployment" — no verifiable Go project by this name; suspiciously close to "OpenClaw" (already on skip list); excluded from count.
+
+---
+
 *Previously found (other sessions):* MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB
 
 ---
