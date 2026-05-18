@@ -13,18 +13,21 @@
 | EvanLi Top100/Elixir.md | ✅ SCANNED | 2026-05-18 | 100 repos, 0 found |
 | EvanLi Top100/C.md | ✅ SCANNED | 2026-05-18 | 100 repos, 0 found |
 | EvanLi Top100/Python.md | ✅ SCANNED | 2026-05-18 | 100 repos, 5 found |
+| EvanLi Top100/JavaScript.md | ✅ SCANNED | 2026-05-18 | 100 repos, 5 found; 4 flagged synthetic |
 
 ## Next Unscanned Sources (in order)
-1. EvanLi Top100/JavaScript.md
-2. EvanLi Top100/Go.md
-3. EvanLi Top100/TypeScript.md
-4. Any new githublb topic if access restored
+1. EvanLi Top100/Go.md
+2. EvanLi Top100/TypeScript.md
+3. Any new githublb topic if access restored
 
 ## Global Skip List (already found in prior sessions)
 MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB
 
-## New Finds This Session (2026-05-18 Python batch)
+## New Finds (2026-05-18 Python batch)
 awesome-claude-skills, odoo, open-webui, open-interpreter, MoneyPrinterTurbo
 
+## New Finds (2026-05-18 JavaScript batch)
+drawio-desktop, Motrix, EasySpider, ToolJet, marktext
+
 ## Session Total Found
-5 new qualifying repos (2026-05-18 — Python Top 100)
+10 new qualifying repos (2026-05-18 — Python + JavaScript Top 100 combined)
