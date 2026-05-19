@@ -19,12 +19,12 @@
 | EvanLi Top100/Java.md | ✅ SCANNED | 2026-05-19 | 100 repos, 2 found (halo, dataease) |
 | EvanLi Top100/Shell.md | ✅ SCANNED | 2026-05-19 | 100 repos, 5 found; 5 flagged synthetic |
 | EvanLi Top100/CPP.md | ✅ SCANNED | 2026-05-19 | 100 repos, 1 found (keepassxc) |
+| EvanLi Top100/Rust.md | ✅ SCANNED | 2026-05-19 | 100 repos, 4 found; 12 flagged synthetic |
 
 ## Next Unscanned Sources (in order)
-1. EvanLi Top100/Rust.md
-2. EvanLi Top100/PHP.md
-3. EvanLi Top100/Swift.md
-4. Any new githublb topic if access restored
+1. EvanLi Top100/PHP.md
+2. EvanLi Top100/Swift.md
+3. Any new githublb topic if access restored
 
 ## Global Skip List (already found in prior sessions)
 MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB
@@ -50,5 +50,8 @@ skills, agent-skills, awesome-claude-code-subagents, taste-skill, A2A
 ## New Finds (2026-05-19 CPP batch)
 keepassxc
 
+## New Finds (2026-05-19 Rust batch)
+rustdesk, spacedrive, anki, Handy
+
 ## Session Total Found
-36 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP Top 100)
+40 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust Top 100)

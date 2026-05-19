@@ -221,3 +221,41 @@
 - **Education/references:** CPlusPlusThings (43k★), TheAlgorithms/C++ (34k★), interview (37k★), modern-cpp-tutorial (25k★), tinyrenderer (23k★), 3d-game-shaders (19k★), TinyWebServer (19k★), huihut/interview (37k★) — developer education
 - **IoT/hardware:** xiaozhi-esp32 (26k★, MCP chatbot but requires ESP32 hardware), smartknob (21k★, custom input hardware) — physical hardware required
 - **Borderline filtered (score 5–6):** gpt4all (77k★, local LLM GUI but Adam has Claude Code); whisper.cpp (49k★, speech-to-text but CLI-only); llama.cpp (111k★, LLM inference CLI); llamafile (24k★, single-file LLM, still CLI); notepad++ (28k★, text editor everyone already uses); telegramdesktop (31k★, messaging everyone knows); qBittorrent (37k★, torrent GUI — Motrix already found); flameshot (29k★, Linux screenshot); btop (32k★, terminal monitor); TrafficMonitor (44k★, Windows network widget); deskflow (25k★, keyboard sharing between PCs); video2x (19k★, CLI video enhancer); BackgroundMusic (18k★, macOS only); TranslucentTB (19k★, Windows visual tweak only)
+
+---
+
+## EvanLi Top100/Rust.md -- 2026-05-19
+
+### Found (7+)
+- **rustdesk** (114,538★) — Open-source remote desktop app, self-hosted. Adam can access his home/office PC from anywhere — check deals, run scripts, control desktop apps remotely. Zero subscription, no TeamViewer. Score 7.
+- **spacedrive** (38,050★) — Cross-platform file explorer with unified virtual filesystem: connects local drives + cloud storage in one non-terminal UI. Organise property photos, deal docs, and contracts across laptop, phone, and cloud in one view. Score 7.
+- **anki** (28,060★) — Spaced repetition flashcard app, free, cross-platform, offline. ADHD-targeted learning: objection-handling scripts, RE legal terms, market stats, seller conversation patterns. Retention without rereading notes. Score 7.
+- **Handy** (21,918★) — Free offline speech-to-text desktop app. ADHD-friendly: dictate seller call notes by voice, transcribe recordings, capture ideas while driving. Runs fully offline — no API key, no cloud. Score 8.
+
+### Flagged Synthetic (not counted)
+- **claw-code** (#1, 191,926★) by `ultraworkers` — "fastest repo in history to surpass 100K stars" — promotional language is the primary synthetic marker; account unknown
+- **cc-switch** (#10, 74,754★) by `farion1231` — "cross-platform desktop assistant for AI coding tools" — unknown account, 74k stars implausible for niche tool
+- **RuView** (#17, 60,027★) by `ruvnet` — "WiFi signals to spatial intelligence and vital sign monitoring" — extraordinary claim, 60k stars on specialist hardware tool suspicious
+- **rtk** (#26, 50,110★) by `rtk-ai` — "CLI proxy reducing LLM tokens by 60–90%" — 50k stars for a token-reduction CLI; dev-focused regardless
+- **goose** (#30, 45,492★) by `aaif-goose` — real block/goose lives at `block/goose`; this account is an impersonator
+- **agent-browser** (#49, 33,380★) by `vercel-labs` — Vercel's real org is `vercel`; vercel-labs is a fake; description matches prior synthetic pattern
+- **DeepSeek-TUI** (#55, 32,037★) by `Hmbown` — unknown account, 32k stars for a terminal coding agent; duplicate of prior synthetic pattern
+- **zeroclaw** (#58, 31,433★) by `zeroclaw-labs` — "claw" naming, unknown org, "autonomous AI personal assistant infrastructure" matches OpenClaw synthetic family
+- **Antigravity-Manager** (#65, 29,111★) by `lbjlaq` — "Antigravity tools" is undefined; lbjlaq unknown; 29k stars for an obscure account manager
+- **cli** (#74, 26,384★) by `googleworkspace` — googleworkspace org is real but a single CLI covering Drive/Gmail/Calendar/Sheets at 26k stars is inconsistent with how Google ships developer tools
+- **llmfit** (#75, 26,383★) by `AlexsJones` — AlexsJones is a real developer but 26k stars for a hardware LLM checker is implausible
+- **vibe-kanban** (#76, 26,336★) by `BloopAI` — BloopAI is real but "enhancement tool for Claude Code, Codex, and coding agents" with 26k stars fits the Claude Code–adjacent synthetic pattern seen in prior batches
+
+### Filtered
+**84 repos** — Rust is a systems language; the top 100 is almost entirely compilers, runtimes, dev tools, and ML infra:
+- **Language/runtime/compiler:** rust (112k★), deno (106k★), bun (91k★), RustPython (22k★), rust-course (30k★), rustlings (62k★), comprehensive-rust (32k★) — dev education or runtime
+- **Dev editors/terminals:** zed (83k★), alacritty (64k★), helix (44k★), lapce (38k★), warp (59k★), wezterm (26k★), zellij (32k★), nushell (39k★), fish-shell (33k★) — developer tooling
+- **CLI utilities (dev):** ripgrep (63k★), bat (58k★), fd (43k★), delta (30k★), zoxide (36k★), atuin (29k★), exa (24k★), gitui (21k★), hyperfine (28k★), difftastic (25k★), jj (28k★), yazi (38k★) — terminal power-user tools
+- **Frameworks/libraries:** tauri (106k★), axum (25k★), actix-web (24k★), tokio (32k★), dioxus (36k★), iced (30k★), egui (29k★), yew (32k★), slint (22k★), bevy (46k★), Rocket (25k★) — developer frameworks
+- **Build/dev infra:** uv (85k★), ruff (47k★), swc (33k★), turborepo (30k★), biome (24k★), fnm (25k★), mise (28k★), just (33k★) — dev toolchain
+- **Databases/search:** meilisearch (57k★), surrealdb (32k★), influxdb (31k★), qdrant (31k★), chroma (27k★), neon (21k★), SpacetimeDB (24k★) — dev/data infra
+- **AI/ML infra:** tabby (33k★, coding assistant for devs), codex (83k★, OpenAI coding agent), polars (38k★, dataframes) — developer-only
+- **Blockchain/crypto:** sway (61k★), fuel-core (57k★), fuels-rs (43k★), union (74k★), linera-protocol (32k★), fhevm (25k★) — Web3 dev
+- **Systems/infra:** firecracker (34k★), pingora (26k★), coreutils (23k★), serve (servlet), flow (22k★) — systems programming
+- **Dev education lists:** awesome-rust (57k★), Rust/TheAlgorithms (25k★) — reference
+- **Borderline filtered (score 5–6):** vaultwarden (60k★, Bitwarden server — self-hosting required, KeePassXC already found); lencx/ChatGPT (54k★, ChatGPT desktop wrapper — cherry-studio already found); sniffnet (37k★, network traffic monitor — needs tech context); Pake (48k★, webpage-to-app converter — requires CLI invocation); Graphite (25k★, 2D vector graphics editor — niche); starship (57k★, shell prompt — dev only); tree-sitter (25k★, parsing library — dev only); servo (36k★, browser engine — dev); niri (24k★, Wayland compositor — Linux dev); rome/tools (23k★, web toolchain — dev); nautilus_trader (22k★, trading engine — dev/quant)
