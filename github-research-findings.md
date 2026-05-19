@@ -202,3 +202,22 @@
 - **Misc/irrelevant:** pi-hole (network admin required), leetcode-master, distrobox, winapps, quickemu, bocker, ani-cli, docker-minecraft-server, papers-we-love, neofetch, awesome-neovim, awesome-zsh-plugins, awesome-cli-apps, awesome-raspberry-pi, awesome-kubernetes, awesome-cheatsheets, kaldi, terminals-are-sexy, bash-it, reinstall, programmer-job-blacklist, haoel.github.io, pure-bash-bible, bash-it, go-cursor-help, node (Ink blockchain), nsfw_data_scraper, Mole (Mac-only)
 - **Already using:** claude-code (124,736★) — Adam's primary tool; skipped
 - **Borderline filtered (score 5–6):** omarchy (23k★, Linux desktop distro — Linux-specific), vscodium (31k★, VS Code without telemetry — dev IDE), iTerm2-Color-Schemes (26k★, terminal themes), winapps (15k★, Windows apps in Linux — niche), quickemu (15k★, VM management)
+
+---
+
+## EvanLi Top100/CPP.md -- 2026-05-19
+
+### Found (7+)
+- **keepassxreboot/keepassxc** (27,214★) — Cross-platform offline password manager: encrypted local vault, browser integration, no subscription, no cloud. Manage RE portals, skip-trace accounts, CRM logins, email credentials with one master password. Zero breach risk from cloud leaks — vault stays on device. Score 7.
+
+### Filtered
+**99 repos** — C++ is a systems language: the list is almost entirely ML frameworks, databases, game engines, browser internals, and dev libraries. Zero agentic or productivity tools.
+- **ML/AI frameworks:** tensorflow (195k★), caffe (34k★), xgboost (28k★), mxnet (20k★), onnxruntime (20k★), ncnn (23k★), mediapipe (35k★), faiss (40k★), mlx (26k★), taichi (28k★), DeepSpeech (26k★) — GPU/ML dev only
+- **Dev libraries/protocols:** grpc (44k★), protobuf (71k★), flatbuffers (25k★), nlohmann/json (49k★), spdlog (28k★), fmt (23k★), folly (30k★), leveldb (39k★), googletest (38k★), Catch2 (20k★), rocksdb (31k★), simdjson (23k★), emscripten (27k★) — library-only
+- **Databases/infra:** ClickHouse (47k★), duckdb (38k★), mongodb (28k★), dragonfly (30k★), rethinkdb (26k★), redis/RedisDesktopManager (23k★) — dev/data infra
+- **Systems/OS:** bitcoin (89k★), v8 (25k★), chromium (23k★), WSL (32k★), SerenityOS (33k★), Atmosphere/Switch (19k★), ApolloAuto (26k★), osquery (23k★), envoy (28k★), grpc (44k★) — systems programming
+- **Game engines/entertainment:** godot (110k★), electron (121k★), cocos2d-x (19k★), aseprite (37k★), Proton/Steam (31k★), shadPS4 (31k★), CnC_Remastered (21k★), MaaAssistantArknights (21k★), Sunshine/game-stream (37k★), filament (20k★), Phaser (via JS) — gaming
+- **Dev tools/compilers:** ImHex (53k★), x64dbg (48k★), cutter (18k★), LadybirdBrowser (63k★), winget-cli (25k★), Karabiner-Elements (22k★, macOS only), carbon-lang (33k★) — developer tooling
+- **Education/references:** CPlusPlusThings (43k★), TheAlgorithms/C++ (34k★), interview (37k★), modern-cpp-tutorial (25k★), tinyrenderer (23k★), 3d-game-shaders (19k★), TinyWebServer (19k★), huihut/interview (37k★) — developer education
+- **IoT/hardware:** xiaozhi-esp32 (26k★, MCP chatbot but requires ESP32 hardware), smartknob (21k★, custom input hardware) — physical hardware required
+- **Borderline filtered (score 5–6):** gpt4all (77k★, local LLM GUI but Adam has Claude Code); whisper.cpp (49k★, speech-to-text but CLI-only); llama.cpp (111k★, LLM inference CLI); llamafile (24k★, single-file LLM, still CLI); notepad++ (28k★, text editor everyone already uses); telegramdesktop (31k★, messaging everyone knows); qBittorrent (37k★, torrent GUI — Motrix already found); flameshot (29k★, Linux screenshot); btop (32k★, terminal monitor); TrafficMonitor (44k★, Windows network widget); deskflow (25k★, keyboard sharing between PCs); video2x (19k★, CLI video enhancer); BackgroundMusic (18k★, macOS only); TranslucentTB (19k★, Windows visual tweak only)
