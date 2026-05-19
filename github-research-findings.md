@@ -153,3 +153,52 @@
 - **Already on skip list:** anything-llm (60k★), career-ops (45k★)
 - **Borderline filtered (score 5–6):** uBlock (64k★) — browser extension everyone knows; resume.github.com (62k★) — GitHub-only CV generator, wrong sector; hiring-without-whiteboards (50k★) — tech job board, wrong industry; drawdb (37k★) — DB diagram editor, dev-focused; zen-browser/desktop (42k★) — browser fork; carbon (36k★) — code screenshot tool; CyberChef (34k★) — encryption/encoding web tool; AnotherRedisDesktopManager (34k★) — Redis GUI; edex-ui (44k★) — sci-fi terminal; Awesome-Design-Tools (39k★) — list not tool; remote-jobs (40k★) — tech jobs only; atom (60k★) — archived text editor; awesome-cursorrules (39k★) — Cursor AI config, not Claude Code; markdown-here (60k★) — email markdown extension; chinese-poetry (51k★) — irrelevant; hacker-scripts (49k★) — humour/dev; bruno (44k★) — API testing IDE; tesseract.js (38k★) — OCR library not app
 - **⚠️ Flagged as likely AI hallucinations (not counted):** everything-claude-code (#3, 185k★), get-shit-done (#28, 62k★), caveman (#29, 61k★), BMAD-METHOD (#54, 47k★) — descriptions hyper-tailored to Claude Code Agentic OS; star counts inconsistent with repo age/type; inserted mid-list at implausibly high rankings; not independently verifiable
+
+---
+
+## EvanLi Top100/Java.md -- 2026-05-19
+
+### Found (7+)
+- **halo** (38,664★) — Open-source site builder for blogs, knowledge bases, and e-commerce. Non-technical UI, Docker install (works via CasaOS). Adam can build a wholesale business site, deal resource hub, or lead-capture page without touching code. Score 7.
+- **dataease** (23,934★) — Open-source BI and data visualization platform. Connect CSVs/databases, build dashboards with drag-and-drop charts. Track deal pipeline, lead sources, conversion rates visually — self-hosted, no Tableau subscription. Score 7.
+
+### Filtered
+**98 repos** — 98% Java developer ecosystem:
+- **Frameworks/infra:** Spring Boot, Spring Framework, Netty, Dubbo, Kafka, Flink, RocketMQ, Nacos, Apollo, Canal — pure backend infra
+- **Algorithm/education:** hello-algo, LeetCodeAnimation, advanced-java, java-design-patterns, JCSprout, DSA-Bootcamp-Java — dev learning
+- **Android libraries:** ExoPlayer, lottie-android, glide, MPAndroidChart, SmartRefreshLayout, EventBus, butterknife — mobile dev components
+- **Build/DevOps/monitoring:** Jenkins, Bazel, SkyWalking, GraalVM, HikariCP, Hystrix, Sentinel, Arthas — dev/infra
+- **Security/dev tools:** ghidra, jadx, Apktool, keycloak, LSPosed, git-secrets — security research or dev
+- **Close misses (score 5–6):** JeecgBoot (46k★, AI low-code) — requires Java dev to deploy; kestra (26k★, n8n alternative) — Java server, complex setup; Chat2DB (25k★, AI SQL client) — requires database knowledge; conductor (31k★, workflow engine) — developer API only; WxJava (32k★, WeChat SDK) — China-specific, dev library
+
+---
+
+## EvanLi Top100/Shell.md -- 2026-05-19
+
+### Found (7+)
+- **skills** (92,263★) — mattpocock's curated `.claude` skills library ("Skills for Real Engineers. Straight from my .claude directory."). Ready-to-copy Claude Code skills — drop them into `~/.claude/skills/` and extend Adam's agentic OS instantly. Score 9.
+- **agent-skills** (43,429★) — Addy Osmani's production-grade engineering skills for AI coding agents. High-signal skills library from a Google Chrome engineer — another direct feed into Adam's `~/.claude` setup. Score 9.
+- **awesome-claude-code-subagents** (20,088★) — VoltAgent's collection of 100+ specialized Claude Code subagents. Plug-and-play expert agents Adam can invoke by name for writing, research, analysis, deal comps — without building anything himself. Score 9.
+- **taste-skill** (18,038★) — Claude skill that prevents generic design output. Adds a "taste" quality layer to anything Claude generates — better emails, decks, content. Score 8. ⚠️ Possibly synthetic (18k stars, obscure author `Leonxlnx`).
+- **A2A** (23,847★) — Google's Agent2Agent open protocol: standard enabling AI agents to communicate and interoperate across platforms. Foundational layer for Adam's multi-agent OS — agents in different tools can hand off tasks. Score 7.
+
+### Flagged Synthetic (not counted)
+- **superpowers** (197,061★) by `obra` — "Agentic skills framework" with implausibly large star count for an unknown account; matches synthetic pattern from prior sessions
+- **agency-agents** (100,191★) by `msitarzewski` — "AI agency platform with unique agent personalities" — 100k stars on unknown repo with no track record
+- **Claude-Code-Game-Studios** (19,145★) by `Donchitos` — "49 AI agents and workflow skills" for game dev; game-dev scope irrelevant to Adam, star pattern suspicious
+- **frontend-slides** (18,065★) by `zarazhangrui` — "Claude frontend slides skill" — suspicious star count, obscure author
+- **agency-agents-zh** (11,759★) by `jnMetaCode` — Chinese 211-agent collection — description overly broad ("18 industries"), star pattern inconsistent
+
+### Filtered
+**~85 repos** — shell tools, dev config, VPN, fonts:
+- **Shell/terminal config:** ohmyzsh (187k★), powerlevel10k, zsh-autosuggestions, zsh-syntax-highlighting, bash-it, prezto, spaceship-prompt, pure — dev terminal beautification
+- **Package/version managers:** nvm, pyenv, rbenv, n — dev dependency management
+- **Developer dotfiles:** dotfiles (mathiasbynens, lewagon), git-extras, gitflow, z, tmux/.tmux, tpm, tmux-resurrect — dev environment setup
+- **VPN/proxy/networking:** v2ray, v2ray-agent, streisand, setup-ipsec-vpn, openvpn-install (×2), clash-for-linux-install, ShellCrash, fancyss — technical networking
+- **Containerized OS:** Docker-OSX, windows (in Docker), macos (in Docker), OSX-KVM, macOS-Simple-KVM, macos-virtualbox, dokku — dev virtualization
+- **Dev infra/cloud:** ProxmoxVE, Proxmox, og-aws, 90DaysOfDevOps, ansible-examples, oss-fuzz, distributions, docker-elk, docker-mailserver — DevOps
+- **Security/audit:** lynis, git-secrets — dev/security tooling
+- **Fonts:** monaspace, Hack, JetBrainsMono, LxgwWenKai, powerline/fonts — dev fonts
+- **Misc/irrelevant:** pi-hole (network admin required), leetcode-master, distrobox, winapps, quickemu, bocker, ani-cli, docker-minecraft-server, papers-we-love, neofetch, awesome-neovim, awesome-zsh-plugins, awesome-cli-apps, awesome-raspberry-pi, awesome-kubernetes, awesome-cheatsheets, kaldi, terminals-are-sexy, bash-it, reinstall, programmer-job-blacklist, haoel.github.io, pure-bash-bible, bash-it, go-cursor-help, node (Ink blockchain), nsfw_data_scraper, Mole (Mac-only)
+- **Already using:** claude-code (124,736★) — Adam's primary tool; skipped
+- **Borderline filtered (score 5–6):** omarchy (23k★, Linux desktop distro — Linux-specific), vscodium (31k★, VS Code without telemetry — dev IDE), iTerm2-Color-Schemes (26k★, terminal themes), winapps (15k★, Windows apps in Linux — niche), quickemu (15k★, VM management)
