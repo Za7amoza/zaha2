@@ -259,3 +259,27 @@
 - **Systems/infra:** firecracker (34k★), pingora (26k★), coreutils (23k★), serve (servlet), flow (22k★) — systems programming
 - **Dev education lists:** awesome-rust (57k★), Rust/TheAlgorithms (25k★) — reference
 - **Borderline filtered (score 5–6):** vaultwarden (60k★, Bitwarden server — self-hosting required, KeePassXC already found); lencx/ChatGPT (54k★, ChatGPT desktop wrapper — cherry-studio already found); sniffnet (37k★, network traffic monitor — needs tech context); Pake (48k★, webpage-to-app converter — requires CLI invocation); Graphite (25k★, 2D vector graphics editor — niche); starship (57k★, shell prompt — dev only); tree-sitter (25k★, parsing library — dev only); servo (36k★, browser engine — dev); niri (24k★, Wayland compositor — Linux dev); rome/tools (23k★, web toolchain — dev); nautilus_trader (22k★, trading engine — dev/quant)
+
+---
+
+## EvanLi Top100/PHP.md -- 2026-05-19
+
+### Found (7+)
+- **monica** (24,660★) — Personal relationship CRM. Track every seller, buyer, and agent: last contact, notes, reminders, relationship history. Hosted SaaS at monicahq.com — zero install. Direct fit for RE wholesaling relationship pipeline. Score 8.
+- **firefly-iii** (23,314★) — Self-hosted personal finance manager. Track commissions, deal expenses, and cash flow between roles — visual dashboard, budgets, income/expense reports. Runs via CasaOS/Docker without technical setup. Score 7.
+- **BookStack** (18,763★) — Open-source wiki and documentation platform. Build SOP library, deal process docs, scripts, and checklists — ADHD-friendly because it externalizes every system into searchable pages. Self-hosted. Score 7.
+- **leantime** (9,866★) — PM tool built specifically for ADHD and non-technical users. Goal tracking, time blindness features, kanban boards, retrospectives, time logs. Has hosted SaaS option. Direct solve for Adam's focus and execution friction. Score 9.
+- **akaunting** (9,809★) — Cloud accounting for small businesses. Commission tracking, expense logging, income reports — no accountant needed. Non-technical UI, free SaaS at akaunting.com. Score 8.
+- **invoiceninja** (9,743★) — Professional invoicing and billing platform. Send commission invoices, track payments, client portal for buyers/sellers. Hosted at invoiceninja.com — no install. Score 8.
+- **mautic** (9,702★) — Open-source marketing automation. Automated email sequences for seller outreach, buyer list nurturing, drip campaigns. Steep initial setup but the core tool for scaling RE deal flow without paid tools like ActiveCampaign. Score 7.
+
+### Filtered
+**93 repos** — PHP is primarily a web framework ecosystem:
+- **Frameworks/libraries (never touch):** Laravel (framework, filament, livewire, composer, laravel-debugbar, laravel-ide-helper, laravel-permission, laravel-admin, Laravel-Excel), symfony, CodeIgniter, yii2, Slim, cphalcon, grav, guzzle, monolog, PHPMailer, PHPExcel, PhpSpreadsheet, phpunit, phpstan, PHP-CS-Fixer, PHP-Parser, PHP_CodeSniffer, Carbon, parsedown, uuid, flysystem, phpdotenv, mockery, pest, jwt-auth, inflector, lexer, dompdf, instantiator, orm, dbal, container, log, console, swiftmailer, ReflectionDocBlock, whoops, workerman, rector, Mobile-Detect, Faker, EmailValidator — pure dev libs
+- **Dev tools/infra:** composer, deployer, docker.labs, psysh, webshell, DVWA, sage (WP theme), laravel-debugbar, laravel-ide-helper, phabricator, showdoc, SSPanel-UIM, easywechat, google-api-php-client — dev/security/admin
+- **Dev education:** DesignPatternsPHP, clean-code-php, Awsome-Front-End-learning-resource — learning content
+- **Well-known/no signal:** WordPress (21,126★) — universal CMS, Adam already knows it; too obvious to surface
+- **eCommerce (dev-required, not RE):** bagisto, magento2, woocommerce, dujiaoka — need dev to configure
+- **Self-host only, no SaaS (server admin required):** coolify (55,539★, PaaS platform), Nextcloud/server (35,250★, cloud storage), matomo (web analytics), all-in-one (Nextcloud AIO) — all require server/VPS; CasaOS partially solves this but adds a setup layer Adam shouldn't need
+- **Tangential/niche:** QloApps (hotel booking — not wholesaling), october CMS (CMS, dev setup), koel (music streaming), flarum (forums), opc-methodology (unclear Chinese project), avbook (NSFW), howto-make-more-money (Chinese side-hustle guide), typecho (Chinese blogging CMS)
+- **Borderline filtered (score 5–6):** aureuserp (10,586★, ERP — overkill, dev setup required); kanboard (9,590★, Kanban — plane already found); wallabag (12,717★, read-it-later — minor utility); YOURLS (12,025★, URL shortener — niche for current stage); cachet (15,051★, status page — no SaaS products to monitor); snipe-it (13,795★, IT asset management — wrong context); FreshRSS (15,055★, RSS reader — glance already handles news feeds); BookStack-adjacent: grav (flat CMS)
