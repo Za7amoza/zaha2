@@ -1,7 +1,7 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-18
+2026-05-19
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
@@ -15,10 +15,12 @@
 | EvanLi Top100/Python.md | ✅ SCANNED | 2026-05-18 | 100 repos, 5 found |
 | EvanLi Top100/JavaScript.md | ✅ SCANNED | 2026-05-18 | 100 repos, 5 found; 4 flagged synthetic |
 | EvanLi Top100/Go.md | ✅ SCANNED | 2026-05-18 | 100 repos, 9 found; 1 flagged synthetic (picoclaw) |
+| EvanLi Top100/TypeScript.md | ✅ SCANNED | 2026-05-19 | 100 repos, 9 found; 8 flagged synthetic |
 
 ## Next Unscanned Sources (in order)
-1. EvanLi Top100/TypeScript.md
-2. Any new githublb topic if access restored
+1. EvanLi Top100/Java.md
+2. EvanLi Top100/Shell.md
+3. Any new githublb topic if access restored
 
 ## Global Skip List (already found in prior sessions)
 MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB
@@ -32,5 +34,8 @@ drawio-desktop, Motrix, EasySpider, ToolJet, marktext
 ## New Finds (2026-05-18 Go batch)
 github-mcp-server, Fabric, photoprism, CasaOS, glance, Wox, new-api, ntfy, lux
 
+## New Finds (2026-05-19 TypeScript batch)
+Stirling-PDF, lobehub, AFFiNE, Flowise, plane, twenty, cherry-studio, upscayl, cal.diy
+
 ## Session Total Found
-19 new qualifying repos (2026-05-18 — Python + JavaScript + Go Top 100 combined)
+28 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript Top 100)

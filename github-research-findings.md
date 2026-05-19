@@ -92,6 +92,42 @@
 
 ---
 
+---
+
+## EvanLi Top100/TypeScript.md -- 2026-05-19
+
+### Found (7+)
+- **Stirling-PDF** (78,916★) — #1 PDF app on GitHub. Merge, split, compress, OCR, sign, watermark PDFs in-browser — no install. Real estate contracts, seller disclosures, HUD statements. Score 8.
+- **lobehub** (77,284★) — LobeHub "Chief Agent Operator": organise AI agent teams into 24/7 automated ops — scheduling, reporting, task routing. Visual dashboard for running multiple AI agents in parallel. Score 8.
+- **AFFiNE** (68,520★) — Open-source Notion + Miro combined. Docs, kanban, whiteboards, planning — local-first, no subscription. Build deal-tracking systems and job search boards without paying Notion. Score 8.
+- **Flowise** (52,922★) — Drag-and-drop visual AI agent builder. Wire LLM chains, document loaders, memory, tools with zero code — export as API or embed. Non-developer path to custom AI workflows. Score 8.
+- **plane** (49,366★) — Open-source ClickUp/Monday alternative. Tasks, sprints, docs, triage — self-hosted or cloud. ADHD-friendly visual boards for deal pipeline and job search tracking. Score 8.
+- **twenty** (45,911★) — Open-source Salesforce alternative built for AI. Full CRM: contacts, deal pipeline, activity logs, email sync. Designed for relationship tracking at zero licensing cost — direct fit for RE wholesaling. Score 9.
+- **cherry-studio** (45,902★) — AI productivity desktop app: unified access to 300+ LLM assistants (Claude, Gemini, OpenAI, local), autonomous agent mode, smart chat. One install, all models. Score 8.
+- **upscayl** (45,356★) — #1 free AI image upscaler on GitHub. Enhance low-res property photos to print quality — seller selfies, walkthrough snapshots — runs fully offline. Score 7.
+- **cal.diy** (43,615★) — Open-source Calendly alternative. Scheduling pages, availability rules, meeting types, reminders. Client intake calls and seller follow-ups at zero monthly cost. Score 8.
+
+### Filtered
+**80 repos** — dev/infra/language:
+- **Web/UI frameworks:** vue, angular, react-router, nuxt, astro, ionic-framework, tailwindcss, core (vuejs) — developer-only
+- **Frontend libraries & tooling:** ant-design, shadcn-ui, mermaid, puppeteer, storybook, playwright, vite, prisma, redux, zustand, query, jest, babel, socket.io, react-hook-form, react-use, pixijs, quill, tldraw, slidev, expo, cypress, pretext, type-challenges, DefinitelyTyped, remotion — all dev
+- **Dev platforms/infra:** vscode, TypeScript (language), supabase, appwrite, daytona, strapi, nest, code-server, grafana, superset, docusaurus, hoppscotch, tabby, hyper, DefinitelyTyped — dev/infra
+- **Dev-adjacent tools (still filtered):** dify (agentic workflow builder, score 6 — needs Docker), screenshot-to-code (code output only), cline (coding agent), context7 (LLM code docs), OpenSpec (spec-driven dev), opencode (coding agent), gemini-cli (terminal agent), shannon (AI pentester), pi (AI toolkit CLI)
+- **Entertainment/personal:** iptv (TV channels), lx-music-desktop (music app), clash-verge-rev (VPN proxy client)
+- **Borderline filtered (score 5–6):** immich (photo manager — self-hosting required), joplin (notes — Adam has Obsidian), siyuan (PKM — duplicate of Obsidian), excalidraw (whiteboard SDK — no agentic integration), OpenCut (video editor — not RE-specific), Rocket.Chat (team comms), RSSHub (RSS aggregator), NextChat (AI chat frontend — Adam has Claude Code), servers/MCP (technical server implementations)
+- **Already on skip list:** openclaw (#2, 373k★), n8n (#5, 189k★), nocodb (#48, 63k★)
+- **⚠️ Flagged suspicious/synthetic (8 repos, not counted):**
+  - gstack (99,168★) — "Garry Tan's exact Claude Code setup" — fake celebrity attribution, matches prior synthetic pattern
+  - claude-mem (76,629★) — references OpenClaw (known synthetic) in description; star count implausible for a TypeScript utility
+  - paperclip (66,386★) — "app everyone uses to manage agents" — AI marketing copy, no verifiable non-synthetic origin
+  - learn-claude-code (61,215★) — 61k stars for a tutorial/nano-harness repo; inconsistent with repo age
+  - oh-my-openagent (58,445★) — "previously oh-my-opencode" synthetic renaming pattern
+  - worldmonitor (54,418★) — "real-time global intelligence dashboard" with 54k stars; description reads synthetic
+  - ruflo (52,878★) — "leading agent orchestration platform for Claude" + OpenCode integration; hallucination signature
+  - open-design (45,426★) — lists 10+ competing AI tools in one description (OpenClaw, Codex, Cursor, Gemini, OpenCode, Qwen, Copilot, Hermes, Kimi CLI) — definitive synthetic marker
+
+---
+
 *Previously found (other sessions):* MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB
 
 ---
