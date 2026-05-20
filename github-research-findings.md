@@ -3,6 +3,28 @@
 
 ---
 
+## EvanLi Top100/CSS.md -- 2026-05-20
+
+### Found (7+)
+- **awesome-obsidian** (8,816★) — Curated plugins, themes, and resources for Obsidian. Adam runs 246 Obsidian notes for his vault; this is a direct feed of power-ups — automation plugins, task managers, daily planners, kanban boards, no technical setup. Score 9.
+- **Learning-Prompt** (5,320★) — Free, structured prompt engineering course with hands-on AI tutorials (ChatGPT, Midjourney). Adam lives inside Claude Code Agentic OS — better prompts = better output on every task he delegates to AI. Score 8.
+- **tabula** (7,403★) — Extracts data tables trapped inside PDFs. Real estate: title searches, comp sheets, MLS exports, contract grids are all locked in PDFs. Tabula frees them into spreadsheet-ready CSV without any coding. Score 7.
+
+### Filtered
+**97 repos** — all dev/CSS/infra:
+- CSS frameworks/design systems: animate.css (82k★), bulma (50k★), normalize.css (53k★), Skeleton (19k★), pico (16k★), spectre (11k★), tachyons (11k★), water.css (8.6k★), basscss (5.9k★), blueprint-css (5.3k★), sanitize.css (5.3k★), oat (5.2k★) — all front-end dev tooling
+- Dev educational: CppCoreGuidelines (45k★), 50projects50days (40k★), freecodecamp.cn (37k★), missing-semester (5.8k★), learn-to-cloud (5.8k★), php-the-right-way (9.3k★), jstutorial (5.4k★), thejsway (7.9k★), plt (5.4k★), progit2 (6.5k★) — coding/CS education
+- Font/icon packages: nerd-fonts (63k★), source-code-pro (20k★), devicon (11k★), plex (11k★), Fira (5.2k★) — dev typography
+- CSS animation/UI libs: SpinKit (19k★), pace (15k★), Effeckt.css (10k★), loaders.css (10k★), bounce.js (6.2k★), spin.js (9.3k★), css-loaders (7.1k★), hint.css (8.4k★), odometer (7.3k★), icheck (7.3k★), vex (6.9k★) — web dev only
+- Dev infrastructure/frameworks: AdminLTE (45k★), ratchet (14k★), photon (10k★), micro-app (6.2k★), scaffold-eth (9.1k★), spring-petclinic (9.2k★), primereact (8.3k★), DataTables (7.4k★) — all require coding
+- ML/data science: machine-learning-yearning-cn (7.8k★), sklearn-doc-zh (5.2k★), handcalcs (5.8k★) — ML/dev
+- Security/hacking: hacktricks (11k★), seeker (9.5k★), Infosec_Reference (5.9k★) — infosec
+- Theme/cosmetics: GitHub-Dark (9.9k★), jupyter-themes (9.8k★), WhiteSur-gtk-theme (8.9k★), arc-theme (8.3k★), tomorrow-theme (14k★), spicetify-themes (6.0k★), synthwave-vscode (5.3k★) — desktop theming
+- Other dev: 30-seconds-of-css (16k★), solved-by-flexbox (12.9k★), dalai (12.9k★), CSS-Inspiration (10.9k★), magic-of-css (6.7k★), You-need-to-know-css (5.5k★), easings.net (8.6k★), github-markdown-css (8.9k★), purecss-francine (7.8k★), json-api (7.7k★), beautiful-web-type (7.3k★), compass (6.7k★) — dev only
+- Misc/irrelevant: hangzhou_house_knowledge (26k★, China housing), awesome-english-ebooks (31k★), TypeWords (8.1k★), ProgrammingVTuberLogos (6.2k★), sorry (6.4k★), colors (9.4k★), offline (8.6k★), jekyll-now (8.4k★), 98.css (11k★), wave (6.5k★), interpy-zh (6.5k★), LearnOpenGL-CN (6.1k★), most-frequent-technology-english-words (6.1k★), weather-icons (7.1k★), WebStackPage.github.io (7.3k★), pokemon-cards-css (7.6k★), mvvm (5.2k★), hass-config (5.2k★), youtube (5.2k★), popcorn-app (5.2k★), wysiwyg-editor (5.4k★), awesome-css-frameworks (9.3k★), community-skeleton (18.7k★, helpdesk but developer setup) — dev tools or not relevant to Adam
+
+---
+
 ## EvanLi Top100/Python.md -- 2026-05-18
 
 ### Found (7+)
