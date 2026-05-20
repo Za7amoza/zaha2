@@ -283,3 +283,27 @@
 - **Self-host only, no SaaS (server admin required):** coolify (55,539★, PaaS platform), Nextcloud/server (35,250★, cloud storage), matomo (web analytics), all-in-one (Nextcloud AIO) — all require server/VPS; CasaOS partially solves this but adds a setup layer Adam shouldn't need
 - **Tangential/niche:** QloApps (hotel booking — not wholesaling), october CMS (CMS, dev setup), koel (music streaming), flarum (forums), opc-methodology (unclear Chinese project), avbook (NSFW), howto-make-more-money (Chinese side-hustle guide), typecho (Chinese blogging CMS)
 - **Borderline filtered (score 5–6):** aureuserp (10,586★, ERP — overkill, dev setup required); kanboard (9,590★, Kanban — plane already found); wallabag (12,717★, read-it-later — minor utility); YOURLS (12,025★, URL shortener — niche for current stage); cachet (15,051★, status page — no SaaS products to monitor); snipe-it (13,795★, IT asset management — wrong context); FreshRSS (15,055★, RSS reader — glance already handles news feeds); BookStack-adjacent: grav (flat CMS)
+
+---
+
+## EvanLi Top100/Swift.md -- 2026-05-20
+
+### Found (7+)
+- **Maccy** (19,926★) — Clipboard history manager for macOS: keeps every copied snippet accessible via hotkey. ADHD superpower — no more losing a deal address or phone number you copied 3 pastes ago. Zero setup, lives in menu bar. Score 8.
+- **Easydict** (13,214★) — Native Mac dictionary + translator that queries multiple services (DeepL, Google Translate, Apple, Bing) in one window. Translate Arabic/English contracts, seller terms, or US legal docs without switching browser tabs. Score 8.
+- **CodexBar** (12,897★) — Menu bar app showing Claude Code and OpenAI API usage stats without login. For Adam running Claude Code as an agentic OS, real-time cost tracking lives next to the clock — no dashboard needed. Score 8.
+- **NetNewsWire** (10,048★) — Free, open-source RSS reader for macOS and iOS. Subscribe to US wholesale market feeds, PropStream news, BiggerPockets, and market reports — everything in one inbox-style view, no algorithm. Score 8.
+- **AlDente** (9,043★) — Menu bar tool to cap MacBook battery charge (e.g. stop at 80%) and monitor battery health. Extends laptop lifespan significantly — set once, forget. Practical for long agentic sessions on battery. Score 7.
+- **QuickRecorder** (8,280★) — Lightweight screen recorder for macOS built on Apple's ScreenCapture Kit. Record closing calls, onboarding walkthroughs, or deal demos — no watermark, no subscription. No-code, just click record. Score 8.
+
+### Filtered
+**94 repos** — Swift is Apple's native language; the top 100 is almost entirely iOS/macOS developer libraries and frameworks:
+- **Networking/API libs:** Alamofire (42k★), Moya (15k★), Kingfisher (24k★), Starscream (8.6k★), Nuke (8.6k★), PromiseKit (14k★), swift-nio (8.5k★) — dev libs, no standalone use
+- **UI/animation libs:** lottie-ios (26k★), Hero (22k★), SnapKit (20k★), Spring (14k★), Charts (28k★), IBAnimatable (8.6k★), animated-tab-bar (11k★), SkeletonView (12k★), NVActivityIndicatorView (10k★), folding-cell (10k★), Eureka (11k★), Material (12k★) — dev frameworks
+- **Architecture/language tools:** RxSwift (24k★), ReactiveCocoa (19k★), swift (70k★), SwiftLint (19k★), SwiftFormat (8.8k★), SwiftyJSON (22k★), CryptoSwift (10k★), SQLite.swift (10k★), ObjectMapper (9k★), R.swift (9.6k★), SwiftGen (9.5k★), SwifterSwift (15k★), swift-composable-architecture (14k★), GRDB.swift (8.4k★), swift-package-manager (10k★), XcodeGen (8.4k★), XcodesApp (8.4k★), Carthage (15k★), Perfect (13k★), vapor (26k★) — dev infra
+- **Dev education/lists:** awesome-ios (52k★), swift-algorithm-club (29k★), SwiftGuide (15k★), Design-Patterns-In-Swift (15k★), 30DaysofSwift (11k★), iOSInterviewQuestions (9.5k★), Swift-30-Projects (8.3k★) — learning content for devs
+- **Window/menu-bar management (power-user config required):** Rectangle (29k★), AeroSpace (20k★), Amethyst (16k★), alt-tab-macos (15k★), Ice (28k★), hidden (14k★), Dozer (8.7k★), Loop (10k★) — macOS power-user tools
+- **Dev tools/infra:** CodeEdit (22k★), mas (12k★), DevToysMac (9.2k★), AudioKit (11k★), Quick (9.8k★), pock (10k★), WWDC (8.7k★) — dev-adjacent
+- **Emulation/VMs (technical):** UTM (34k★), OpenEmu (17k★), container (26k★), containerization (8.5k★) — technical setup required
+- **Privacy/security (technical):** ShadowsocksX-NG (32k★), secretive (8.5k★) — server or key management needed
+- **Borderline filtered (score 5–6):** awesome-mac (104k★, curated list not a tool); stats (38k★, system monitor); MonitorControl (33k★, display control); Mos (20k★, mouse scroll); boring.notch (9.2k★, notch UI); eul (9.9k★, status monitor); Clipy (8.5k★, second clipboard manager — Maccy already found); Gifski (8.4k★, video-to-GIF — niche media tool); Whisky (15k★, Wine wrapper — requires setup); AltStore (13k★, iOS sideloading — device required); PlayCover (11k★, iOS apps on Mac — niche); Pearcleaner (13k★, app uninstaller — not Adam-specific); supertonic (8.8k★, TTS engine — unclear if standalone app); cmux (17k★, AI terminal — developer tool); bitchat (25k★, Bluetooth mesh chat — niche); openhaystack (12k★, AirTag DIY — hardware tinkering); Aerial (21k★, screensaver — entertainment); iina (44k★, video player — not work-relevant); Signal-iOS/Telegram-iOS — app store already covers these
