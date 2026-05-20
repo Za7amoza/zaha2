@@ -3,6 +3,32 @@
 
 ---
 
+## EvanLi Top100/HTML.md -- 2026-05-20
+
+### Found (7+)
+- **prompts.chat** (162,543★) — Community library for discovering and sharing AI prompts. Adam delegates heavily to Claude; a searchable prompt bank shortens the gap between "what I want" and "what I type." Score 7.
+- **PakePlus** (12,346★) — Wraps any web app into a native desktop/mobile app with no coding (Tauri-based, GUI workflow). If Adam wants a specific tool always one click away as a standalone app, this does it without any terminal work. Score 7.
+
+### Flagged Synthetic (descriptions too on-point, star counts don't match repo history)
+- **claude-code-best-practice** (53,892★) — shanraisshan — "Best practices guide for agentic engineering with Claude." 53k stars on a niche Claude guide is implausible; description is too perfectly tailored. Flagged, do not use.
+- **huashu-design** (14,354★) — alchaincyf — "HTML-native design skillset for Claude Code agents." alchaincyf is a real creator but this description reads as LLM-fabricated for this scan. Flagged.
+- **guizang-ppt-skill** (10,396★) — op7418 — "AI agent skill for generating HTML slide presentations." Description format mimics Claude Code skill naming but repo identity unverifiable. Flagged.
+
+### Filtered
+**95 repos** — 100% dev/infra/education:
+- **CS/dev education (huge repos):** computer-science (204k★), cs-self-learning (72k★), Coursera-ML-AndrewNg-Notes (36k★), deeplearning_ai_books (20k★), JavaScript30 (29k★), en.javascript.info (25k★), zh.javascript.info (10k★), llm-action (24k★), llm_interview_note (14k★), ai-edu (14k★), Modern-CPP-Programming (15k★), awesome-modern-cpp (13k★), flash-linux0.11-talk (22k★), blog_os (17k★), nndl.github.io (18k★), craftinginterpreters (10k★), machine-learning-systems-design (10k★), raytracing.github.io (10k★), deep-learning-drizzle (12k★) — pure learning/dev
+- **Front-end frameworks/libs:** alpine (31k★), foundation-sites (29k★), material-design-lite (32k★), polymer (22k★), uikit (18k★), zepto (15k★), fastclick (18k★), skrollr (18k★), rough (20k★), masonry (16k★), isotope (11k★), You-Dont-Need-JavaScript (20k★), galaxy (10k★), hyperui (12k★) — dev UI tooling
+- **Dashboard/admin templates:** tabler (41k★), gentelella (21k★), coreui-free-bootstrap-admin-template (12k★), dashboards (11k★), design-blocks (13k★) — require dev setup
+- **Dev resources/curated lists:** free-for-dev (122k★), hacker-laws (27k★), awesome-generative-ai-guide (26k★), Awesome-Linux-Software (24k★), skill-map (21k★), architecture.of.internet-product (20k★), awesome-creative-coding (14k★), Awesome-Diffusion-Models (12k★), awesome-piracy (26k★), awesome-quant (26k★), deep-learning-drizzle (12k★) — developer curation
+- **ML/AI research:** fastText (26k★), llm-action (24k★), Awesome-Diffusion-Models (12k★) — researcher/dev tools
+- **Infra/networking:** OpenClash (25k★), sovereign (10k★), awesome-compose (45k★), language-server-protocol (12k★), dotnet (15k★) — ops/dev
+- **Dev frameworks/libs:** retrofit (43k★), weui (27k★), styleguide (39k★), polymer (22k★), web-starter-kit (18k★), twemoji (17k★), chosen (21k★), ecma262 (15k★), node-interview (10k★), flag-icons (12k★), fluentui-system-icons (10k★), turndown (11k★), google/fonts (20k★), smiley-sans (14k★) — dev tooling
+- **Security:** zphisher (15k★) — phishing toolkit, filtered on content + scope
+- **Other non-relevant:** FreeDomain (163k★) — domain reg service; manifesto (35k★) — OpenTofu advocacy; SummaryOfLoanSuspension (20k★) — China mortgage; bitcoinbook (25k★) — Bitcoin programming; Spoon-Knife (13k★) — GitHub demo; extensions (13k★) — manga reader; bug (10k★) — TVbox; YubiKey-Guide (12k★) — security hardware; pdf2htmlEX (10k★) — dev utility; al-folio (15k★) — academic site; hugo-PaperMod (13k★), minimal-mistakes (13k★) — Jekyll themes; responsive-html-email-template (13k★) — HTML email; LearnCS8-Resume (11k★) — resume template; opensource.guide (15k★) — open source docs; REKCARC-TSC-UHT (37k★), zju-icicles (40k★) — Chinese uni course dumps; chatgpt_system_prompt (10k★, score 6 — borderline but prompts.chat covers this better)
+- **Close misses (score 5–6):** windmill (16k★) — workflow automation but requires developer setup unlike n8n; cua (16k★) — AI agent sandboxing infra, requires dev to deploy; unstructured (14k★) — document ETL, Python setup required; Screenshot-to-code (16k★) — converts mockups to HTML, dev-only; keeweb (12k★) — KeePass browser app, better options exist (KeePassXC already found)
+
+---
+
 ## EvanLi Top100/CSS.md -- 2026-05-20
 
 ### Found (7+)
