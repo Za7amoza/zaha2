@@ -307,3 +307,28 @@
 - **Emulation/VMs (technical):** UTM (34k★), OpenEmu (17k★), container (26k★), containerization (8.5k★) — technical setup required
 - **Privacy/security (technical):** ShadowsocksX-NG (32k★), secretive (8.5k★) — server or key management needed
 - **Borderline filtered (score 5–6):** awesome-mac (104k★, curated list not a tool); stats (38k★, system monitor); MonitorControl (33k★, display control); Mos (20k★, mouse scroll); boring.notch (9.2k★, notch UI); eul (9.9k★, status monitor); Clipy (8.5k★, second clipboard manager — Maccy already found); Gifski (8.4k★, video-to-GIF — niche media tool); Whisky (15k★, Wine wrapper — requires setup); AltStore (13k★, iOS sideloading — device required); PlayCover (11k★, iOS apps on Mac — niche); Pearcleaner (13k★, app uninstaller — not Adam-specific); supertonic (8.8k★, TTS engine — unclear if standalone app); cmux (17k★, AI terminal — developer tool); bitchat (25k★, Bluetooth mesh chat — niche); openhaystack (12k★, AirTag DIY — hardware tinkering); Aerial (21k★, screensaver — entertainment); iina (44k★, video player — not work-relevant); Signal-iOS/Telegram-iOS — app store already covers these
+
+---
+
+## EvanLi Top100/Ruby.md -- 2026-05-20
+
+### Found (7+)
+- **maybe-finance/maybe** (54,130★) — Open-source personal finance app: net worth tracking, transaction categorization, investment portfolio view, budgets. Self-hosted or SaaS. Between roles and managing commission income — this replaces a paid financial planner for personal cashflow clarity. Score 8.
+- **chatwoot/chatwoot** (29,558★) — Open-source omnichannel customer support platform: unified inbox for email, WhatsApp, Facebook DMs, live chat — all in one dashboard. Manage inbound seller leads and buyer inquiries from multiple channels without losing a thread. SaaS at chatwoot.com. Score 8.
+- **docusealco/docuseal** (16,782★) — Open-source DocuSign alternative: PDF form builder, e-signature requests, audit trail, signing order workflows. Real estate contracts, assignment agreements, and disclosures signed digitally at zero per-doc cost. Self-hosted or cloud. Score 9.
+
+### Filtered
+**97 repos** — Ruby is primarily a web framework ecosystem; the top 100 is almost entirely Rails libraries, dev tooling, and server infrastructure:
+- **Core framework/language:** rails (58k★), ruby (23k★), sinatra (12k★), grape (9.9k★), hanami (6.3k★) — web framework only
+- **Rails libraries (never touch):** devise (24k★), activeadmin (9.6k★), rails_admin (7.9k★), omniauth (8k★), pundit (8.5k★), cancan (6.2k★), kaminari (8.6k★), simple_form (8.2k★), paperclip (9k★), carrierwave (8.7k★), searchkick (6.7k★), paper_trail (7k★), friendly_id (6.2k★) — backend authentication, authorization, upload, pagination libs
+- **Dev tools/infrastructure:** rubocop (12k★), capistrano (12k★), fastlane (41k★), kamal (14k★), capybara (10k★), sidekiq (13k★), resque (9.4k★), puma (7.8k★), brakeman (7.2k★), bullet (7.3k★), factory_bot (8.1k★), scientist (7.7k★), bkeepers/dotenv (6.7k★), guard (6.4k★), pry (6.8k★), rspec, whenever (8.8k★), vcr (6k★) — dev testing, jobs, deployment
+- **Package/dependency managers:** Homebrew/brew (48k★), homebrew-cask (22k★), homebrew-core (15k★), CocoaPods (14k★), bundler, middleman (7k★) — macOS infra
+- **Dev infra/self-hosted (server admin required):** gitlabhq (24k★), discourse (47k★), forem (22k★), postal (16k★), ubicloud (12k★), fluentd (13k★), fluent/fluentd, chef (8.1k★), puppet (7.8k★), pghero (8.8k★), fluent-bit — all require server/VPS administration
+- **Security/scanning (developer):** metasploit-framework (38k★), wpscan (9.5k★), urbanadventurer/WhatWeb (6.5k★), presidentbeef/brakeman — pentesting or dev security
+- **Dev education/reference:** bayandin/awesome-awesomeness (33k★), kilimchoi/engineering-blogs (38k★), awesome-swift (26k★), DeathKing/Learning-SICP (11k★), thoughtbot/guides (9.5k★), freeCodeCamp/how-to-contribute-to-open-source (9.2k★), lewagon/setup (19k★), chyingp/nodejs-learning-guide (6.8k★) — reading lists for developers
+- **Static sites / blogging:** jekyll (51k★), octopress (9.2k★), gollum (14k★) — static site generators
+- **Social/community platforms (self-hosting required):** mastodon (49k★), diaspora (13k★) — heavy infrastructure
+- **eCommerce / business frameworks (dev-required):** spree (15k★), antiwork/gumroad (9k★) — requires developer to configure and deploy
+- **Misc/irrelevant:** tmuxinator (13k★, terminal session manager — dev); skwp/dotfiles (6.9k★, vim config — dev); lolcat (6.5k★, terminal colorizer — dev humor); Shopify/liquid (11k★, template language — dev); felixonmars/dnsmasq-china-list (6k★, DNS list — China infra); venmo/synx (6k★, Xcode tool — dev)
+- **Already on skip list:** huginn (49k★)
+- **Borderline filtered (score 5–6):** opf/openproject (15k★, project management — heavyweight, Docker-only, plane already found); instructure/canvas-lms (6.6k★, LMS — relevant to Ramp Academy but requires full Rails server stack); Freika/dawarich (9k★, self-hosted location tracking — niche utility); greatghoul/remote-working (11k★, resource list not a tool); basecamp/kamal (14k★, deploy tool — dev only)
