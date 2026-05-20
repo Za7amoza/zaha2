@@ -1,7 +1,7 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-20 (Ruby batch)
+2026-05-20 (Kotlin batch)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
@@ -23,10 +23,12 @@
 | EvanLi Top100/PHP.md | ✅ SCANNED | 2026-05-19 | 100 repos, 7 found |
 | EvanLi Top100/Swift.md | ✅ SCANNED | 2026-05-20 | 100 repos, 6 found |
 | EvanLi Top100/Ruby.md | ✅ SCANNED | 2026-05-20 | 100 repos, 3 found (maybe, chatwoot, docuseal) |
+| EvanLi Top100/Kotlin.md | ✅ SCANNED | 2026-05-20 | 100 repos, 2 found (Seal, UHabits) |
 
 ## Next Unscanned Sources (in order)
-1. EvanLi Top100/Kotlin.md
-2. Any new githublb topic if access restored
+1. EvanLi Top100/CSS.md
+2. EvanLi Top100/HTML.md
+3. Any new githublb topic if access restored
 
 ## Global Skip List (already found in prior sessions)
 MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB
@@ -64,5 +66,8 @@ Maccy, Easydict, CodexBar, NetNewsWire, AlDente, QuickRecorder
 ## New Finds (2026-05-20 Ruby batch)
 maybe, chatwoot, docuseal
 
+## New Finds (2026-05-20 Kotlin batch)
+Seal, UHabits
+
 ## Session Total Found
-56 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby Top 100)
+58 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin Top 100)
