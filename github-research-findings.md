@@ -3,6 +3,29 @@
 
 ---
 
+## EvanLi Top100/PowerShell.md -- 2026-05-21
+
+### Found (7+)
+- **YerongAI/Office-Tool** (13,476★) — GUI app for deploying, configuring, and managing Microsoft Office installs on Windows. Click to install any Office version/channel, switch between 365/2021/LTSC, remove bloat apps, activate — no PowerShell knowledge needed, no command line. One tool to manage every Office install on any Windows machine Adam sets up. Score 7.
+
+### Filtered
+**99 repos** — PowerShell Top 100 is the worst batch of this research run for Adam:
+
+- **Security/pentesting (~45 repos):** PowerSploit (13k★), BloodHound-Legacy (10.5k★), nishang (9.9k★), Empire (7.8k★), GOAD (7.8k★), commando-vm (7.6k★), Flipper-Zero-BadUSB (6.8k★), K8tools (6.2k★), usbrubberducky-payloads (5.7k★), flare-vm (8.7k★), RedTeaming-Tactics-and-Techniques (4.6k★), Invoke-Obfuscation (4.3k★), PrivescCheck (3.8k★), OSCP (3.7k★), WinPwn (3.7k★), MailSniper (3.2k★), sysmon-modular (3k★), Penetration-Testing-Tools (2.9k★), bashbunny-payloads (2.9k★), PowerShell-Suite (2.7k★), PowerUpSQL (2.7k★), Active-Directory-Exploitation-Cheat-Sheet (2.7k★), windows_hardening (2.6k★), ScubaGear (2.6k★), sRDI (2.5k★), AzureAD-Attack-Defense (2.5k★), DeepBlueCLI (2.4k★), MicroBurst (2.4k★), powercat (2.4k★), vulnerable-AD (2.3k★), BadBlood (2.2k★), PowerTools (2.2k★), Invoke-PSImage (2.2k★), PersistenceSniper (2.1k★), PoshC2 (2.1k★), UltimateAppLockerByPassList (2.1k★), DomainPasswordSpray (2.1k★), mimikittenz (1.9k★), badusb (1.9k★), Sherlock (2k★), JAWS (1.9k★), HardeningKitty (1.8k★) — all offensive/defensive security, zero relevance
+- **Developer tools/frameworks:** core/dotnet (22k★), blazor (9.3k★), machinelearning-samples (4.7k★), cmder (26.9k★), Scoop (24k★), posh-git (8.2k★), docker/jenkins (7.5k★), k8s-for-docker-desktop (5.1k★), awesome-powershell (5.4k★), oh-my-posh2 (5.2k★), Pester (3.3k★), Terminal-Icons (2.9k★), PowerShell-Docs (2.5k★), PSKoans (1.9k★), dbatools (2.8k★), chocolatey (2.8k★), psmux (2.1k★), winfetch (1.8k★), windows-dev-box-setup-scripts (1.9k★), Fast-Kubernetes (3.3k★), awesome-love2d (4.4k★), ScoopInstaller/Main (1.8k★), ScoopInstaller/Extras (2.1k★) — all developer infra
+- **Windows sysadmin/IT:** runner-images (12.8k★), AutomatedLab (2.2k★), IntuneManagement (2k★), Microsoft365DSC (2.3k★), Enterprise-Scale (1.9k★), Virtualization-Documentation (1.9k★), Microsoft-Defender-for-Cloud (1.9k★), MicrosoftDocs/PowerShell-Docs (2.5k★), powershell-scripts/O365 (1.9k★), lazywinadmin/PowerShell (2.9k★) — IT admin tooling, not end-user
+- **Borderline filtered (score 5–6):**
+  - **ChrisTitusTech/winutil** (54,794★) — GUI Windows tweaker/installer. Score 6. Useful for PC setup but one-time; doesn't add to Adam's daily workflow
+  - **Raphire/Win11Debloat** (46,498★) / **Sycnex/Windows10Debloater** (18.8k★) / **W4RH4WK/Debloat-Windows-10** (6.2k★) / **LeDragoX/Win-Debloat-Tools** (6.4k★) — Windows cleanup scripts. Score 5. One-time utility
+  - **SpotX-Official/SpotX** (21k★) — Spotify ad patcher. Score 5. Entertainment, not work
+  - **ntdevlabs/tiny11builder** (18.7k★) — Build trimmed Windows ISO. Score 4. Requires reinstall
+  - **ThioJoe/Windows-Super-God-Mode** (2k★) — Windows settings shortcuts. Score 6. Interesting for power users
+  - **Romanitho/Winget-AutoUpdate** (1.9k★) — Auto-update Windows apps. Score 6. Good system hygiene, not a workflow tool
+  - **EmpireMediaScience/A1111-Web-UI-Installer** (1.8k★) — Stable Diffusion installer. Score 4. Requires Nvidia GPU
+  - **GuDaStudio/skills** (2k★) — Claude AI agent skills. Score 9 but already found in Shell batch
+
+---
+
 ## EvanLi Top100/Dart.md -- 2026-05-21
 
 ### Found (7+)
