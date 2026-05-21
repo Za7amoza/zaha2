@@ -3,6 +3,22 @@
 
 ---
 
+## EvanLi Top100/MATLAB.md -- 2026-05-21
+
+### Found (7+)
+*None.* All 100 repos score 1–3 (ML research / academic code). MATLAB's Top 100 is exclusively academic and research-grade software.
+
+### Filtered
+**100 repos** — MATLAB is a scientific computing language; the top 100 is 100% ML research, computer vision, signal processing, robotics, and course assignments. Not a single end-user application exists in the list:
+
+- **ML/computer vision research papers with code (~55 repos):** deep-photo-styletransfer (9,998★), OpenFace (7,654★), PRMLT (6,204★), vrn (4,519★), DeepLearnToolbox (3,871★), MTCNN_face_detection_alignment (2,865★), faster_rcnn (2,830★), rcnn (2,415★), PlatEMO (2,102★), OpenTLD (2,100★), CAM (1,886★), DnCNN (1,708★), crfasrnn (1,337★), R-FCN (1,248★), Image-Fusion (1,189★), tiny (1,144★), convnet-burden (929★), lrslibrary (884★), NTURGB-D (871★), VAD (870★), toolbox (859★), edges (838★), hctsa (827★), Awesome-Speech-Enhancement (825★), Image-Harmonization-Dataset-iHarmony4 (808★), activityrecognition (930★), MatlabFunc (625★), ECO (624★), IRCNN (612★), ICNet (609★), refinenet (603★), netvlad (601★), SelfExSR (636★), cnn-for-image-retrieval (632★), hashing-baseline-for-image-retrieval (630★), siamese-fc (628★), Exclusively-Dark-Image-Dataset (628★), face_verification_experiment (721★), vgg_face2 (704★), Detect-Track (552★), Exposure_Correction (583★), voc-dpm (577★), FFDNet (556★) — all academic paper code, requires MATLAB and ML knowledge
+- **Robotics / control / navigation (~13 repos):** robotics-toolbox-matlab (1,525★), quadrotor (1,110★), Gait-Tracking-With-x-IMU (1,062★), MATLABRobotics (676★), OptimTraj (705★), automated-driving-control (679★), automatic-driving-decision-and-planning-for-matlab (618★), matlab_motion_planning (627★), robust-tube-mpc (596★), MSS (677★), NaveGo (632★), kalibr_allan (659★), IMUCalibration-Gesture (787★) — specialist robotics/control research
+- **ML course assignments (~11 repos):** Stanford-CS-229 (3,451★), Machine-Learning-homework (2,020★), Algorithms_MathModels (2,338★), MCM-ICM (2,268★), Math_Model (4,484★), Coursera-Machine-Learning-Stanford (1,154★), machine-learning-coursera-1 (1,118★), Octave (834★), machine-learning-octave (893★), CourseraMachineLearning (778★), Notes-ML-AndrewNg (560★) — student coursework only
+- **Specialist academic toolboxes (~22 repos):** Book-Mathematical-Foundation-of-Reinforcement-Learning (16,242★), fieldtrip (965★), eeglab (764★), TIGRE (773★), MIMO_OFDM (972★), Must-Reading-on-ISAC (914★), SAR-Synthetic-Aperture-Radar (1,018★), Signals-and-Systems-course (1,004★), gptoolbox (670★), chebfun (667★), mexopencv (659★), matpower (559★), YALMIP (556★), MATLAB-Deep-Learning-Model-Hub (559★), BPL (982★), omniglot (1,418★), export_fig (1,343★), matlab-schemer (1,255★), matlab2tikz (1,712★), awesome-time-series-segmentation-papers (548★), awesome-matlab-students (656★), awesome-low-light-image-enhancement (1,818★) — require MATLAB licence + domain expertise
+- **Misc/non-relevant:** eviltransform (2,565★, GPS coordinate transform), EconometricsResources (1,064★, economics references), Mathematics (746★, math notes), Coding-Guide (1,456★, personal coding notes), SPIRIT (1,179★, Raspberry Pi smartphone project), BeatTheBookie (646★, football betting analysis), Smart-Algorithm (836★, optimisation algorithm code), CBIG (742★, brain imaging research)
+
+---
+
 ## EvanLi Top100/PowerShell.md -- 2026-05-21
 
 ### Found (7+)

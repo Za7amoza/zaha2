@@ -1,7 +1,7 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-21 (PowerShell batch)
+2026-05-21 (MATLAB batch)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
@@ -30,10 +30,10 @@
 | EvanLi Top100/Top-100-stars.md | ✅ SCANNED | 2026-05-21 | 100 repos, 1 found; 7 flagged synthetic |
 | EvanLi Top100/Dart.md | ✅ SCANNED | 2026-05-21 | 100 repos, 2 found (localsend, ente) |
 | EvanLi Top100/PowerShell.md | ✅ SCANNED | 2026-05-21 | 100 repos, 1 found (Office-Tool) |
+| EvanLi Top100/MATLAB.md | ✅ SCANNED | 2026-05-21 | 100 repos, 0 found |
 
 ## Next Unscanned Sources (in order)
-1. EvanLi Top100/MATLAB.md
-4. EvanLi Top100/R.md
+1. EvanLi Top100/R.md
 5. EvanLi Top100/Top-100-forks.md
 6. Any new githublb topic if access restored
 Note: Jupyter Notebook.md does not exist in EvanLi repo (confirmed 2026-05-21)
@@ -95,5 +95,8 @@ localsend, ente
 ## New Finds (2026-05-21 PowerShell batch)
 Office-Tool
 
+## New Finds (2026-05-21 MATLAB batch)
+None
+
 ## Session Total Found
-74 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell Top 100)
+74 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell + MATLAB Top 100)
