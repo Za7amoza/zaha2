@@ -3,6 +3,54 @@
 
 ---
 
+## EvanLi Top100/CSharp.md -- 2026-05-21
+
+### Found (7+)
+- **microsoft/PowerToys** (133,340★) — Microsoft's official Windows productivity megapack: FancyZones window snapping layouts, PowerRename bulk file rename with regex, Text Extractor (on-screen OCR to clipboard), Peek spacebar file preview, Keyboard Manager, Color Picker, File Locksmith. Single Microsoft-signed installer, zero config. Entire Windows workflow upgrades in one install. Score 9.
+- **ShareX/ShareX** (37,621★) — Full-featured Windows screen capture, annotation, and recording. Capture regions/windows/fullscreen, annotate with arrows/text/blurs, upload to cloud/Imgur/S3, create video recordings. Essential for documenting deal walkthroughs, seller call summaries, and SOP visuals. Windows counterpart to QuickRecorder already found (macOS). Score 8.
+- **NickeManarin/ScreenToGif** (26,964★) — Record any screen region directly as an optimized GIF with a frame-level editor. Non-technical, point-and-click. Create quick visual demos for sellers (how to sign DocuSign), document deal steps, export property walkthrough clips. Score 7.
+- **QL-Win/QuickLook** (23,467★) — Brings macOS-style spacebar file preview to Windows. Tap space on any PDF, image, video, Word doc, or spreadsheet to preview without opening the app. Fast contract skimming and property photo review without an app launch. Score 7.
+- **Klocman/Bulk-Crap-Uninstaller** (19,226★) — Bulk app removal for Windows with deep uninstall (leftover files, registry keys). GUI-only, no terminal. One pass clears Windows bloat so agentic sessions run on a clean, fast system. Score 7.
+- **duplicati/duplicati** (14,557★) — Encrypted automated backup to any cloud (OneDrive, Google Drive, S3, Backblaze). GUI setup wizard, scheduled backups, no server. Protects Obsidian vault, deal docs, and contract archives from data loss. Nothing else in the found stack covers backup. Score 7.
+- **Tichau/FileConverter** (14,405★) — Right-click context menu file converter for Windows: images (HEIC→JPG, PNG→PDF), audio (M4A→MP3), video (MOV→MP4), documents. Zero extra workflow — right-click the file, pick output format, done. Converts seller iPhone photos, voice memos, and property clips without any app launch. Score 7.
+
+### Filtered
+**~93 repos** — C# is a Microsoft-stack language; top 100 is dominated by .NET frameworks, dev tools, gaming, and Windows power-user utilities:
+
+- **VPN/proxy clients:** v2rayN (106k★), shadowsocks-windows (59k★), netch (17k★) — technical networking setup required
+- **Dev frameworks, runtimes, compilers:** PowerShell (53k★), aspnetcore (37k★), dotnet/maui (23k★), dotnet/runtime (17k★), Avalonia (30k★), roslyn (20k★), efcore (14k★), MonoGame (13k★), orleans (10k★), csharplang (12k★), abp (14k★), aspnetboilerplate (11k★), mono (11k★), cefsharp (10k★), BenchmarkDotNet (11k★) — all developer tooling
+- **Dev libraries (never touch):** Dapper (18k★), Polly (14k★), QuestPDF (14k★), spectre.console (11k★), Newtonsoft.Json (11k★), Terminal.Gui (10k★), MediatR (11k★, note: listed under LuckyPennySoftware — likely EvanLi scraper attribution error; real repo is jbogard/MediatR), AutoMapper (10k★, same attribution oddity), MudBlazor (10k★) — .NET libraries, require coding
+- **Dev tools, docs, architecture references:** dnSpy (29k★), ILSpy (25k★), PEASS-ng (19k★, privilege escalation toolkit), Dependencies (11k★), winsw (13k★), AspNetCore.Docs (13k★), eShopOnContainers (24k★), eShopOnWeb (10k★), eShop (10k★), Clean Architecture templates ×2 (20k★+18k★), modular-monolith-with-ddd (13k★), awesome-dotnet-core (21k★), DotNetGuide (10k★), practical-aspnetcore (10k★), coding-horror/basic-computer-games (11k★) — developer reference only
+- **Gaming / entertainment apps:** SteamTools (25k★), osu (18k★), OpenRA (16k★), better-genshin-impact (13k★), ArchiSteamFarm (13k★), Playnite (13k★) — gaming, not work
+- **ML / game dev toolkits:** Unity-Technologies/ml-agents (19k★), WaveFunctionCollapse (25k★), UnityCsReference (12k★), Cysharp/UniTask (10k★) — game engine / ML dev
+- **Media download CLI tools:** N_m3u8DL-CLI (15k★, HLS/DASH CLI), BBDown (13k★, Bilibili CLI) — CLI-only; Motrix/Seal/lux already found
+- **Torrent/arr automation:** Jackett (15k★), Sonarr (13k★), Radarr (13k★) — technical media automation
+- **Windows activation tools:** CMWTAT_Digital_Edition (19k★), LKY_OfficeTools (11k★) — sketchy licensing territory, not work tools
+- **China-specific / irrelevant:** huiyadanli/RevokeMsgPatcher (37k★, WeChat/QQ patcher), xupefei/Locale-Emulator (11k★, regional simulation)
+- **Password server (already covered):** bitwarden/server (18k★) — server-side component, KeePassXC already found for client use
+- **Cosmetic / entertainment:** rocksdanister/lively (18k★, animated wallpapers), CodeHub iOS (22k★, GitHub iOS client for devs)
+- **Borderline filtered (score 5–6):**
+  - DevToys (31k★) — dev utilities collection, Adam not the audience
+  - UniGetUI (23k★) — GUI over package managers, still requires package management knowledge
+  - Flow.Launcher (14k★) — quick launcher for Windows; Wox (26k★) already found, same category
+  - Tyrrrz/YoutubeDownloader (15k★) — Windows YouTube GUI; Motrix+Seal+lux already cover downloads
+  - hellzerg/optimizer (18k★) + Winhance (10k★) — Windows system optimizers; PowerToys already qualifies as primary Windows utility; both are one-time cleaners, low ongoing value
+  - EverythingToolbar (14k★) — requires Everything search to be pre-installed; extra dependency layer
+  - ContextMenuManager (19k★) — cleans Windows right-click menu; power-user config, minor payoff
+  - DiscordChatExporter (11k★) — useful but not RE relevant
+  - EarTrumpet (11k★) — advanced volume control; minor quality-of-life
+  - ImageGlass (13k★) — image viewer; upscayl (already found) is more impactful
+  - Kavita (10k★) — reading server; not work-relevant
+  - mRemoteNG (10k★) — multi-protocol remote manager; RustDesk already found
+  - Notepads (10k★) — minimal text editor; marktext already found
+  - SubtitleEdit (12k★) — subtitle editor; niche
+  - PDFPatcher (12k★) — PDF bookmark/page editor; Stirling-PDF already found and more capable
+  - chocolatey/choco (11k★) — Windows package manager CLI; technical, score 4
+  - Captura (10k★) — screen capture; ShareX already found; Captura appears archived/unmaintained
+- **⚠️ Suspicious entry:** MiniMax-AI/skills (11,985★) — no description provided in EvanLi data. MiniMax is a real Chinese AI company but this repo pattern (account/skills, ~12k stars, no description) matches the synthetic Claude skills repo signature seen in TypeScript and Shell batches. Cannot verify; excluded from count.
+
+---
+
 ## EvanLi Top100/HTML.md -- 2026-05-20
 
 ### Found (7+)
