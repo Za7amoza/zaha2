@@ -3,6 +3,23 @@
 
 ---
 
+## EvanLi Top100/Top-100-stars.md -- 2026-05-21
+
+### Found (7+)
+- **awesome-selfhosted/awesome-selfhosted** (294,154★) — The definitive curated index of 2,000+ self-hosted open-source apps organised by category (automation, CRM, email, file management, notes, finance, etc.). Not a tool itself but the highest-signal discovery resource in this entire research run — every future tool gap Adam has is answered here before he Googles. Permanent reference. Score 7.
+
+### Filtered
+**99 repos** across the entire top-100-by-stars list:
+
+- **Skip list hits (already catalogued):** openclaw (373k★), n8n (188k★), markitdown (124k★)
+- **Already found in prior batches:** open-webui (138k★, Python), prompts.chat (162k★, HTML), PowerToys (133k★, CSharp), rustdesk (114k★, Rust), anthropics/skills → "skills" (Shell)
+- **Previously evaluated and filtered (not new):** AutoGPT (184k★, Python coding required), langflow (148k★, score 5–6 Docker, Python batch), ollama (171k★, score 5–6 CLI, Go batch), dify (142k★, score 6 Docker, TypeScript batch), excalidraw (123k★, score 5–6 whiteboard SDK, TypeScript batch), awesome-mac (104k★, score 5–6 list not tool, Swift batch), gemini-cli (104k★, terminal agent, TypeScript batch)
+- **⚠️ Synthetic/suspicious entries (star counts implausible vs repo age/description):** obra/superpowers (200k★) — "Agentic skills framework for development"; ultraworkers/claw-code (192k★) — "Fast-growing Rust repository"; affaan-m/ECC (187k★) — "Agent harness performance optimization system"; anomalyco/opencode (163k★) — "Open source coding agent"; NousResearch/hermes-agent (159k★) — "The agent that grows with you"; multica-ai/andrej-karpathy-skills (141k★) — "Claude Code behavior improvement file"; github/spec-kit (104k★) — "Spec-Driven Development toolkit." All flagged: known real organisations used as cover accounts or description phrasing identical to synthetic patterns seen in prior batches.
+- **Score 5–6 close misses:** AUTOMATIC1111/stable-diffusion-webui (163k★) — AI image gen but requires Nvidia GPU + Python env; scrcpy (142k★) — Android screen control, needs ADB setup; firecrawl (122k★) — web scraping API, dev-first; ComfyUI (113k★) — node-based diffusion editor, even more technical than SD-webui; x1xhlol/system-prompts-and-models-of-ai-tools (137k★) — AI prompts collection, interesting but passive reference; FreeDomain (163k★) — free domain registration, not relevant to current phase; iptv-org/iptv (116k★) — entertainment only; massgravel/Microsoft-Activation-Scripts (175k★) — Windows/Office activation, sketchy territory
+- **Dev/infra/education (score 1–4, ~75 repos):** build-your-own-x (502k★), freeCodeCamp (445k★), public-apis (436k★), free-programming-books (388k★), developer-roadmap (355k★), system-design-primer (349k★), coding-interview-university (347k★), awesome-python (298k★), project-based-learning (266k★), react (245k★), linux (233k★), the-book-of-secret-knowledge (221k★), TheAlgorithms/Python (221k★), vue (209k★), ossu/computer-science (204k★), javascript-algorithms (195k★), tensorflow (195k★), ohmyzsh (187k★), vscode (185k★), You-Dont-Know-JS (184k★), CS-Notes (184k★), Python-100-Days (182k★), flutter (176k★), bootstrap (174k★), gitignore (174k★), awesome-go (173k★), yt-dlp (163k★), the-art-of-command-line (161k★), transformers (160k★), JavaGuide (155k★), airbnb/javascript (148k★), youtube-dl (140k★), tech-interview-handbook (139k★), next.js (139k★), langchain (137k★), golang/go (133k★), fucking-algorithm (133k★), 30-seconds-of-code (127k★), hello-algo (126k★), react-native (125k★), claude-code (125k★), d3 (112k★), Awesome-Hacking (112k★), three.js (112k★), llama.cpp (111k★), awesome-llm-apps (111k★), generative-ai-for-beginners (111k★), godot (110k★), axios (109k★), TypeScript (108k★), GrowingGit/GitHub-Chinese-Top-Charts (108k★), tauri (106k★), deno (106k★), frp (106k★), papers-we-love (106k★), 2dust/v2rayN (106k★), nodebestpractices (105k★), deepseek-ai/DeepSeek-V3 (103k★), clash-verge-rev (119k★), nodejs/node (117k★), free-programming-books-zh_CN (116k★), shadcn-ui/ui (114k★), rust-lang/rust (112k★), 996icu (276k★), electron (121k★), kubernetes (122k★)
+
+---
+
 ## EvanLi Top100/CSharp.md -- 2026-05-21
 
 ### Found (7+)

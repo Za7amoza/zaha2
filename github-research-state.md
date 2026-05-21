@@ -1,7 +1,7 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-21 (CSharp batch)
+2026-05-21 (Top-100-stars batch)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
@@ -27,10 +27,16 @@
 | EvanLi Top100/CSS.md | ✅ SCANNED | 2026-05-20 | 100 repos, 3 found (awesome-obsidian, Learning-Prompt, tabula) |
 | EvanLi Top100/HTML.md | ✅ SCANNED | 2026-05-20 | 100 repos, 2 found; 3 flagged synthetic |
 | EvanLi Top100/CSharp.md | ✅ SCANNED | 2026-05-21 | 100 repos, 7 found; 1 flagged suspicious |
+| EvanLi Top100/Top-100-stars.md | ✅ SCANNED | 2026-05-21 | 100 repos, 1 found; 7 flagged synthetic |
 
 ## Next Unscanned Sources (in order)
-1. EvanLi Top100/Jupyter Notebook.md
-2. Any new githublb topic if access restored
+1. EvanLi Top100/Dart.md
+2. EvanLi Top100/PowerShell.md
+3. EvanLi Top100/MATLAB.md
+4. EvanLi Top100/R.md
+5. EvanLi Top100/Top-100-forks.md
+6. Any new githublb topic if access restored
+Note: Jupyter Notebook.md does not exist in EvanLi repo (confirmed 2026-05-21)
 
 ## Global Skip List (already found in prior sessions)
 MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB
@@ -80,5 +86,8 @@ prompts.chat, PakePlus
 ## New Finds (2026-05-21 CSharp batch)
 PowerToys, ShareX, ScreenToGif, QuickLook, Bulk-Crap-Uninstaller, duplicati, FileConverter
 
+## New Finds (2026-05-21 Top-100-stars batch)
+awesome-selfhosted
+
 ## Session Total Found
-70 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp Top 100)
+71 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars Top 100)
