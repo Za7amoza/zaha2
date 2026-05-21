@@ -3,6 +3,36 @@
 
 ---
 
+## EvanLi Top100/Dart.md -- 2026-05-21
+
+### Found (7+)
+- **localsend/localsend** (81,664★) — Cross-platform local file sharing with no internet, no cloud, no account — AirDrop-equivalent for any OS combination. Install on phone + laptop, share deal docs, contracts, and property photos instantly over local WiFi. Score 7.
+- **ente-io/ente** (26,549★) — End-to-end encrypted photo and file storage (Google Photos/iCloud replacement). Mobile + desktop apps, SaaS cloud included, no server to run. All property walkthrough photos stay private and backed up with no Big Tech access. Score 7.
+
+### Filtered
+**98 repos** — Dart is Flutter's language; top 100 is almost entirely Flutter framework tooling, developer libraries, mobile UI templates, and entertainment apps:
+
+- **Framework/SDK/language:** flutter (176k★), dart-lang/sdk (11k★), awesome-flutter (60k★), flutter/samples (19k★), flutter/plugins (17k★), flutter/gallery (6k★), flutter/packages (5k★) — core dev infrastructure
+- **Dev libraries/state management/routing:** felangel/bloc (12k★), jonataslaw/getx (11k★), rrousselGit/riverpod (7k★), rrousselGit/provider (5k★), firebase/flutterfire (9k★), cfug/dio (12k★), isar/hive (4k★), isar/isar (4k★), flame-engine/flame (10k★), imaNNeo/fl_chart (7k★), alibaba/fish-redux (7k★), alibaba/flutter_boost (7k★), OpenFlutter/flutter_screenutil (4k★), xuelongqy/flutter_easy_refresh (4k★), pichillilorenzo/flutter_inappwebview (3k★), lukepighetti/fluro (3k★), best-flutter/flutter_swiper (3k★), ReactiveX/rxdart (3k★), bdlukaa/fluent_ui (3k★), fzyzcjy/flutter_rust_bridge (5k★), sass/dart-sass (4k★) — developer-only libraries
+- **Dev learning/examples/templates:** Solido/awesome-flutter (60k★), alibaba/flutter-go (23k★), mitesh77/Best-Flutter-UI-Templates (22k★), iampawan/FlutterExampleApps (21k★), brianegan/flutter_architecture_samples (8k★), toly1994328/FlutterUnit (8k★), simplezhli/flutter_deer (8k★), nisrulz/flutter-examples (7k★), abuanwar072/Flutter-Responsive-Admin-Panel-or-Dashboard (7k★), vandadnp/flutter-tips-and-tricks (6k★), 2d-inc/HistoryOfEverything (6k★), iampawan/Flutter-UI-Kit (6k★), samarthagarwal/FlutterScreens (6k★), flutterchina/flukit (5k★), AweiLoveAndroid/Flutter-learning (5k★), Sky24n/flutter_wanandroid (5k★), OpenFlutter/Flutter-Notebook (7k★), FilledStacks/flutter-tutorials (4k★), lohanidamodar/flutter_ui_challenges (4k★), FlutterOpen/flutter-ui-nice (3k★), gskinnerTeam/flutter_vignettes (4k★), gskinnerTeam/flutter-folio (3k★), gskinnerTeam/flutter-wonderous-app (4k★), tortuvshin/open-source-flutter-apps (4k★), TheAlphamerc/flutter_twitter_clone (4k★), TheAlphamerc/flutter_ecommerce_app (3k★), LianjiaTech/bruno (3k★), roughike/inKino (3k★), abuanwar072/E-commerce-Complete-Flutter-UI (4k★), leoafarias/fvm (5k★), kaina404/FlutterDouBan (9k★), CarGuo/gsy_github_app_flutter (15k★) — all developer learning
+- **VPN/proxy/circumvention:** chen08209/FlClash (39k★), hiddify/hiddify-app (29k★), getlantern/lantern (15k★), KaringX/karing (11k★), KaringX/clashmi (7k★) — technical networking setup required
+- **Entertainment (video/music/manga/anime):** KRTirtho/spotube (46k★), Predidit/Kazumi (25k★), xiaoyaocz/dart_simple_live (15k★), bggRGjQaUbCoE/PiliPlus (14k★), guozhigq/pilipala (13k★), Notsfsssf/pixez-flutter (11k★), venera-app/venera (9k★), wgh136/PicaComic (8k★), ComicSparks/pikapika (8k★), ComicSparks/jasmine (5k★), jiangtian616/JHenTai (5k★), Sle2p/AniCh (4k★), namidaco/namida (5k★), miru-project/miru-app (5k★), harmonoid/harmonoid (4k★), gokadzev/Musify (3k★), UnicornsOnLSD/finamp (3k★), spotiflacapp/SpotiFLAC-Mobile (4k★) — entertainment only, not work
+- **Dev tools/infra:** wanghongenpin/proxypin (13k★, HTTP traffic capture), lollipopkit/flutter_server_box (7k★, server monitoring), bostrot/wsl2-distro-manager (3k★, WSL GUI), alesimula/wsa_pacman (4k★, WSA package manager) — technical
+- **Borderline filtered (score 5–6):**
+  - **AppFlowy-IO/AppFlowy** (70k★) — Notion alternative with AI; AFFiNE already found (68k★, TypeScript batch) covers same territory
+  - **Anxcye/anx-reader** (8k★) — E-book reader with AI; niche, not RE-specific
+  - **saber-notes/saber** (4k★) — Cross-platform handwriting notes; Adam has Obsidian
+  - **jameskokoska/Cashew** (4k★) — Mobile budget tracker; firefly-iii + maybe-finance already found
+  - **GitJournal/GitJournal** (4k★) — Git-backed mobile notes; Obsidian already covers notes
+  - **ImranR98/Obtainium** (17k★) — Android APK updates from GitHub; needs APK sideloading knowledge
+  - **BasedHardware/omi** (12k★) — AI screen observer; unclear if standalone app or requires hardware device
+  - **mylxsw/aidea** (6k★) — Multi-model AI app; cherry-studio (45k★) already found, more established
+  - **TheLastGimbus/GooglePhotosTakeoutHelper** (5k★) — One-time migration utility; limited ongoing value
+  - **bagisto/opensource-ecommerce-mobile-app** (15k★) — E-commerce; not RE wholesale relevant
+  - **deckerst/aves** (4k★) — Android gallery + metadata viewer; narrow scope
+
+---
+
 ## EvanLi Top100/Top-100-stars.md -- 2026-05-21
 
 ### Found (7+)

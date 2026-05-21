@@ -1,7 +1,7 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-21 (Top-100-stars batch)
+2026-05-21 (Dart batch)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
@@ -28,10 +28,10 @@
 | EvanLi Top100/HTML.md | ✅ SCANNED | 2026-05-20 | 100 repos, 2 found; 3 flagged synthetic |
 | EvanLi Top100/CSharp.md | ✅ SCANNED | 2026-05-21 | 100 repos, 7 found; 1 flagged suspicious |
 | EvanLi Top100/Top-100-stars.md | ✅ SCANNED | 2026-05-21 | 100 repos, 1 found; 7 flagged synthetic |
+| EvanLi Top100/Dart.md | ✅ SCANNED | 2026-05-21 | 100 repos, 2 found (localsend, ente) |
 
 ## Next Unscanned Sources (in order)
-1. EvanLi Top100/Dart.md
-2. EvanLi Top100/PowerShell.md
+1. EvanLi Top100/PowerShell.md
 3. EvanLi Top100/MATLAB.md
 4. EvanLi Top100/R.md
 5. EvanLi Top100/Top-100-forks.md
@@ -89,5 +89,8 @@ PowerToys, ShareX, ScreenToGif, QuickLook, Bulk-Crap-Uninstaller, duplicati, Fil
 ## New Finds (2026-05-21 Top-100-stars batch)
 awesome-selfhosted
 
+## New Finds (2026-05-21 Dart batch)
+localsend, ente
+
 ## Session Total Found
-71 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars Top 100)
+73 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart Top 100)
