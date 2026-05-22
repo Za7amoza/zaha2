@@ -3,6 +3,33 @@
 
 ---
 
+## EvanLi Top100/Top-100-forks.md -- 2026-05-22
+
+### Found (7+)
+- **ChatGPTNextWeb/NextChat** (88,065★) — Cross-platform AI chat assistant UI (Web, iOS, macOS, Android). Plug in any provider key (Claude, GPT-4, Gemini, DeepSeek) and get a clean, fast chat interface — no code needed. Hosted version at app.nextchat.dev requires zero setup; self-host via Vercel one-click if Adam ever wants his own. Beats browser tabs for AI work — persistent config, multiple conversations, custom system prompts baked in. Score 8.
+- **asgeirtj/system-prompts-and-models-of-ai-tools** (138,035★) — Collected and reverse-engineered system prompts from ChatGPT, Claude, Copilot, Grok, Gemini, Perplexity, and more. Not a runnable app but a reference vault: Adam can study how production AI tools are instructed and steal patterns for his own CLAUDE.md, skills, and agent prompts. For a Claude Code Agentic OS power user, this is the highest-leverage reading material. Score 7.
+
+### Filtered
+**98 repos** — Top-100-forks is dominated by:
+- **Course materials and coding exercises (~20 repos):** datasharing, ProgrammingAssignment2, ExData_Plotting1, RepData_PeerAssessment1, css-exercises, javascript-exercises, it-cert-automation-practice, JavaScript30, jbbmo-Introduction-to-Git-and-GitHub, patchwork, spring-petclinic, courses, simple-java-maven-app, mslearn-tailspin-spacegame-web, DO180-apps, dotfiles, swot — all tutorial/homework repos
+- **Educational mega-lists (~8 repos):** free-programming-books (388,698★), coding-interview-university (347,203★), developer-roadmap (355,217★), system-design-primer (349,742★), project-based-learning (266,318★), build-your-own-x (503,058★), JavaGuide (155,814★), free-programming-books-zh_CN (116,979★) — reference lists for programmers, not tools
+- **Web/app frameworks (~18 repos):** react, vue, angular, angular.js, next.js, bootstrap, flutter, ant-design, material-ui, spring-boot, spring-framework, django, three.js, node, create-react-app, pytorch, scikit-learn, transformers — developer infrastructure
+- **Language tooling and infra (~8 repos):** linux (kernel), cpython, git, kubernetes, vscode, github-readme-stats, gitignore, qmk_firmware, DefinitelyTyped
+- **Learning/style resources:** CS-Notes, Python-100-Days, Python (algorithms), javascript-algorithms, javascript (Airbnb style guide), You-Dont-Know-JS, Java-design-patterns, learning-area, awesome-python
+- **Borderline filtered (score 5–6):**
+  - **AutoGPT** (184,445★) — Autonomous AI agent platform. Vision is right but setup requires Python, Docker, and API key plumbing. Non-technical overhead too high vs. tools already found. Score 5.
+  - **stable-diffusion-webui** (163,206★) — AI image generation UI. Potentially useful for real estate marketing visuals but requires NVIDIA GPU + Python install. Cloud alternatives exist but this repo is self-host only. Score 6.
+  - **daily_stock_analysis** (38,351★) — LLM-powered stock market analysis. Finance-adjacent but focused on equity markets, not real estate. Score 5.
+  - **Home Assistant core** (87,179★) — Smart home automation with local control. Not relevant to wholesaling workflow. Score 5.
+- **Already in findings:** odoo (found Python batch)
+- **Skip list hits:** openclaw, n8n
+- **Synthetic/suspicious repos flagged:**
+  - **claw-code** (192,186★) — Description "The fastest repo in history to surpass 100K stars" is a marketing claim, not a product description. Likely synthetic star-farming repo (same pattern as openclaw). Filtered.
+  - **ECC** (188,227★) — "Agent harness performance optimization system" — vague name, no real project found at this description. Suspicious star count. Filtered.
+  - **Spoon-Knife, patchwork, websites, dio-lab-open-source** — demo/training repos with inflated forks from GitHub Education programs; not real projects.
+
+---
+
 ## EvanLi Top100/R.md -- 2026-05-22
 
 ### Found (7+)
