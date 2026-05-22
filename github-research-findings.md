@@ -3,6 +3,28 @@
 
 ---
 
+## EvanLi Top100/R.md -- 2026-05-22
+
+### Found (7+)
+*None.* All 100 repos score 1–3 (statistical computing / data science / bioinformatics). R's Top 100 is exclusively statistical packages, visualization libraries, and academic course materials — zero standalone apps for non-technical users.
+
+### Filtered
+**100 repos** — R is a statistical computing language; the entire top 100 is R packages, academic tutorials, and ML/bioinformatics research tools:
+
+- **Core R packages and data manipulation (~30 repos):** ggplot2 (6,932★), dplyr (5,025★), data.table (3,890★), tidyverse (1,791★), tidyr (1,429★), purrr (1,391★), ggstatsplot (2,182★), ggthemes (1,355★), ggrepel (1,256★), ggpubr (1,242★), ggraph (1,115★), ggforce (951★), gganimate (1,982★), gt (2,148★), broom (1,515★), janitor (1,446★), readr (1,032★), magrittr (970★), httr (982★), renv (1,148★), lintr (1,276★), box (964★), wesanderson (2,109★), patchwork (2,604★), bbplot (1,629★), hrbrthemes (1,344★), r-color-palettes (1,694★), MetBrewer (1,256★), paletteer (1,037★), see (946★) — all require R installation and programming knowledge
+- **ML and statistical inference packages (~20 repos):** caret (1,674★), mlr (1,680★), mlr3 (1,066★), brms (1,405★), rstan (1,078★), CausalImpact (1,830★), AnomalyDetection (3,609★), forecast (1,168★), easystats (1,153★), performance (1,141★), gtsummary (1,188★), clusterProfiler (1,204★), seurat (2,730★, single-cell genomics), benchm-ml (1,895★), rmarkdown (3,038★), knitr (2,452★), drake (1,342★), targets (1,077★), future (1,012★), sparklyr (969★, Spark interface) — all statistical/ML developer tools
+- **Academic course materials and textbooks (~15 repos):** stat_rethinking_2022/2023/2024 (4,104★/2,377★/1,788★), r4ds (5,055★), rethinking (2,382★), stats337 (1,614★), DataScienceR (2,132★), ML_for_Hackers (3,739★), statistics-for-data-scientists (1,222★), swirl_courses (4,550★, interactive R learning), swirl (1,212★), fasteR (1,146★), R/TheAlgorithms (1,143★), r-pkgs (944★, how to build R packages), labs (2,143★, HarvardX genomics) — all require R and statistics knowledge
+- **Bioinformatics / specialist science (~10 repos):** seurat (2,730★, single-cell RNA), clusterProfiler (1,204★, omics), ComplexHeatmap (1,496★), circlize (1,015★, circular viz), rnaseq_tutorial (1,422★), tofsims (1,495★, radiation analysis), MoRad (965★, radiation analysis), brms (1,405★, Bayesian), rstan (1,078★, Stan interface), rayshader (2,160★, 3D mapping in R) — highly specialist academic tools
+- **R developer tooling and infra:** devtools (2,509★), r-source (1,231★, R mirror), rstan, reticulate (1,748★, Python-R bridge), plumber (1,436★, R API server), shiny (5,651★, R web apps), advanced-shiny (1,218★), awesome-shiny-extensions (1,654★), mastering-shiny (1,378★), blogdown (1,788★, R website generator), vitae (1,268★, R Markdown CV generator), tinytex (1,122★, LaTeX in R), gptstudio (989★, GPT addins for RStudio), golem (939★, Shiny app framework) — all require R developer context
+- **Curated resource lists (R-specific, not tools):** awesome-R (6,460★), awesome-network-analysis (4,044★), r-color-palettes (1,694★), FriendsDontLetFriends (7,060★, data viz do's/don'ts guide) — reference lists for data professionals
+- **Data and course datasets:** palmerpenguins (1,008★, penguin dataset), nyc-taxi-data (2,071★, PostgreSQL/ClickHouse import scripts), geocompr (1,765★, R geocomputation book), investing (1,747★, market return charts in R), esquisse (1,849★, RStudio ggplot2 builder add-in), DiagrammeR (1,735★, network graphs in R), pointblank (1,033★, R data quality) — all require R to use
+- **Borderline filtered (score 3–4):**
+  - **vitae** (1,268★) — generates résumés from R Markdown. Score 3. Non-technical output but requires RStudio to author; LaTeX + R dependency chain is too heavy
+  - **investing** (1,747★) — market return visualizations from public data. Score 2. The charts exist as static images but tool itself requires R to regenerate
+  - **gptstudio** (989★) — GPT addins for RStudio. Score 3. AI integration but RStudio-only and R knowledge required; cherry-studio already found handles AI chat far better
+
+---
+
 ## EvanLi Top100/MATLAB.md -- 2026-05-21
 
 ### Found (7+)
