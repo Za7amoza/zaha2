@@ -1,7 +1,7 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-22 (Objective-C batch)
+2026-05-22 (Vim-script batch)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
@@ -34,11 +34,13 @@
 | EvanLi Top100/MATLAB.md | ✅ SCANNED | 2026-05-21 | 100 repos, 0 found |
 | EvanLi Top100/Top-100-forks.md | ✅ SCANNED | 2026-05-22 | 100 repos, 2 found; 2 flagged synthetic |
 | EvanLi Top100/Objective-C.md | ✅ SCANNED | 2026-05-22 | 100 repos, 1 found (KeepingYouAwake) |
+| EvanLi Top100/Vim-script.md | ✅ SCANNED | 2026-05-22 | 100 repos, 0 found |
 
 ## Next Unscanned Sources (in order)
-1. EvanLi Top100/VimL.md (likely dev-only, low priority)
-3. Any new githublb topic if access restored
+1. Any new githublb topic if access restored
+2. EvanLi Top100/Haskell.md (likely dev-only, low priority)
 Note: Jupyter Notebook.md does not exist in EvanLi repo (confirmed 2026-05-21)
+Note: VimL.md = Vim-script.md — confirmed 100% dev (scanned 2026-05-22)
 Note: All major language files in EvanLi repo are now exhausted; remaining candidates are niche languages
 
 ## Global Skip List (already found in prior sessions)
@@ -110,5 +112,8 @@ NextChat, system-prompts-and-models-of-ai-tools
 ## New Finds (2026-05-22 Objective-C batch)
 KeepingYouAwake
 
+## New Finds (2026-05-22 Vim-script batch)
+None
+
 ## Session Total Found
-77 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell + MATLAB + R + Top-100-forks + Objective-C Top 100)
+77 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell + MATLAB + R + Top-100-forks + Objective-C + Vim-script Top 100)

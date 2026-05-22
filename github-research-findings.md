@@ -3,6 +3,29 @@
 
 ---
 
+## EvanLi Top100/Vim-script.md -- 2026-05-22
+
+### Found (7+)
+*None.* All 100 repos score 1–2 (Vim editor plugins, config distributions, and color schemes). Vim-script's entire top 100 exists exclusively inside the text editor — zero standalone apps, zero non-technical tools.
+
+### Filtered
+**100 repos** — Every repository is either a Vim/Neovim plugin or a Vim configuration bundle:
+
+- **Editor forks and core repos (~3):** neovim (99,793★), vim (40,379★) — the editors themselves
+- **Plugin managers (~5):** vim-plug (35,663★), Vundle.vim (23,961★), vim-pathogen (12,129★), dein.vim (3,434★), neobundle.vim (2,282★) — manage Vim plugins
+- **Config distributions (~10):** vimrc/amix (31,763★), SpaceVim (20,269★), spf13-vim (15,512★), janus (7,846★), macvim (7,839★), vimplus (3,950★), k-vim (4,869★), space-vim (2,852★), dotfiles/ryanb (2,380★) — opinionated Vim setups
+- **File navigation/search plugins (~5):** nerdtree (20,081★), fzf.vim (10,190★), ctrlp.vim (7,239★), tagbar (6,215★), unite.vim (2,835★) — Vim-internal file navigation
+- **Status bar / UI plugins (~4):** vim-airline (17,948★), lightline.vim (6,866★), vim-powerline (2,849★), vim-startify (5,399★) — Vim visual chrome
+- **Color schemes (~15):** solarized (15,982★), gruvbox (15,520★), vim-colors-solarized (6,599★), molokai (3,625★), vim-colorschemes (3,460★), flatland (2,658★), onedark.vim (3,994★), everforest (4,023★), papercolor-theme (2,824★), iceberg.vim (2,364★), vim/nordtheme (2,580★), gruvbox-material (2,569★), awesome-vim-colorschemes (2,903★) — visual themes inside Vim
+- **Language/syntax support plugins (~10):** vim-go (16,228★), ale (13,989★), syntastic (11,225★), vim-lsp (3,389★), copilot.vim (11,601★), windsurf.vim (5,121★), vim-javascript (3,790★), python-mode (5,470★), rust.vim (4,158★), vim-rails (4,150★), emmet-vim (6,462★) — language tooling inside Vim
+- **Motion/editing plugins (~12):** vim-surround (14,070★), vim-easymotion (7,739★), vim-multiple-cursors (7,951★), vim-visual-multi (4,843★), vim-sneak (3,511★), vim-easy-align (4,237★), auto-pairs (4,199★), tabular (2,656★), vim-commentary (6,156★), vim-unimpaired (3,452★), vim-abolish (2,943★), vim-repeat (2,704★) — editing motions inside Vim
+- **Dev integration / workflow plugins (~10):** vim-fugitive (21,622★), vim-gitgutter (8,497★), vimwiki (9,405★), vim-dadbod (4,376★), vimspector (4,307★), vim-test (3,154★), vim-dispatch (2,733★), neomake (2,674★), vim-autoformat (2,270★), vim-floaterm (2,650★) — dev workflow inside Vim
+- **Misc editor UX (~15):** goyo.vim (4,680★, distraction-free), limelight.vim (2,446★), undotree (4,531★), vim-instant-markdown (2,753★), vim-devicons (5,809★), vim-markdown (4,802★), indentLine (4,127★), vim-polyglot (5,714★), vim-sensible (5,289★), vim-signify (2,724★), vim-indent-guides (2,656★), supertab (3,199★), editorconfig-vim (3,168★), ack.vim (3,090★), neocomplete.vim (2,727★), CoVim (2,927★, collaborative editing) — all Vim-internal
+- **Reference/guides:** vim-galore (17,849★), vim-galore-zh_cn (10,642★), use_vim_as_ide (9,179★), til (14,094★, dev TIL — not a tool)
+- **Misc infra:** vim.wasm (5,625★, Vim in browser — novelty), codi.vim (3,058★, interactive scratchpad — dev only), vimux (2,274★, Vim+tmux bridge — dev only), vim-table-mode (2,236★, table creation in Vim — dev only)
+
+---
+
 ## EvanLi Top100/Top-100-forks.md -- 2026-05-22
 
 ### Found (7+)
