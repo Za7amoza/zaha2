@@ -3,6 +3,25 @@
 
 ---
 
+## EvanLi Top100/Haskell.md -- 2026-05-22
+
+### Found (7+)
+*None.* All 100 repos score 1–4 (Haskell programming language tooling exclusively). No standalone apps, no no-code tools, nothing useful for a non-developer.
+
+### Filtered
+**100 repos** — Entire list is Haskell-ecosystem dev infrastructure:
+
+- **Compilers & language tools (~20):** pandoc (44,275★), shellcheck (39,471★), ghc (3,250★), purescript (8,867★), elm compiler (7,786★), ghcjs (2,618★), haste-compiler (1,482★), elm-format (1,330★), clash-compiler (1,597★) — compilers, transpilers, static analysis
+- **Web frameworks & servers (~8):** postgrest (27,147★), ihp (5,286★), yesod (2,711★), scotty (1,768★), miso (2,400★), servant (1,955★), hakyll (2,854★), gitit (2,263★) — dev web tooling
+- **Dev linters & formatters (~5):** hadolint (12,158★), hlint (1,594★), nixfmt (1,506★), ormolu (1,059★), shellcheck-style tools — code quality for devs
+- **Academic / research / PL theory (~15):** agda (2,853★), unison (6,628★), Carp (5,915★), Kind (3,744★), Idris-dev (3,473★), liquidhaskell (1,309★), dex-lang (1,683★), futhark (2,730★), grenade (1,452★) — academic PLs and theorem provers
+- **Blockchain / crypto infra (~5):** cardano-sl (3,759★), cardano-node (3,181★), plutus (1,637★), echidna (3,134★), dapptools (2,125★) — Cardano ecosystem
+- **Haskell learning resources (~8):** fp-course (4,237★), awesome-haskell (3,276★), write-you-a-haskell (3,474★), wiwinwlh (2,662★), haskell-trainings (1,408★), haskell-must-watch (1,144★), course-plan (1,559★), real-world-haskell-cn (1,576★) — Haskell education
+- **Window manager / desktop infra (~3):** xmonad (3,577★), kmonad (4,985★), greenclip (1,518★) — Linux power-user tools
+- **Honorable mentions (scored 5–6, still filtered):** simplex-chat (11,138★, score 6) — private messenger with mobile apps but technical setup required; hledger (4,502★, score 4) — plain-text accounting CLI; taskell (1,777★, score 4) — Kanban CLI; gifcurry (1,435★, score 4) — GIF video editor
+
+---
+
 ## EvanLi Top100/Vim-script.md -- 2026-05-22
 
 ### Found (7+)
