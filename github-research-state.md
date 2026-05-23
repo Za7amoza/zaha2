@@ -1,7 +1,7 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-23 (Clojure batch)
+2026-05-23 (CoffeeScript batch)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
@@ -37,12 +37,12 @@
 | EvanLi Top100/Vim-script.md | ✅ SCANNED | 2026-05-22 | 100 repos, 0 found |
 | EvanLi Top100/Haskell.md | ✅ SCANNED | 2026-05-22 | 100 repos, 0 found |
 | EvanLi Top100/ActionScript.md | ✅ SCANNED | 2026-05-23 | 100 repos, 0 found |
+| EvanLi Top100/CoffeeScript.md | ✅ SCANNED | 2026-05-23 | 100 repos, 0 found |
 | EvanLi Top100/Clojure.md | ✅ SCANNED | 2026-05-23 | 100 repos, 2 found (metabase, logseq) |
 
 ## Next Unscanned Sources (in order)
 1. Any new githublb topic if access restored (both agentic-workflow and agentic-framework still 403 as of 2026-05-23)
-2. EvanLi Top100/CoffeeScript.md
-4. EvanLi Top100/DM.md
+2. EvanLi Top100/DM.md
 5. EvanLi Top100/Groovy.md
 6. EvanLi Top100/Julia.md
 7. EvanLi Top100/Perl.md
@@ -127,6 +127,9 @@ None
 None
 
 ## New Finds (2026-05-23 ActionScript batch)
+None
+
+## New Finds (2026-05-23 CoffeeScript batch)
 None
 
 ## New Finds (2026-05-23 Clojure batch)

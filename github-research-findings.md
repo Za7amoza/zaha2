@@ -3,6 +3,26 @@
 
 ---
 
+## EvanLi Top100/CoffeeScript.md -- 2026-05-23
+
+### Found (7+)
+
+*None.* CoffeeScript is a programming language — its entire top 100 consists of developer tools, UI libraries, build systems, and frameworks. Zero repos score 7+ for Adam.
+
+### Filtered
+
+**100 repos** — 100% developer/technical:
+
+- **Language tooling (~8 repos):** coffeescript (16,579★), CoffeeScriptRedux (1,831★), js2coffee (2,081★), coffeelint (1,203★), cson (1,344★), coffeekup (1,245★), eco (1,697★), omelette (1,407★) — CoffeeScript compilers, linters, tools
+- **Web animation/UI libraries (~10 repos):** mojs (18,698★), dynamics.js (7,555★), oriDomi (2,416★), sticky-kit (2,881★), jquery.shapeshift (1,654★), jquery.payment (3,509★), At.js (5,250★), bootstrap-tour (4,416★), please-wait (1,582★), jquery.turbolinks (997★) — dev libraries
+- **Dev frameworks/tools (~20 repos):** chaplin (2,832★), pow (3,405★), wintersmith (3,484★), docpad (3,052★), roots (1,448★), lineman (1,168★), zappa (943★), bone.io (852★), turbolinks-classic (3,518★), stitch (1,040★), engine (2,854★), camo (1,868★), aglio (4,754★), pivottable (4,440★), cyclotron (1,544★), dispatch-proxy (3,490★), pushd (1,157★), node-rtsp-rtmp-server (1,100★), adbkit (878★), node-neo4j (924★) — infra/dev
+- **Bot/automation (dev-required):** hubot-scripts (3,549★), hubot-slack (2,339★), qqbot (1,435★) — requires Hubot setup/coding
+- **Browser extensions (discontinued):** SwitchyOmega (22,531★), VimFx (1,432★), vim-mode (1,711★), 4chan-x (1,119★) — browser/dev tools
+- **Node.js libraries (~15 repos):** node-xml2js (4,966★), node-cache (2,375★), vibrant.js (4,597★), aurora.js (1,275★), psd.js (2,846★), kartograph.js (1,500★), xml-builder-js (926★), json-diff (1,206★), longjohn (840★), sloc (969★), node-slug (1,072★), yaml.js (887★), webgl-heatmap (915★), pt (912★), BuckyClient (1,724★) — all dev libraries
+- **Misc dev tools:** morris.js (6,884★), zxcvbn (15,963★), repl.it (1,350★), Keypress (3,159★), caniuse-cmd (1,642★), octonode (1,189★), xmlbuilder-js (926★), dnschain (1,730★), dploy (969★), gulp-cheatsheet (1,371★), badges (1,207★), atom-beautify (1,503★), git-time-machine (1,111★), pretty-error (1,524★), angular-masonry (1,106★), apparatus (1,052★), shadowsocks-gui (1,997★), cloudtunes (2,503★), yakyak (3,762★) — dev/deprecated tools
+
+---
+
 ## EvanLi Top100/Clojure.md -- 2026-05-23
 
 ### Found (7+)
