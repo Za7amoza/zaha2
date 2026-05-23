@@ -3,6 +3,36 @@
 
 ---
 
+## EvanLi Top100/Clojure.md -- 2026-05-23
+
+### Found (7+)
+
+- **metabase** (47,413★) — [github.com/metabase/metabase](https://github.com/metabase/metabase) — Score 7. Open-source business intelligence + analytics with a point-and-click UI (no SQL required). Self-host, connect a spreadsheet or DB, get dashboards. Adam could pipe deal pipeline data in and track conversion metrics without dev skills. Active, 47k stars.
+- **logseq** (43,023★) — [github.com/logseq/logseq](https://github.com/logseq/logseq) — Score 8. Privacy-first, local-first knowledge management with bidirectional linking and graph view — essentially the open-source twin of Obsidian. Adam is already deep in Obsidian; Logseq covers the same use case with built-in task management, journals, and PDF annotation. Worth knowing as an alternative or for comparing workflows.
+
+### Filtered
+
+**98 repos** — Clojure Top 100 is almost entirely Clojure-language developer tooling:
+
+- **Clojure compiler/runtime ecosystem (~12 repos):** clojurescript (9,385★), babashka (4,511★), leiningen (7,309★), boot (1,748★), shadow-cljs (2,397★), lumo (1,875★), ClojureDart (1,620★), lein-figwheel (2,877★), clj-kondo (1,840★), clojure-lsp (1,312★), cljfmt (1,216★), closh (1,628★) — all require writing Clojure code
+- **UI / web frameworks (~10 repos):** re-frame (5,533★), reagent (4,869★), om (6,631★), fulcro (1,605★), electric (2,117★), pedestal (2,769★), HumbleUI (1,682★), compojure (4,113★), ring (3,876★), reitit (1,570★) — developer UI libraries
+- **Databases / data engines (~8 repos):** datascript (5,761★), xtdb (2,996★), datahike (1,831★), datalevin (1,424★), honeysql (1,897★), yesql (1,497★), Korma (1,471★), carmine (1,182★) — infra/dev
+- **Distributed systems / infra (~6 repos):** jepsen (7,390★), riemann (4,264★), onyx (2,051★), cascalog (1,373★), swarmpit (3,440★), maelstrom (3,592★) — infra/dev
+- **Dev libraries / tooling (~40 repos):** schema (2,458★), malli (1,730★), core.async (2,047★), instaparse (2,811★), specter (2,617★), aleph (2,587★), sente (1,786★), core.logic (1,499★), clara-rules (1,231★), enlive (1,619★), hiccup (2,849★), cheshire (1,551★), clj-http (1,823★), lacinia (1,857★), plumbing (1,501★), kibit (1,758★), timbre (1,483★), Midje (1,698★), integrant (1,350★), mount (1,259★), component (2,157★), friend (1,152★), liberator (1,260★), sci (1,357★), criterium (1,225★), core.match (1,217★), core.typed (1,313★), test.check (1,147★), garden (1,362★), transit-format (1,910★), mori (3,371★), incanter (2,249★), hitchhiker-tree (1,216★), libpython-clj (1,202★), duct (1,153★), ultra (1,235★), chestnut (1,306★), drake (1,486★), seesaw (1,486★) — all dev-only
+- **Learning / educational (~5 repos):** clojure-koans (3,801★), modern-cljs (2,909★), clojure-cookbook (2,616★), awesome-clojure (2,821★), cortex (1,269★, ML) — dev learning
+- **Creative / niche (~4 repos):** overtone (6,183★, music programming), quil (3,046★, creative coding), Arcadia (1,685★, Clojure in Unity), dactyl-manuform (1,604★, DIY keyboard) — not wholesaling relevant
+- **Borderline filtered (score 4–6):**
+  - **FiraCode** (81,645★) — Programming font; dev productivity only, no wholesaling value
+  - **penpot** (48,241★) — Open-source design/prototyping tool; requires design workflow, not relevant for Adam's use case
+  - **athens** (6,301★) — Score 6; Roam Research clone (collaborative knowledge graph), but project is archived/unmaintained since 2023 — Logseq is the better live alternative
+  - **GokuRakuJoudo** (1,396★) — Karabiner config for Mac power users; niche keyboard remapping, score 3
+  - **konstellate** (1,459★) — Kubernetes GUI; infra tool, score 2
+  - **clerk** (2,053★) — Clojure notebook; dev-only, score 2
+  - **status-legacy** (4,013★) — Ethereum mobile OS; crypto dev, score 2
+  - **code-maat** (2,590★) — Git repo mining; dev analytics, score 2
+
+---
+
 ## EvanLi Top100/ActionScript.md -- 2026-05-23
 
 ### Found (7+)

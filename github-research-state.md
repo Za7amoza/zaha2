@@ -1,7 +1,7 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-23 (ActionScript batch)
+2026-05-23 (Clojure batch)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
@@ -37,11 +37,11 @@
 | EvanLi Top100/Vim-script.md | ✅ SCANNED | 2026-05-22 | 100 repos, 0 found |
 | EvanLi Top100/Haskell.md | ✅ SCANNED | 2026-05-22 | 100 repos, 0 found |
 | EvanLi Top100/ActionScript.md | ✅ SCANNED | 2026-05-23 | 100 repos, 0 found |
+| EvanLi Top100/Clojure.md | ✅ SCANNED | 2026-05-23 | 100 repos, 2 found (metabase, logseq) |
 
 ## Next Unscanned Sources (in order)
 1. Any new githublb topic if access restored (both agentic-workflow and agentic-framework still 403 as of 2026-05-23)
-2. EvanLi Top100/Clojure.md
-3. EvanLi Top100/CoffeeScript.md
+2. EvanLi Top100/CoffeeScript.md
 4. EvanLi Top100/DM.md
 5. EvanLi Top100/Groovy.md
 6. EvanLi Top100/Julia.md
@@ -129,5 +129,8 @@ None
 ## New Finds (2026-05-23 ActionScript batch)
 None
 
+## New Finds (2026-05-23 Clojure batch)
+metabase, logseq
+
 ## Session Total Found
-77 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell + MATLAB + R + Top-100-forks + Objective-C + Vim-script + Haskell + ActionScript Top 100)
+79 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell + MATLAB + R + Top-100-forks + Objective-C + Vim-script + Haskell + ActionScript + Clojure Top 100)
