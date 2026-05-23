@@ -1,7 +1,7 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-23 (CoffeeScript batch)
+2026-05-23 (DM + Groovy + Julia + Perl + TeX batch — EvanLi COMPLETE)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
@@ -39,17 +39,24 @@
 | EvanLi Top100/ActionScript.md | ✅ SCANNED | 2026-05-23 | 100 repos, 0 found |
 | EvanLi Top100/CoffeeScript.md | ✅ SCANNED | 2026-05-23 | 100 repos, 0 found |
 | EvanLi Top100/Clojure.md | ✅ SCANNED | 2026-05-23 | 100 repos, 2 found (metabase, logseq) |
+| EvanLi Top100/DM.md | ✅ SCANNED | 2026-05-23 | 100 repos, 0 found — 100% SS13 game codebases |
+| EvanLi Top100/Groovy.md | ✅ SCANNED | 2026-05-23 | 100 repos, 0 found — 100% Gradle/Jenkins/DevOps |
+| EvanLi Top100/Julia.md | ✅ SCANNED | 2026-05-23 | 100 repos, 0 found — 100% scientific computing packages |
+| EvanLi Top100/Perl.md | ✅ SCANNED | 2026-05-23 | 100 repos, 0 found — 100% sysadmin/security/dev tools |
+| EvanLi Top100/TeX.md | ✅ SCANNED | 2026-05-23 | 100 repos, 0 found — 100% academic papers/LaTeX templates |
 
-## Next Unscanned Sources (in order)
-1. Any new githublb topic if access restored (both agentic-workflow and agentic-framework still 403 as of 2026-05-23)
-2. EvanLi Top100/DM.md
-5. EvanLi Top100/Groovy.md
-6. EvanLi Top100/Julia.md
-7. EvanLi Top100/Perl.md
-8. EvanLi Top100/TeX.md
+## ✅ EvanLi Top100 COMPLETE — All 41 language/list files fully scanned as of 2026-05-23
 Note: Jupyter Notebook.md does not exist in EvanLi repo (confirmed 2026-05-21)
-Note: VimL.md = Vim-script.md — confirmed 100% dev (scanned 2026-05-22)
-Note: All 36 language/list files in EvanLi Top100 now inventoried; 8 minor-language files remain unscanned (Clojure, CoffeeScript, DM, Groovy, Julia, Perl, TeX + ActionScript scanned 2026-05-23 = 0 found)
+Note: VimL.md = Vim-script.md (same file)
+Note: Both githublb.vercel.app sources remain 403 — no remaining sources in the original task list
+
+## Next Unscanned Sources
+⚠️ ALL original sources from the task list are now exhausted:
+- githublb.vercel.app/topic/agentic-workflow — ❌ FAILED (403, 3 attempts)
+- githublb.vercel.app/topic/agentic-framework — ❌ FAILED (403, 3 attempts)
+- EvanLi Top100: all 41 files ✅ COMPLETE
+
+**Recommend new source discovery** for future sessions.
 
 ## Global Skip List (already found in prior sessions)
 MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB
@@ -135,5 +142,9 @@ None
 ## New Finds (2026-05-23 Clojure batch)
 metabase, logseq
 
+## New Finds (2026-05-23 DM + Groovy + Julia + Perl + TeX batch)
+None — 500 repos scanned, 0 qualify
+
 ## Session Total Found
-79 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell + MATLAB + R + Top-100-forks + Objective-C + Vim-script + Haskell + ActionScript + Clojure Top 100)
+79 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell + MATLAB + R + Top-100-forks + Objective-C + Vim-script + Haskell + ActionScript + CoffeeScript + Clojure + DM + Groovy + Julia + Perl + TeX)
+EvanLi Top100 research COMPLETE: 41 language/list files, ~4,100 repos reviewed, 79 qualifying tools found.

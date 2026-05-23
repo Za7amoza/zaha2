@@ -3,6 +3,28 @@
 
 ---
 
+## EvanLi Top100 — DM + Groovy + Julia + Perl + TeX -- 2026-05-23
+
+### Found (7+)
+
+*None.* Five language lists scanned. All 500 repos score 1–4. Zero qualifying tools for Adam.
+
+### Filtered
+
+**500 repos total** across five languages — all dev/infra/academic:
+
+**DM (100 repos)** — DM is BYOND's in-game scripting language. The *entire* top 100 is Space Station 13 server codebases — a community-run sci-fi roleplaying game. No standalone apps, no productivity tools. Largest: tgstation (1,895★), Paradise (446★), Baystation12 (422★), goonstation (396★). Score 1–2 across all 100.
+
+**Groovy (100 repos)** — Groovy is a JVM scripting language used almost exclusively for Gradle build scripts and Jenkins CI pipelines. The entire list is Gradle plugins, Jenkins pipeline tools, and DevOps infra. Largest: gradle (18,577★), devops-resources (9,537★), rundeck (6,120★). Score 1–3 across all 100. One borderline: **openboxes** (841★, supply-chain management for healthcare) but requires Java server + dev setup — filtered.
+
+**Julia (100 repos)** — Julia is a scientific computing language. The entire list is ML frameworks, differential equations solvers, Bayesian inference packages, quantum computing libraries, and academic course materials. All require Julia installation and domain expertise. Largest: julia (48,729★, the language itself), Flux.jl (4,727★), DifferentialEquations.jl (3,103★). Score 1–3 across all 100.
+
+**Perl (100 repos)** — Perl is a sysadmin/text-processing language. The top 100 is network monitoring tools, security scanners, database admin scripts, and developer utilities. All require CLI/server access. Largest: cloc (23,066★), FlameGraph (19,497★), diff-so-fancy (18,025★), nikto (10,388★, web vulnerability scanner), exiftool (4,702★). Score 1–3 across all 100. One marginal close miss: **git-it-electron** (4,875★) — desktop app for learning Git/GitHub but that's a developer education tool, score 4.
+
+**TeX (100 repos)** — TeX/LaTeX is a typesetting language. The entire list is academic textbooks, ML research paper PDFs, university thesis templates, and LaTeX learning guides. All are read-only documents or require LaTeX installation to generate content. Largest: deeplearningbook-chinese (37,273★), libpku (33,589★), Awesome-CV (27,557★, LaTeX CV template). Score 1–3 across all 100. Marginal filtered: **resumake.io** (3,560★, web-based LaTeX resume generator) — score 5, too niche for current priority since Adam has career-ops; **the-sourdough-framework** (3,565★) — open-source bread-baking book, zero wholesaling relevance.
+
+---
+
 ## EvanLi Top100/CoffeeScript.md -- 2026-05-23
 
 ### Found (7+)
