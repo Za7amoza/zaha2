@@ -3,6 +3,32 @@
 
 ---
 
+## EvanLi Top100/ActionScript.md -- 2026-05-23
+
+### Found (7+)
+*None.* All 100 repos score 1–3. ActionScript is Adobe Flash's language — the entire top 100 is dead-tech game engines, Flash libraries, and animation tooling. Flash reached end-of-life in December 2020; no maintained end-user applications survive in this list.
+
+### Filtered
+**100 repos** — ActionScript Top 100 is 100% Flash/game-dev infrastructure:
+
+- **Game engines & frameworks (~25 repos):** Starling-Framework (3,053★), flixel (1,142★), Citrus-Engine (552★), FlashPunk (394★), Flashbang (205★), Ash (452★), Starling extensions ×5 — all require ActionScript/Flash to develop with; Flash runtime dead since 2020
+- **Game source code / open-source games (~15 repos):** VVVVVV (7,964★, puzzle-platformer), Anodyne-1-Repo (386★), Hungry-Hero (165★), red-rogue (149★), kingdom (205★), MMORPG (246★), ElonaPlusCustom-GX (164★), glitch-client (180★) — game source dumps, not apps
+- **AS3 developer libraries (~30 repos):** as3corelib (1,501★), as3-signals (1,063★), robotlegs-framework (962★), GreenSock-AS3 (422★), as3-utils (273★), flexunit (270★), BulkLoader (268★), SwiftSuspenders (278★), hamcrest-as3 (176★), mockolate (144★), promise-as3 (167★), FlashSocket.IO (210★), AS3WebSocket (251★), fzip (184★), purePDF (140★), swiz-framework (225★), flexlib (203★) — Flash developer infrastructure
+- **Flash asset / export tools (~8 repos):** Fanvas (551★, Flash→HTML5 canvas), Zoe (335★, spritesheet from SWF), flump (385★, Flash animations→GPU), grapefrukt-export (198★), SWFWire (255★), as3swf (529★, SWF parser), AutoAni (170★), DragonBonesAS (250★) — Flash tooling, all obsolete
+- **Media / 3D rendering engines (~8 repos):** away3d-core-fp11 (642★), Alternativa3D (382★), Papervision3D (238★), GPUImage (171★), standingwave3 (161★) — Flash 3D/GPU rendering, dead tech
+- **Advocacy / petition:** open-source-flash (7,319★) — GitHub petition to open-source Flash, not a tool
+- **Educational / game assets:** mapgen2 (1,367★, game map generator), glitch-avatars (213★), glitch-items (182★), books (187★, repo of book PDFs)
+- **Borderline filtered (score 3–4):**
+  - **boscaceoil** (594★) — music composition app built in Flash; charming but Flash-based and no longer maintained since Terry Cavanagh archived it
+  - **mBlock** (329★) — Scratch-based visual programming for robotics; educational but requires Flash runtime
+  - **scratch-flash** (1,358★) — Scratch 2.0 editor open-source; superseded by Scratch 3.0 (JavaScript)
+  - **Spike** (321★) — CGM transmitter app for diabetics; medical niche, not RE relevant
+  - **Weave** (368★) — web data visualization platform; requires dev setup
+  - **ovmeet** (219★) — video conferencing platform; Flash-era, dead tech
+  - **Moonshine-IDE** (136★) — IDE for ActionScript; score 3, developer tool
+
+---
+
 ## EvanLi Top100/Haskell.md -- 2026-05-22
 
 ### Found (7+)

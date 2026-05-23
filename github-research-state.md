@@ -1,13 +1,13 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-22 (Haskell batch)
+2026-05-23 (ActionScript batch)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
 |--------|--------|------|-------|
-| githublb.vercel.app/topic/agentic-workflow | ❌ FAILED | 2026-05-19 | HTTP 403 Forbidden (retried x3) |
-| githublb.vercel.app/topic/agentic-framework | ❌ FAILED | 2026-05-19 | HTTP 403 Forbidden (retried x3) |
+| githublb.vercel.app/topic/agentic-workflow | ❌ FAILED | 2026-05-23 | HTTP 403 Forbidden (retried 2026-05-19, 2026-05-23) |
+| githublb.vercel.app/topic/agentic-framework | ❌ FAILED | 2026-05-23 | HTTP 403 Forbidden (retried 2026-05-19, 2026-05-23) |
 | EvanLi Top100/Scala.md | ✅ SCANNED | 2026-05-18 | 100 repos, 0 found |
 | EvanLi Top100/Lua.md | ✅ SCANNED | 2026-05-18 | 100 repos, 0 found |
 | EvanLi Top100/Elixir.md | ✅ SCANNED | 2026-05-18 | 100 repos, 0 found |
@@ -36,13 +36,20 @@
 | EvanLi Top100/Objective-C.md | ✅ SCANNED | 2026-05-22 | 100 repos, 1 found (KeepingYouAwake) |
 | EvanLi Top100/Vim-script.md | ✅ SCANNED | 2026-05-22 | 100 repos, 0 found |
 | EvanLi Top100/Haskell.md | ✅ SCANNED | 2026-05-22 | 100 repos, 0 found |
+| EvanLi Top100/ActionScript.md | ✅ SCANNED | 2026-05-23 | 100 repos, 0 found |
 
 ## Next Unscanned Sources (in order)
-1. Any new githublb topic if access restored (both agentic-workflow and agentic-framework still 403 as of 2026-05-22)
-2. EvanLi Top100 — all major language files exhausted; consider EvanLi/Github-Ranking README or other lists
+1. Any new githublb topic if access restored (both agentic-workflow and agentic-framework still 403 as of 2026-05-23)
+2. EvanLi Top100/Clojure.md
+3. EvanLi Top100/CoffeeScript.md
+4. EvanLi Top100/DM.md
+5. EvanLi Top100/Groovy.md
+6. EvanLi Top100/Julia.md
+7. EvanLi Top100/Perl.md
+8. EvanLi Top100/TeX.md
 Note: Jupyter Notebook.md does not exist in EvanLi repo (confirmed 2026-05-21)
 Note: VimL.md = Vim-script.md — confirmed 100% dev (scanned 2026-05-22)
-Note: All major language files in EvanLi repo are now exhausted including Haskell (confirmed 100% dev-only)
+Note: All 36 language/list files in EvanLi Top100 now inventoried; 8 minor-language files remain unscanned (Clojure, CoffeeScript, DM, Groovy, Julia, Perl, TeX + ActionScript scanned 2026-05-23 = 0 found)
 
 ## Global Skip List (already found in prior sessions)
 MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB
@@ -119,5 +126,8 @@ None
 ## New Finds (2026-05-22 Haskell batch)
 None
 
+## New Finds (2026-05-23 ActionScript batch)
+None
+
 ## Session Total Found
-77 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell + MATLAB + R + Top-100-forks + Objective-C + Vim-script + Haskell Top 100)
+77 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell + MATLAB + R + Top-100-forks + Objective-C + Vim-script + Haskell + ActionScript Top 100)
