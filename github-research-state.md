@@ -1,7 +1,7 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-24 (github.com/topics/no-code — 40 repos, 8 found)
+2026-05-24 (github.com/topics/productivity — 60 repos, 12 found)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
@@ -10,6 +10,7 @@
 | githublb.vercel.app/topic/agentic-framework | ❌ FAILED | 2026-05-23 | HTTP 403 Forbidden (retried 2026-05-19, 2026-05-23, 2026-05-24) |
 | github.com/topics/agentic-ai | ✅ SCANNED | 2026-05-24 | 20 repos, 4 found (dify, AutoGPT, agenticSeek, MaxKB); 3 flagged synthetic |
 | github.com/topics/no-code | ✅ SCANNED | 2026-05-24 | 40 repos (2 pages), 8 found (automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic); 6 already on skip list |
+| github.com/topics/productivity | ✅ SCANNED | 2026-05-24 | 60 repos (3 pages), 12 found (claudian, super-productivity, Personal_AI_Infrastructure, rowboat, inbox-zero, claude-code-tips, awesome-agent-skills, excalidraw, activitywatch, espanso, ChatGPT-Shortcut, Dayflow); 2 flagged synthetic |
 | EvanLi Top100/Scala.md | ✅ SCANNED | 2026-05-18 | 100 repos, 0 found |
 | EvanLi Top100/Lua.md | ✅ SCANNED | 2026-05-18 | 100 repos, 0 found |
 | EvanLi Top100/Elixir.md | ✅ SCANNED | 2026-05-18 | 100 repos, 0 found |
@@ -55,13 +56,13 @@ Note: Both githublb.vercel.app sources remain 403 (retried 2026-05-24)
 ## Next Unscanned Sources
 Suggested new sources for future sessions:
 - github.com/topics/no-code ✅ SCANNED 2026-05-24
-- github.com/topics/productivity (untried) ← NEXT
-- github.com/topics/automation (untried)
+- github.com/topics/productivity ✅ SCANNED 2026-05-24
+- github.com/topics/automation (untried) ← NEXT
 - github.com/topics/agentic-workflow (untried — note: different from githublb.vercel.app)
 - awesome-selfhosted filtered list (already in finds; drill into sub-categories)
 
 ## Global Skip List (already found in prior sessions)
-MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB, Flowise, dify, AutoGPT, agenticSeek, MaxKB, automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic
+MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB, Flowise, dify, AutoGPT, agenticSeek, MaxKB, automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic, claudian, super-productivity, rowboat, inbox-zero, excalidraw, activitywatch, espanso, ChatGPT-Shortcut
 
 ## New Finds (2026-05-18 Python batch)
 awesome-claude-skills, odoo, open-webui, open-interpreter, MoneyPrinterTurbo
@@ -153,7 +154,10 @@ dify, AutoGPT, agenticSeek, MaxKB
 ## New Finds (2026-05-24 github.com/topics/no-code)
 automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic
 
+## New Finds (2026-05-24 github.com/topics/productivity)
+claudian, super-productivity, danielmiessler/Personal_AI_Infrastructure, rowboat, inbox-zero, claude-code-tips, awesome-agent-skills, excalidraw, activitywatch, espanso, ChatGPT-Shortcut, Dayflow
+
 ## Session Total Found
-91 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell + MATLAB + R + Top-100-forks + Objective-C + Vim-script + Haskell + ActionScript + CoffeeScript + Clojure + DM + Groovy + Julia + Perl + TeX + github-topics-agentic-ai + github-topics-no-code)
+103 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell + MATLAB + R + Top-100-forks + Objective-C + Vim-script + Haskell + ActionScript + CoffeeScript + Clojure + DM + Groovy + Julia + Perl + TeX + github-topics-agentic-ai + github-topics-no-code + github-topics-productivity)
 EvanLi Top100 research COMPLETE: 41 language/list files, ~4,100 repos reviewed, 79 qualifying tools found.
-github.com/topics/* research IN PROGRESS: 2 topics scanned (agentic-ai + no-code), 12 total found (2026-05-24).
+github.com/topics/* research IN PROGRESS: 3 topics scanned (agentic-ai + no-code + productivity), 24 total found (2026-05-24).

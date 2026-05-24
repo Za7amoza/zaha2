@@ -3,6 +3,46 @@
 
 ---
 
+## github.com/topics/productivity -- 2026-05-24
+
+*60 repos scored across 3 pages. 1 on skip list (khoj). 1 already in findings (ShareX). 2 flagged synthetic (see below). 12 new qualifying tools found.*
+
+### Found (7+)
+
+- **YishenTu/claudian** (11,800★) — Score **9**. Obsidian plugin that embeds Claude Code as a live AI collaborator inside your vault — Claude reads, searches, and writes your notes without leaving Obsidian. Direct bridge between Adam's 246-note vault and his Claude Code agentic OS. THE most relevant Claude Code + Obsidian integration available. If Adam is already using both tools, this merges them.
+
+- **super-productivity** (19,600★) — [github.com/johannesjo/super-productivity](https://github.com/johannesjo/super-productivity) — Score **8**. Advanced todo list with timeboxing, time tracking, and Jira/GitHub/GitLab integrations. ADHD-designed: tasks can't sprawl — they get time-boxed. Pomodoro built in. Real estate angle: track call sessions, cap time per deal, log daily prospecting output. Free, desktop + web, zero code. Arguably the most ADHD-compatible open-source task manager that exists.
+
+- **danielmiessler/Personal_AI_Infrastructure** (14,400★) — Score **8**. Daniel Miessler's personal agentic AI setup — his actual prompts, configs, and architecture for using AI to amplify human capabilities, not just answer questions. Not software to install but a living reference blueprint. Directly relevant for Adam building his own Claude Code agentic OS: steal what applies, skip what doesn't. Real person, real usage.
+
+- **rowboatlabs/rowboat** (14,300★) — Score **8**. Open-source AI coworker with persistent memory — designed to function as a perpetual work partner across sessions, not a single-query chatbot. Relevant for building a deal memory layer: stores what Adam knows about sellers, tracks follow-up timing, remembers context between calls. Self-host or cloud.
+
+- **elie222/inbox-zero** (10,900★) — Score **8**. Open-source AI email assistant targeting inbox zero. Auto-categorizes, bulk-unsubscribes, archives low-priority mail, and drafts replies. If Adam's real estate comms flow through Gmail, this is a direct upgrade — reduces email processing time from daily grind to minutes. Actively maintained.
+
+- **ykdojo/claude-code-tips** (8,500★) — Score **8**. Curated tips and techniques for Claude Code usage and workflow efficiency — not a library but actionable guidance. Directly useful for Adam's agentic OS: what to expect, how to prompt effectively, known pitfalls. The author (ykdojo) makes Claude Code tutorials publicly.
+
+- **heilcheng/awesome-agent-skills** (5,100★) — Score **8**. Directory of tutorials and agent skills for AI automation. Supplements Adam's existing awesome-claude-code-subagents research — surfaces reusable skills for non-dev tasks like web research, email drafting, and file management.
+
+- **excalidraw/excalidraw** (124,000★) — Score **7**. Virtual whiteboard with hand-drawn aesthetic — browser-based, no login required. Useful for mapping deal pipelines visually, sketching call scripts, or laying out a seller's situation before a negotiation. Free, instant, works anywhere.
+
+- **ActivityWatch/activitywatch** (17,700★) — Score **7**. Automated local time tracker — runs silently and shows exactly where computer time goes. ADHD-relevant: reveals distraction patterns, protects focus blocks, gives honest data on actual work time vs. perceived. No cloud, privacy-first, free.
+
+- **espanso/espanso** (13,900★) — Score **7**. Cross-platform text expander — type a short trigger, get a full template. Real estate wholesaling angle: type `:offer` → full cash offer template, `:followup` → follow-up script, `:objection1` → price objection response. Zero code to configure (YAML). Massive time-saver for repetitive outreach.
+
+- **rockbenben/ChatGPT-Shortcut** (8,500★) — Score **7**. AI prompt shortcut manager — curated prompts organized by role and task. Browse, copy, and organize prompts for AI workflows. Useful for building Adam's prompt library: deal analysis, seller conversation frameworks, email drafts. Works with any AI, not just ChatGPT.
+
+- **JerryZLiu/Dayflow** (6,000★) — Score **7**. Automatic AI work journal — logs what you worked on and generates a private timeline. ADHD accountability tool: end-of-day summary of what actually got done vs. what was planned. Local-first, AI-generated, no manual input needed.
+
+### Filtered
+
+**46 repos** — dev/ML/infra/shell/CLI/browser-dev: ohmyzsh (187k★), rtk-ai/rtk (53k★), it-tools (39k★), yazi (38k★), plotly/dash (24k★), nnn (21k★), waveterm (20k★), Kap (19k★), screenity (18k★), awesome-python-applications (17k★), omnivore (16k★), Bash-it (15k★), Flow-Launcher (14k★), Zettlr (13k★), shell_gpt (12k★), nyxt (10k★), Loop/macOS-window-mgmt (10k★), omni-tools (9k★), Mac-CLI (9k★), nb/CLI-notes (8k★), vicinae (7k★), omni/Chrome-ext (7k★), oh-my-bash (7k★), opencommit (7k★), jrnl (7k★), massCode (6k★), linearmouse (6k★), passbolt_api (5k★), Clipboard-mgr (5k★), ponzu-cms (5k★), tuist/iOS (5k★), jira-cli (5k★), OctoLinker (5k★), planify/GNOME (5k★), tasks/Android (5k★), MeetingBar/macOS (5k★), pomotroid (5k★), notion-enhancer (5k★), PasteMD (4k★), nylas-mail (24k★ — abandoned), files-community/Files (43k★ — Windows file mgr), drawnix (13k★ — whiteboard clone), notesnook (14k★ — encrypted notes, niche fit)
+
+**2 flagged synthetic** — star counts inconsistent with project scope:
+- affaan-m/ECC (190k★) — "agent harness performance optimization for Claude Code" — 190k would rank it among GitHub's most-starred repos ever; description is generic; almost certainly inflated.
+- DayuanJiang/next-ai-draw-io (29k★) — Next.js + draw.io fork; 29k for a niche single-integration project is implausible; skip.
+
+---
+
 ## github.com/topics/no-code -- 2026-05-24
 
 *40 repos scored across 2 pages. 6 already on skip list (n8n, dify, nocodb, AnythingLLM, Flowise, ToolJet). 26 filtered as dev/infra. 8 new qualifying tools found.*
