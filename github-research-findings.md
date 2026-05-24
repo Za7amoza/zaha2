@@ -3,6 +3,38 @@
 
 ---
 
+## github.com/topics/automation -- 2026-05-24
+
+*60 repos scored across 3 pages. 8 already on skip list (n8n, dify, huginn, career-ops, sim, maxun, automatisch, MoneyPrinterTurbo). 3 flagged synthetic. 5 new qualifying tools found.*
+
+### Found (7+)
+
+- **AutomaApp/automa** (21,300★) — Score **8**. Browser extension for no-code browser automation via visual block connections. Zero code: drag blocks, set triggers, chain actions. Real estate angle: automate repetitive web tasks — check Zillow listings, fill CRM forms, copy-paste data from sites, monitor leads. Chrome/Firefox, totally free. One of the cleanest no-code automation tools that works inside the browser itself, no server needed.
+
+- **enescingoz/awesome-n8n-templates** (22,400★) — Score **8**. 280+ free ready-to-use n8n workflow templates covering Gmail, Telegram, Slack, Discord, WhatsApp, and more. Since n8n is already a known find, this is the shortcut library for it — skip building workflows from scratch. Import a template, connect accounts, done. Real estate angle: pre-built email follow-up chains, lead notification routing, CRM sync automations.
+
+- **assafelovic/gpt-researcher** (27,300★) — Score **7**. Autonomous AI research agent — give it a question, it deep-dives the web and returns a full structured research report. No code to run it (web UI available). Real estate angle: research comps in a zip code, pull info on a seller's neighborhood, analyze market trends for a pitch. Saves hours of manual Googling per deal.
+
+- **Skyvern-AI/skyvern** (21,700★) — Score **7**. AI that navigates and automates real browser workflows — fills forms, extracts data, clicks through multi-step flows, without writing code. YC-backed, actively maintained. Real estate angle: automate lead list scraping, property data extraction, form submissions to county portals. Non-technical: describe the task, Skyvern does it.
+
+- **nanobrowser/nanobrowser** (13,000★) — Score **7**. Open-source Chrome extension giving an AI agent control of your browser — similar to Skyvern but runs locally in the extension. Non-technical: type what you want done, the agent browses and does it. Real estate angle: pull comps, check multiple listing sites, monitor price drops on target properties. No server, no code — just install and use.
+
+### Flagged Synthetic (star counts implausible for repo type)
+
+- **ComposioHQ/awesome-claude-skills** (61,600★) — Actual Composio repo is ~10k stars; 61.6k for a curated list is suspicious. Skip.
+- **wshobson/agents** (35,900★) — "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI" — 35.9k for a niche CLI marketplace is implausible. Skip.
+- **Yeachan-Heo/oh-my-claudecode** (34,700★) — "Teams-first multi-agent orchestration for Claude Code" — 34.7k for a Claude Code orchestration tool is implausible. Skip.
+
+### Filtered
+
+49 repos filtered — reason breakdown:
+- **Dev/infra/testing tools (score 1-2):** puppeteer, playwright, airflow, bruno, fastlane, vagrant, kestra, watchtower, Tasmota, semantic-release, crawlee, prefect, appium, appium, Auto.js, undetected-chromedriver, Detox, webhook, robotframework, RD-Agent, awx, trigger.dev, phantomjs, hammerspoon, ArchiSteamFarm
+- **Gaming/social bots (score 1-3):** InstaPy, ArchiSteamFarm, MoneyPrinterV2, MoneyPrinter (YouTube Shorts), ai-goofish-monitor
+- **Score 4-6 / requires dev setup:** appsmith, Jobs_Applier_AI_Agent_AIHawk, leon, Obtainium, AutoHotkey, Archon, taipy, googleworkspace/cli, posting, ai-website-cloner-template, Panniantong/Agent-Reach
+- **Already on skip list:** n8n, dify, huginn, career-ops, sim, maxun, automatisch, MoneyPrinterTurbo
+
+---
+
 ## github.com/topics/productivity -- 2026-05-24
 
 *60 repos scored across 3 pages. 1 on skip list (khoj). 1 already in findings (ShareX). 2 flagged synthetic (see below). 12 new qualifying tools found.*

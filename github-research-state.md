@@ -1,13 +1,14 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-24 (github.com/topics/productivity — 60 repos, 12 found)
+2026-05-24 (github.com/topics/automation — 60 repos, 5 found; 3 flagged synthetic)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
 |--------|--------|------|-------|
 | githublb.vercel.app/topic/agentic-workflow | ❌ FAILED | 2026-05-23 | HTTP 403 Forbidden (retried 2026-05-19, 2026-05-23, 2026-05-24) |
 | githublb.vercel.app/topic/agentic-framework | ❌ FAILED | 2026-05-23 | HTTP 403 Forbidden (retried 2026-05-19, 2026-05-23, 2026-05-24) |
+| github.com/topics/automation | ✅ SCANNED | 2026-05-24 | 60 repos (3 pages), 5 found (automa, awesome-n8n-templates, gpt-researcher, skyvern, nanobrowser); 3 flagged synthetic |
 | github.com/topics/agentic-ai | ✅ SCANNED | 2026-05-24 | 20 repos, 4 found (dify, AutoGPT, agenticSeek, MaxKB); 3 flagged synthetic |
 | github.com/topics/no-code | ✅ SCANNED | 2026-05-24 | 40 repos (2 pages), 8 found (automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic); 6 already on skip list |
 | github.com/topics/productivity | ✅ SCANNED | 2026-05-24 | 60 repos (3 pages), 12 found (claudian, super-productivity, Personal_AI_Infrastructure, rowboat, inbox-zero, claude-code-tips, awesome-agent-skills, excalidraw, activitywatch, espanso, ChatGPT-Shortcut, Dayflow); 2 flagged synthetic |
@@ -57,12 +58,14 @@ Note: Both githublb.vercel.app sources remain 403 (retried 2026-05-24)
 Suggested new sources for future sessions:
 - github.com/topics/no-code ✅ SCANNED 2026-05-24
 - github.com/topics/productivity ✅ SCANNED 2026-05-24
-- github.com/topics/automation (untried) ← NEXT
-- github.com/topics/agentic-workflow (untried — note: different from githublb.vercel.app)
+- github.com/topics/automation ✅ SCANNED 2026-05-24
+- github.com/topics/agentic-workflow (untried — note: different from githublb.vercel.app) ← NEXT
+- github.com/topics/ai-agent (untried)
+- github.com/topics/personal-productivity (untried)
 - awesome-selfhosted filtered list (already in finds; drill into sub-categories)
 
 ## Global Skip List (already found in prior sessions)
-MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB, Flowise, dify, AutoGPT, agenticSeek, MaxKB, automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic, claudian, super-productivity, rowboat, inbox-zero, excalidraw, activitywatch, espanso, ChatGPT-Shortcut
+MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB, Flowise, dify, AutoGPT, agenticSeek, MaxKB, automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic, claudian, super-productivity, rowboat, inbox-zero, excalidraw, activitywatch, espanso, ChatGPT-Shortcut, automa, gpt-researcher, skyvern, nanobrowser
 
 ## New Finds (2026-05-18 Python batch)
 awesome-claude-skills, odoo, open-webui, open-interpreter, MoneyPrinterTurbo
@@ -157,7 +160,10 @@ automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic
 ## New Finds (2026-05-24 github.com/topics/productivity)
 claudian, super-productivity, danielmiessler/Personal_AI_Infrastructure, rowboat, inbox-zero, claude-code-tips, awesome-agent-skills, excalidraw, activitywatch, espanso, ChatGPT-Shortcut, Dayflow
 
+## New Finds (2026-05-24 github.com/topics/automation)
+automa, awesome-n8n-templates, gpt-researcher, skyvern, nanobrowser
+
 ## Session Total Found
-103 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell + MATLAB + R + Top-100-forks + Objective-C + Vim-script + Haskell + ActionScript + CoffeeScript + Clojure + DM + Groovy + Julia + Perl + TeX + github-topics-agentic-ai + github-topics-no-code + github-topics-productivity)
+108 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell + MATLAB + R + Top-100-forks + Objective-C + Vim-script + Haskell + ActionScript + CoffeeScript + Clojure + DM + Groovy + Julia + Perl + TeX + github-topics-agentic-ai + github-topics-no-code + github-topics-productivity + github-topics-automation)
 EvanLi Top100 research COMPLETE: 41 language/list files, ~4,100 repos reviewed, 79 qualifying tools found.
 github.com/topics/* research IN PROGRESS: 3 topics scanned (agentic-ai + no-code + productivity), 24 total found (2026-05-24).
