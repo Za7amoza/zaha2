@@ -916,3 +916,44 @@
 - **Dev education:** draveness/analyze (8k★, iOS analysis blog), Aufree/trip-to-iOS (7.9k★, iOS resource list)
 - **Borderline filtered (score 5–6):** Hammerspoon (15k★, macOS Lua automation — requires Lua scripting, score 6); mac-mouse-fix (10k★, makes any mouse feel Apple-quality — score 6, hardware-specific); MacPass (6.9k★, native macOS KeePass — score 6, but keepassxc already found); lemon-cleaner (6.2k★, Tencent macOS cleaner — score 5, Tencent product, Chinese UI); keycastr (14k★, keystroke visualizer for screen recording — score 5, niche presentation tool); Sequel-Ace (7.4k★, MySQL GUI — dev only); SequelPro (9.2k★, MySQL GUI — dev only); Sloth (8.9k★, open files viewer — dev/power user); TrollStore (21k★, iOS sideloading — requires jailbreak-adjacent setup)
 
+---
+
+## github.com/topics/agentic-workflow -- 2026-05-24
+
+*60 repos scored across 3 pages. 4 already on skip list (dify 142k★, Flowise 53k★, sim 28.6k★, claude-code-tips 8.5k★). 3 flagged synthetic. 8 new qualifying tools found.*
+
+### Found (7+)
+
+- **ModelEngine-Group/nexent** (4,700★) — Score **9**. Zero-code platform that auto-generates production-grade AI agents from plain descriptions. You describe what the agent should do; the platform builds it — no code required. Supports multi-agent orchestration, tool connections, and knowledge bases through a GUI. Real estate angle: spin up a lead-research agent, a deal-screening assistant, or a follow-up reminder bot entirely by describing it. No Python, no config files. Genuinely non-technical entry point to custom AI agents.
+
+- **rush86999/atom** (751★) — Score **9**. Atom Agent — talk to an AI that remembers everything, searches your context, and executes workflows autonomously. Say "remind me to follow up with John on Friday about the Phoenix deal" and it handles memory + scheduling. Designed for personal productivity with persistent long-term memory across sessions. Real estate angle: deal memory, task routing, follow-up management — all conversational. No code required to operate.
+
+- **alirezarezvani/claude-code-tresor** (713★) — Score **9**. A curated collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts — all prebuilt for non-technical deployment via Claude Code. Direct upgrade to Adam's agentic OS: import skills, chain agents, and extend Claude Code's capabilities without writing a single line of code. The "tresor" (treasury) framing signals it's a living collection, not a one-shot repo.
+
+- **matthiasn/lotti** (1,100★) — Score **8**. Open-source private logbook with a local agentic layer. Long-living AI agents read what you record throughout the day and proactively suggest what to do next. ADHD-relevant: turns unstructured notes into structured action proposals without manual organization. Local-first and private. Real estate angle: log calls and observations → agent synthesizes follow-ups and surfaces stalled deals. No cloud, no subscriptions.
+
+- **metorial/metorial** (3,300★) — Score **8**. Connects any AI model (Claude, GPT, Gemini) to 1,200+ integrations via MCP, CLI, or API — without writing integration code. Think of it as the MCP middleware layer: point your Claude Code setup at Metorial and it can talk to calendars, CRMs, email, Slack, Notion, and hundreds of other services. Real estate angle: unlock tool connectivity for Claude's agentic workflows without hand-wiring each integration. Cuts setup time dramatically.
+
+- **jim-schwoebel/awesome_ai_agents** (1,800★) — Score **7**. Comprehensive curated list of 1,500+ AI agent resources, tools, frameworks, and tutorials. Organized by category (memory, planning, reasoning, tools, multi-agent). Not a tool to run — a discovery map. For Adam: fastest way to surface adjacent tools not yet in this research. Check the "productivity" and "no-code" subcategories first. Updated regularly.
+
+- **principia-ai/WriteHERE** (923★) — Score **7**. Open-source AI writing project providing a collaborative writing environment powered by AI agents. Handles long-form content with structure, continuity, and editing suggestions. Real estate angle: drafting seller outreach letters, offer summaries, or deal memos — structured writing assistance without a paid Jasper/Copy.ai subscription. Locally hosted, private.
+
+- **a5c-ai/babysitter** (803★) — Score **7**. Babysitter enforces structured obedience on agentic workforces and enables them to manage extremely complex multi-step tasks reliably. Designed for when Claude Code or similar agents go off-rails on long tasks. For Adam's agentic OS: keeps autonomous agent runs on track, enforces task boundaries, and prevents agent drift during unattended execution. Practical reliability layer for complex workflows.
+
+### Flagged Synthetic (star counts implausible for repo scope)
+
+- **ruvnet/ruflo** (54,800★) — "Leading agent orchestration platform for Claude" — same ruvnet synthetic pattern already flagged in the agentic-ai entry above (1,489 automated releases). Star count fabricated.
+- **shanraisshan/claude-code-best-practice** (54,700★) — Same author also has codex-cli-best-practice at 800★; wildly inconsistent. Guide repos don't hit 54k. Already flagged in agentic-ai entry.
+- **NevaMind-AI/memU** (13,700★) — "Memory for 24/7 proactive agents like OpenClaw" — explicitly references OpenClaw, which is already on the global skip list as a synthetic/inflated repo. High probability of being part of the same manufactured ecosystem.
+
+### Filtered
+
+**49 repos** — dev frameworks, ML research, orchestration infra, coding agents, language SDKs:
+
+- **Already on skip list:** dify (142k★), Flowise (53k★), sim (28.6k★), claude-code-tips (8.5k★)
+- **Dev/infra frameworks (score 1–3):** daytonaio/daytona (72.5k★ AI code infra), bytedance/deer-flow (69.4k★ SuperAgent for coding), ag-ui-protocol/ag-ui (13.8k★ agent-UI protocol), The-Pocket/PocketFlow (10.7k★ LLM framework), kyegomez/swarms (6.7k★ multi-agent SDK), rllm-org/rllm (5.6k★ RL for LLMs), FellouAI/eko (4.9k★ agentic workflow builder — requires dev setup), SolaceLabs/solace-agent-mesh (4.6k★ event-driven agent framework), algorithmicsuperintelligence/optillm (4k★ LLM inference proxy), Netflix/maestro (3.8k★ workflow orchestrator), dagucloud/dagu (3.4k★ YAML workflow engine), antoinezambelli/forge (1.8k★ Python LLM framework), prefect-archive/ControlFlow (1.4k★ agent control framework), dbos-inc/dbos-transact-py (1.4k★ durable Python workflows), dbos-inc/dbos-transact-ts (1.2k★ durable TS workflows), standardagents/dmux (1.6k★ git worktree agent multiplexer), google/adk-java (1.6k★ Java AI agent SDK), covibes/zeroshot (1.5k★ engineering CLI agent), Dicklesworthstone/agentic_coding_flywheel (1.5k★ VPS dev environment setup), microsoft/Trace (737★ generative optimization for agents), lofcz/LLMTornado (612★ .NET AI agent library), evolution-foundation/evo-ai (591★ agent creation platform — low traction)
+- **ML/AI research (score 1–2):** asinghcsu/AgenticRAG-Survey (1.6k★ research survey), thinkwee/AgentsMeetRL (1.4k★ RL+agents paper list), ombharatiya/ai-system-design-guide (593★ ML systems design), Bessouat40/RAGLight (662★ RAG framework), gmickel/flow-next (616★ spec-driven dev workflow plugin)
+- **Dev education/courses (score 3–4):** Marktechpost/AI-Agents-Projects-Tutorials (2.6k★ multi-agent tutorial repo), neural-maze/ava-whatsapp-agent-course (1.7k★ WhatsApp agent course — course, not tool), neural-maze/philoagents-course (1.5k★ philosophy+AI course), shanraisshan/codex-cli-best-practice (800★ vibe coding guide)
+- **Game/simulation (score 1):** 4thfever/cultivation-world-simulator (1.7k★ Xianxia world game)
+- **Low-code but dev-adjacent (score 5–6):** ModelEngine-Group/app-platform (1.4k★ low-code LLM app engineering — requires some config), eigent-ai/eigent (14.1k★ cowork desktop — unverifiable star count, borderline synthetic), kevinluosl/deepbot (2.3k★ Feishu-specific AI assistant — language/platform barrier), hesamsheikh/octogent (1.1k★ Claude Code orchestration dashboard — dev-headspace framing), DeepMyst/Mysti (1.1k★ VS Code coding agents — IDE-specific), formkit/formkit (4.7k★ form framework for coding agents — dev tool), modu-ai/moai-adk (1k★ Claude Code dev kit — TDD/DDD framing too technical), vm0-ai/vm0 (1.1k★ AI teammate — vague, low traction), GreenSheep01201/claw-empire (1.2k★ AI agent office simulator — references "claw" ecosystem, likely connected to OpenClaw synthetic cluster), romainsimon/paperasse (2k★ French accounting agents — language barrier), splx-ai/agentic-radar (972★ LLM security scanner — dev/security tool), bergside/awesome-design-skills (942★ design skill files — designer tool), PolyArch/humanize (800★ idea-to-realization framework — vague/research), alirezarezvani/claude-code-tresor ✅ FOUND above, rush86999/atom ✅ FOUND above
+
