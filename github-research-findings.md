@@ -3,6 +3,46 @@
 
 ---
 
+## github.com/topics/agentic-ai -- 2026-05-24
+
+*New source — all 6 original task sources exhausted (githublb.vercel.app persistent 403; EvanLi Top100 all 41 files complete). 20 repos scored.*
+
+### Found (7+)
+
+- **dify** (142,000★) — [github.com/langgenius/dify](https://github.com/langgenius/dify) — Score **9**. No-code/low-code AI workflow and agent builder with a drag-and-drop canvas. Build chatbots, RAG pipelines, and multi-step AI workflows without writing code — 50+ prebuilt tool connectors (web search, document processing, image generation). Could build a deal-sourcing assistant, objection-handler chatbot, or automated follow-up pipeline entirely through the UI. One of the most polished no-code AI platforms on GitHub. Self-hostable.
+
+- **AutoGPT** (184,000★) — [github.com/Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) — Score **7**. AI agent platform with a low-code visual block editor; deploy continuous agents that automate complex multi-step workflows. Has a hosted cloud version (no self-hosting required). Select from pre-built agent templates or compose custom ones. Founded the "autonomous AI agent" category in 2023 — mature, well-maintained. Slightly technical for self-hosting but the hosted option lowers the barrier.
+
+- **agenticSeek** (26,400★) — [github.com/Fosowl/agenticSeek](https://github.com/Fosowl/agenticSeek) — Score **6**. Fully local AI agent for autonomous web browsing, research, and task execution — no API keys, no ongoing costs. Useful for ad-hoc deal research or prospecting without burning API credits. Setup requires local install (Docker), so it's borderline for non-devs, but the zero-API-cost angle is a genuine advantage.
+
+- **MaxKB** (21,000★) — [github.com/1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) — Score **6**. Open-source platform for building internal AI knowledge-base assistants from documents. Upload your call scripts, objection handlers, or deal criteria → deploy a chatbot that answers from your own material. GUI-driven, aimed at business users. Self-hostable. Borderline technical to set up but no ongoing coding needed.
+
+### Flagged Synthetic (suspicious star inflation — verify before using)
+
+- **RuView** (64,700★) — `ruvnet/RuView`: WiFi-to-spatial-intelligence tool. The star count is implausible for the repo's scope and follows the same ruvnet pattern as ruflo below. Flag and skip.
+- **ruflo** (54,500★) — `ruvnet/ruflo`: "Agent orchestration for Claude" with 1,489 releases (automated release-pumping). Genuine projects rarely exceed 50–100 releases. Star count is almost certainly inflated.
+- **claude-code-best-practice** (54,600★) — `shanraisshan/claude-code-best-practice`: A best-practices guide with 54.6k stars is not credible. Real documentation repos at this scale take years to accumulate.
+
+### Filtered
+
+**16 repos** — dev/ML/infra or already found, score 1–4:
+
+- **Flowise** (53k) — *ALREADY FOUND* (TypeScript batch, 2026-05-19)
+- **RAGFlow** (81.1k) — RAG + vector engine; requires infra setup, technical configuration. Score 3.
+- **ai-agents-for-beginners** (65.3k) — Microsoft 12-lesson AI agents course. Educational resource, not a deployable tool. Score 4.
+- **agents** (35.8k) — `wshobson/agents`: "Claude Code plugin marketplace" with suspicious star count for the repo's age/scope. Flagged as likely synthetic; also dev-tool category even if real. Score 3.
+- **PageIndex** (32k) — Vectorless RAG document indexing engine; technical infra. Score 2.
+- **CopilotKit** (31.7k) — React + Angular frontend library for embedding AI in web apps. Developer tool. Score 2.
+- **agents-course** (28.8k) — HuggingFace agents course. Course content, not a tool. Score 3.
+- **composio** (28.4k) — SDK powering tool integrations for AI agents; developer SDK. Score 3.
+- **crush** (24.6k) — Charmbracelet's agentic coding CLI (TUI-based). Developer coding tool. Score 3.
+- **adk-python** (19.8k) — Google's Python SDK for building AI agents. Requires Python/coding. Score 2.
+- **keploy** (17.4k) — API testing + production sandbox platform. Dev/QA tool. Score 2.
+- **agent-lightning** (17.2k) — Microsoft RL training framework for AI agents. ML infra. Score 1.
+- **RagaAI-Catalyst** (16.2k) — Python SDK for agent observability and monitoring. Dev SDK. Score 2.
+
+---
+
 ## EvanLi Top100 — DM + Groovy + Julia + Perl + TeX -- 2026-05-23
 
 ### Found (7+)
