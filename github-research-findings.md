@@ -3,6 +3,62 @@
 
 ---
 
+## github.com/topics/no-code -- 2026-05-24
+
+*40 repos scored across 2 pages. 6 already on skip list (n8n, dify, nocodb, AnythingLLM, Flowise, ToolJet). 26 filtered as dev/infra. 8 new qualifying tools found.*
+
+### Found (7+)
+
+- **automatisch** (13,900★) — [github.com/automatisch/automatisch](https://github.com/automatisch/automatisch) — Score **8**. Open-source Zapier alternative — drag-and-drop visual automation between apps with no code. Connect CRM, email, Google Sheets, Twilio, WhatsApp, and 100+ services into trigger-action workflows. Real estate angle: auto-route inbound leads from a web form → Google Sheet → SMS notification → CRM entry, zero API keys needed. Self-hostable, perpetual free. Closest open-source equivalent to Zapier.
+
+- **simstudioai/sim** (28,600★) — [github.com/simstudioai/sim](https://github.com/simstudioai/sim) — Score **8**. Visual AI agent builder — drag-and-drop canvas to compose multi-step AI workflows and deploy autonomous agents. Describes itself as "the central intelligence layer for your AI workforce." No code required for assembly; models are swappable. Relevant for building a deal-research agent, a follow-up drip agent, or a CRM-feeding pipeline. Cloud + self-host.
+
+- **getmaxun/maxun** (15,600★) — [github.com/getmaxun/maxun](https://github.com/getmaxun/maxun) — Score **8**. No-code web scraping and AI data extraction platform. Point-and-click to define what to scrape; exports to spreadsheets or webhooks. Real estate wholesaling angle: scrape Zillow FSBO listings, probate court public records, or foreclosure feeds without writing code. Converts scraped data to structured tables. Directly useful for list-building.
+
+- **teable** (21,300★) — [github.com/teableio/teable](https://github.com/teableio/teable) — Score **8**. Next-generation Airtable alternative on top of Postgres — spreadsheet UI, no-code, with real database power underneath. Build a lead pipeline tracker, deal stages board, or contact database with views (grid, kanban, gallery, calendar). Faster and more scalable than Airtable for free. Adam already uses NocoDB (similar category) — Teable is the modern, actively maintained competitor.
+
+- **Budibase** (27,900★) — [github.com/Budibase/budibase](https://github.com/Budibase/budibase) — Score **7**. No-code internal app builder that now includes AI agents and automations. Build operational dashboards, lead-intake forms, or deal-pipeline apps from a drag-and-drop interface connecting to any database or API. Model-agnostic for AI features. Broader than Airtable (custom logic, forms, UIs) but still no-code. Self-hostable or cloud.
+
+- **nocobase** (22,500★) — [github.com/nocobase/nocobase](https://github.com/nocobase/nocobase) — Score **7**. Open-source no-code business system builder with WYSIWYG interface — create custom CRMs, project trackers, or ops dashboards without coding. AI features built in. Aimed squarely at non-technical business operators. Self-hostable. If Adam outgrows Notion/NocoDB for deal tracking, this is the next step up.
+
+- **coze-dev/coze-studio** (20,800★) — [github.com/coze-dev/coze-studio](https://github.com/coze-dev/coze-studio) — Score **7**. ByteDance's open-source visual AI agent development platform — all-in-one canvas to design, test, and deploy AI agents with no code. Supports multi-agent orchestration, tool plugins, and knowledge bases. Cloud version at coze.com is fully hosted (no self-hosting required). Solid choice for building deal-screening or lead-qualification agents visually.
+
+- **dtyq/magic** (4,800★) — [github.com/dtyq/magic](https://github.com/dtyq/magic) — Score **7**. All-in-one AI productivity platform combining agent builder, workflow engine, and collaborative office tools (chat, docs, tasks) in a single self-hosted deployment. Enterprise-grade but open-source. Could replace a fragmented stack of Notion + n8n + ChatGPT with one unified system. Lower star count but architecturally ambitious — worth watching.
+
+### Filtered
+
+**26 repos** — dev/ML/infra, game engine, or UI library; score 1–5:
+
+- **strapi** (72.2k) — headless CMS API framework, developer-only
+- **nexu-io/open-design** (51.2k) — Claude Design alternative but dev/designer tool
+- **directus** (35.8k) — backend API platform, developer-only
+- **GrapesJS** (25.9k) — web builder JavaScript library, developer tool
+- **GDevelop** (23.2k) — 2D/3D game engine, zero relevance
+- **baidu/amis** (18.9k) — JSON-config frontend framework, developer tool
+- **apitable** (15.4k) — API-oriented low-code, more technical than Teable
+- **datawhalechina/easy-vibe** (14.5k) — coding course for beginners
+- **automatisch** — ✅ FOUND above
+- **BuilderIO/mitosis** (13.8k) — component compiler for React/Vue/etc
+- **jnMetaCode/agency-agents-zh** (12.8k) — Chinese-market AI roles, language barrier
+- **puckeditor/puck** (12.7k) — visual editor for React, developer tool
+- **alibaba/formily** (12.5k) — dynamic form framework, developer tool
+- **VvvebJs** (8.5k) — drag-and-drop page builder library, developer tool
+- **bytedance/flowgram.ai** (8.1k) — workflow framework for building AI platforms, developer SDK
+- **buildship-ai/rowy** (6.8k) — low-code backend with cloud functions, requires coding
+- **clientIO/joint** (5.3k) — SVG diagramming library, developer tool
+- **brick-design** (5.1k) — low-code UI framework, developer tool
+- **baserow** (4.9k) — similar to NocoDB (already found); duplicate category
+- **Welcome-to-Open-Source** (3.8k) — first PR tutorial, zero utility
+- **BuilderIO/figma-html** (3.6k) — converts websites to Figma, designer/dev tool
+- **awesome-openclaw-agents** (3.4k) — OpenClaw extension (OpenClaw already on skip list)
+- **NetEase/tango** (3.1k) — code-driven low-code, requires codebase
+- **gmpetrov/databerry** (2.9k) — LLM agent builder, low traction (sub-3k)
+- **silexlabs/Silex** (2.8k) — static site creator, not relevant to wholesaling
+- **gridaco/grida** (2.5k) — design platform, designer tool
+- **KhazP/vibe-coding-prompt-template** (2.4k) — prompt templates for coding, dev-focused
+
+---
+
 ## github.com/topics/agentic-ai -- 2026-05-24
 
 *New source — all 6 original task sources exhausted (githublb.vercel.app persistent 403; EvanLi Top100 all 41 files complete). 20 repos scored.*
