@@ -959,6 +959,36 @@
 
 ---
 
+## github.com/topics/personal-productivity -- 2026-05-25
+
+*40 repos scored across 2 pages. 1 flagged suspicious (crack/piracy software). 5 new qualifying tools found. Note: topic is sparse — stars top out at 194; most entries are student projects or sub-10-star experiments.*
+
+### Found (7+)
+
+- **lcomplete/gaia** (194★) — Score **8**. Proactive personal AI assistant for daily work, explicitly modeled on Jarvis. Monitors your work context and surfaces suggestions, reminders, and task nudges without you asking. Unlike reactive chatbots, it initiates. ADHD angle: having an AI that checks in on you rather than waiting for you to remember to open it is exactly the behavior gap Adam needs filled. Worth watching as it matures.
+
+- **agentic-os** (24★) — Score **9**. "A collection of AI-native operating systems powered by Claude Code. Manage work, career, life, and meetings through conversation." Directly mirrors Adam's existing Claude Code Agentic OS setup. Low stars suggest it's very new or very niche, but the concept is on-target: a curated library of Claude Code operating-system components. Worth inspecting for patterns, skill structures, or system prompt designs that can be imported into Adam's own OS. Treat as a peer project, not a mature product.
+
+- **alicerun** (39★) — Score **7**. Combines TODO, work tracking, habit tracking, mood tracking, and CBT techniques into a single productivity app with analytics for AI-powered task prioritization. ADHD-relevant: externalizes tracking, shows patterns, uses CBT prompts to reduce task avoidance. Not real-estate specific, but daily-operating-layer useful — especially for building consistent follow-up habits during the job search period.
+
+- **AetherMind** (8★) — Score **8**. "Local-first Personal AI Memory OS — RAG over your entire life. Git, notes, calendar, location. 100% offline." Connects your notes, calendar, and location history into a searchable second brain you can query conversationally. All local, no cloud. Early-stage (8★) but the architecture is sound: embeddings over your personal data, local LLM inference. For Adam: "what did I discuss with that seller last month?" or "what's the context for this deal?" answered from local memory. Watch it; don't deploy yet.
+
+- **hejazizo/Koja** (11★) — Score **7**. AI-powered scheduling tool that integrates with your calendar to manage your time. Ingests calendar state, applies AI scheduling logic, and proposes or books time blocks. Real estate angle: structured time-blocking for outreach calls, follow-up windows, and deal-review sessions — without manually re-planning your week. Very low stars; early-stage tool. Check whether it supports Google Calendar.
+
+### Flagged Suspicious
+
+- **Todoist-Pro-Crack-2026** (21★) — Piracy/crack installer, not a productivity tool. Flagged and skipped.
+
+### Filtered
+
+**34 repos** — student projects, sub-5-star experiments, dev tools, writing templates:
+
+- **Low-star general apps (score 5–6):** faire-todo-app (7★ offline todo), Skedence (5★ daily planner), onroute (4★ AI commute briefings), dailyinsightai (2★ AI journaling), pecma.github.io (2★ AI executive assistant landing page), daily-worklist-manager (2★ AI work prioritization), todoist-playbook (2★ Todoist template collection), Prodexa (2★ mobile productivity app), sharemaster (2★ Chrome URL copier), time-blocks (2★ PDF time-block form)
+- **Dev/technical (score 1–4):** qwen3_computer_use (5★ GUI agent driver), writingLogTemplateInOrg (8★ org-mode template), writing-log-md (3★ markdown template), writing-log-odt (2★ OpenOffice template)
+- **Page 2 — student projects / 0–1 star (all score 1–5):** DocumentVault, smart-task-orchestrator, writingProgress2022, personal-assistant, context-planning-system, virgil, amar-career, LinkedIn-Job-Scraper, unscheduled-pressure, mindvault, head-of-ai-template, learning-analytics-system, 26CP3600358-ai-personal-productivity-suite, my-learning-logger, audible-second-brain, Kairos, task-manager-java, Peria, daily-life-fte, Lifeloop — all sub-2★, none deployable
+
+---
+
 ## github.com/topics/ai-agent -- 2026-05-25
 
 *60 repos scored across 3 pages (sorted by stars). 12 flagged synthetic (implausible star counts). 3 already found (cherry-studio, nocobase, career-ops on skip list). 2 already filtered in prior batches (leon score 4-6, CopilotKit score 2). 4 new qualifying tools found.*

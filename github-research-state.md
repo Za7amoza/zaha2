@@ -1,7 +1,7 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-25 (github.com/topics/ai-agent — 60 repos, 4 found; 12 flagged synthetic)
+2026-05-25 (github.com/topics/personal-productivity — 40 repos, 5 found; 1 flagged suspicious)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
@@ -9,6 +9,7 @@
 | githublb.vercel.app/topic/agentic-workflow | ❌ FAILED | 2026-05-23 | HTTP 403 Forbidden (retried 2026-05-19, 2026-05-23, 2026-05-24) |
 | githublb.vercel.app/topic/agentic-framework | ❌ FAILED | 2026-05-23 | HTTP 403 Forbidden (retried 2026-05-19, 2026-05-23, 2026-05-24) |
 | github.com/topics/ai-agent | ✅ SCANNED | 2026-05-25 | 60 repos (3 pages), 4 found (activepieces, presenton, awesome-ai-tools, telegram-search); 12 flagged synthetic |
+| github.com/topics/personal-productivity | ✅ SCANNED | 2026-05-25 | 40 repos (2 pages), 5 found (gaia, agentic-os, alicerun, AetherMind, Koja); 1 flagged suspicious (crack software) |
 | github.com/topics/agentic-workflow | ✅ SCANNED | 2026-05-24 | 60 repos (3 pages), 8 found (nexent, atom, claude-code-tresor, lotti, metorial, awesome_ai_agents, WriteHERE, babysitter); 3 flagged synthetic |
 | github.com/topics/automation | ✅ SCANNED | 2026-05-24 | 60 repos (3 pages), 5 found (automa, awesome-n8n-templates, gpt-researcher, skyvern, nanobrowser); 3 flagged synthetic |
 | github.com/topics/agentic-ai | ✅ SCANNED | 2026-05-24 | 20 repos, 4 found (dify, AutoGPT, agenticSeek, MaxKB); 3 flagged synthetic |
@@ -63,9 +64,9 @@ Suggested new sources for future sessions:
 - github.com/topics/automation ✅ SCANNED 2026-05-24
 - github.com/topics/agentic-workflow ✅ SCANNED 2026-05-24
 - github.com/topics/ai-agent ✅ SCANNED 2026-05-25
-- github.com/topics/personal-productivity (untried) ← NEXT
+- github.com/topics/personal-productivity ✅ SCANNED 2026-05-25
 - awesome-selfhosted filtered list (already in finds; drill into sub-categories)
-- github.com/topics/task-management (untried)
+- github.com/topics/task-management (untried) ← NEXT
 - github.com/topics/knowledge-management (untried)
 
 ## Global Skip List (already found in prior sessions)
@@ -173,7 +174,10 @@ nexent, atom, claude-code-tresor, lotti, metorial, awesome_ai_agents, WriteHERE,
 ## New Finds (2026-05-25 github.com/topics/ai-agent)
 activepieces, presenton, awesome-ai-tools, telegram-search
 
+## New Finds (2026-05-25 github.com/topics/personal-productivity)
+gaia, agentic-os, alicerun, AetherMind, Koja
+
 ## Session Total Found
-120 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell + MATLAB + R + Top-100-forks + Objective-C + Vim-script + Haskell + ActionScript + CoffeeScript + Clojure + DM + Groovy + Julia + Perl + TeX + github-topics-agentic-ai + github-topics-no-code + github-topics-productivity + github-topics-automation + github-topics-agentic-workflow + github-topics-ai-agent)
+125 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell + MATLAB + R + Top-100-forks + Objective-C + Vim-script + Haskell + ActionScript + CoffeeScript + Clojure + DM + Groovy + Julia + Perl + TeX + github-topics-agentic-ai + github-topics-no-code + github-topics-productivity + github-topics-automation + github-topics-agentic-workflow + github-topics-ai-agent + github-topics-personal-productivity)
 EvanLi Top100 research COMPLETE: 41 language/list files, ~4,100 repos reviewed, 79 qualifying tools found.
-github.com/topics/* research IN PROGRESS: 6 topics scanned (agentic-ai + no-code + productivity + automation + agentic-workflow + ai-agent), 36 total found (2026-05-25).
+github.com/topics/* research IN PROGRESS: 7 topics scanned (agentic-ai + no-code + productivity + automation + agentic-workflow + ai-agent + personal-productivity), 41 total found (2026-05-25).
