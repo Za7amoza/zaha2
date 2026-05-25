@@ -3,6 +3,58 @@
 
 ---
 
+## github.com/topics/knowledge-management -- 2026-05-25
+
+*40 repos scored across 2 pages (sorted by stars). 1 skip-list variant (awesome-openclaw-usecases-zh). 1 defunct (athens). 4 flagged synthetic. 14 new qualifying tools found.*
+
+### Found (7+)
+
+- **basicmachines-co/basic-memory** (3,100★) — Score **9**. "AI conversations that actually remember. Never re-explain your project to your AI again." Persistent memory layer for Claude (and other LLMs) — stores facts, decisions, and context from every conversation as structured Markdown files in a local folder. No re-briefing Claude each session: it already knows Adam's deal pipeline, seller context, call notes, and active strategies from prior sessions. Direct plug for the agentic OS: install basic-memory as an MCP server, point it at the vault, and Claude maintains continuity across every session. This is the missing memory primitive for Adam's setup.
+
+- **TriliumNext/Trilium** (36,200★) — Score **8**. The most powerful self-hosted personal knowledge base available — hierarchical notes with rich text, code blocks, relation maps, scripting, and a full REST API. Not Obsidian (flat files) but a structured tree database. Real estate angle: deal hierarchy (Seller → Property → Notes → Follow-ups → Documents) where every node is searchable and linkable. The AI scripting layer lets you add automation without code via built-in JS hooks. Actively maintained by a fork community after the original author stepped back. Works offline, no subscription.
+
+- **deta/surf** (3,400★) — Score **8**. Personal AI Notebooks — upload files, add URLs, and chat with the resulting knowledge base using an AI assistant. No setup beyond installing the app. Real estate angle: dump a seller's property docs, comparable listings, and call notes into a notebook, then ask "what's the best angle for this offer?" and get context-aware answers. Replaces 20 minutes of re-reading notes before a call. Works as a lightweight alternative to full vector DBs for per-deal research aggregation.
+
+- **freeplane/freeplane** (4,100★) — Score **8**. Mature, free desktop application for mind mapping, knowledge management, and project management — all from a visual node-and-branch interface. No code, no cloud, no subscription. Real estate angle: map out a deal's key facts visually (seller motivation, timeline, property issues, comps, offer strategy), track project milestones with task nodes, and export to PDF for team handoffs. Runs on Windows/Mac/Linux. Better for visual thinkers who find linear lists hard to navigate.
+
+- **revezone/revezone** (2,600★) — Score **8**. Lightweight local-first visual productivity tool for building a second brain — combines a canvas workspace (Excalidraw), markdown notes, and a board interface in one self-contained app. No cloud required. Real estate angle: visual deal maps on canvas (seller situation → offer → title → close path), written notes alongside, without switching between apps. Great for ADHD users who think spatially before linearly. Early-stage but functional.
+
+- **KnowledgeCanvas/knowledge** (1,500★) — Score **8**. Desktop app for saving, searching, accessing, exploring, and chatting with all your files, websites, and documents in a unified AI-powered interface. Import PDFs, add bookmarks, upload notes — then query the whole collection conversationally. Real estate angle: every contract template, county form, comp report, and seller research article lives in one searchable, AI-chattable corpus. Replaces tabbed browser chaos and document folder archaeology. Download and run locally.
+
+- **iwe-org/iwe** (1,100★) — Score **8**. "Markdown memory system for you and your AI agent." Organizes Markdown notes into a structured, queryable memory layer specifically designed for use alongside AI agents — backlinks, transclusions, and structured topic nodes. Real estate angle: deal notes become agent-readable structured memory rather than flat files. Pairs well with Claude Code as the file-layer for persistent context. Similar in spirit to basic-memory but focused on Markdown structure and AI-agent query patterns.
+
+- **different-ai/obsidian-ava** (658★) — Score **8**. Obsidian plugin that uses AI (originally ChatGPT, now supports multiple models) to auto-format, rewrite, summarize, and link notes — directly inside the vault. No copy-pasting between apps. Real estate angle: paste raw call notes → ask AVA to structure them as a deal summary with key facts, follow-up items, and seller sentiment. Pairs with Adam's 246-note Ramp Academy vault and any new deal-tracking notes. Complements claudian (AI-inside-Obsidian) as a formatting and processing layer.
+
+- **silverbulletmd/silverbullet** (5,300★) — Score **7**. Open-source personal productivity platform built on Markdown with a Lua scripting engine for automation. Works like a programmable Obsidian — live queries, slash commands, and event hooks. Real estate angle: define a "Deal Note" template that auto-creates follow-up tasks, query all open deals with a live filtered list, and run custom automation on note save. Non-technical for basic use; scripting only needed for advanced customization. Self-hostable web app — works from any browser.
+
+- **zmister2016/MrDoc** (3,200★) — Score **7**. Self-hosted online document system for individuals and small teams to manage wikis, docs, knowledge bases, and notes — clean UI, full Markdown support, permission controls. Real estate angle: shared knowledge base for deal SOPs (how to run a comp, how to fill a contract), seller scripts, objection responses, and onboarding material for future VAs. Confluence-level functionality without the Confluence price. Chinese-developed but English interface.
+
+- **documize/community** (2,400★) — Score **7**. Modern open-source Confluence alternative — structured spaces for internal documentation, wikis, and team knowledge with access controls. Designed for teams but works for solo operators too. Real estate angle: build an operations wiki (seller scripts, county-specific processes, VA playbooks, deal tracking SOPs) that's searchable and version-controlled. If Adam ever hires a VA or brings in a partner, this is the knowledge handoff layer. Self-hosted, no per-seat costs.
+
+- **tiddly-gittly/TidGi-Desktop** (2,000★) — Score **7**. Privacy-focused, automated knowledge management desktop app built on TiddlyWiki with Git sync for version control. TiddlyWiki is a uniquely non-linear knowledge system — every note is a "tiddler" that links, embeds, and filters dynamically. Real estate angle: build a non-linear deal wiki where every property, seller, buyer, and contact is a tiddler linked to related deals, phone logs, and offer history. High learning curve upfront; very powerful once set up. Suits those who find Obsidian too flat.
+
+- **quillpad/quillpad** (1,300★) — Score **7**. Beautiful mobile-first Markdown notes app with task lists, open-source and self-hostable (Nextcloud integration). Real estate angle: capture deal notes and follow-up tasks from the phone immediately after a seller call, synced to the main knowledge base. Fills the gap between desktop Obsidian and mobile capture — better than the default Obsidian mobile app for quick on-the-go capture. Free, no cloud lock-in.
+
+- **brettkromkamp/awesome-knowledge-management** (831★) — Score **7**. Curated list of knowledge management tools, frameworks, apps, and resources — organized by category with descriptions. Not a tool itself but the fastest way to discover what's in the KM space before committing to a system. Real estate angle: browse the PKM tool landscape, find niche tools (like Zettelkasten apps or local AI search) that fit specific gaps in Adam's setup. Good quarterly reference to catch emerging tools before they hit mainstream discovery.
+
+### Flagged Synthetic (implausible star counts / suspicious account patterns)
+
+- **AgriciDaniel/claude-obsidian** (5,500★) — "Claude + Obsidian knowledge companion based on Karpathy's LLM Wiki pattern." Unknown org, 5.5k stars for a niche Claude/Obsidian integration, description echoes multiple synthetic repos found across prior batches. Skip.
+- **agenticnotetaking/arscontexta** (3,400★) — "Claude Code plugin that generates individualized knowledge systems from conversation." Unknown org with a purpose-built name, 3.4k stars for a very niche Claude Code plugin, no verifiable community. Skip.
+- **eugeniughelbur/obsidian-second-brain** (1,300★) — "Cross-CLI skill for Obsidian transforms vaults into AI-first systems." Suspiciously specific Claude Code–adjacent description, unknown account, star count disproportionate. Skip.
+- **Astro-Han/karpathy-llm-wiki** (919★) — "LLM wiki compatible with AI agent skills." Echoes the claude-obsidian repo's "Karpathy LLM Wiki" framing; likely same synthetic cluster. Skip.
+
+### Filtered
+
+**22 repos** — reason breakdown:
+
+- **Defunct:** athensresearch/athens (6,300★) — project discontinued, no longer maintained
+- **Skip-list variant:** AlexAnys/awesome-openclaw-usecases-zh (4,200★) — Chinese resource guide for OpenClaw, which is already on skip list
+- **Dev/infra/ML tools (score 1–3):** campfirein/byterover-cli (4,800★ — CLI memory layer for coding agents), myhhub/KnowledgeGraph (1,700★ — NLP/ML knowledge graph construction), feenkcom/gtoolkit (1,500★ — moldable dev environment), protegeproject/protege (1,400★ — academic ontology editor), phodal/ledge (2,200★ — DevOps knowledge platform), protegeproject/webprotege (748★ — web ontology editor for academic RDF/OWL), mfarragher/obsidiantools (557★ — Python package for vault analysis), phmullins/awesome-macos-commandline (645★ — macOS CLI tool list)
+- **Technical setup required / score 4–6:** iamgio/quarkdown (15,100★ — academic publishing/LaTeX alternative), haiwen/seafile (14,800★ — self-hosted file server requiring server admin), GitJournal/GitJournal (4,200★ — Git-integrated mobile notes, Git knowledge needed), suziwen/markdownxiaoshujiang (1,700★ — Chinese notes app, limited English), dvorka-oss/mindforger (2,700★ — heavy C++ Markdown editor, complex setup), SemanticMediaWiki (608★ — MediaWiki extension for semantic web), unigraph-dev/unigraph-dev (764★ — local knowledge graph, developer-heavy), steven-jianhao-li/zotero-AI-Butler (1,300★ — Zotero plugin for academic paper summaries), felixhayashi/TW5-TiddlyMap (905★ — TiddlyWiki plugin for visualization), rockbenben/LearnData (513★ — blog/notebook template), osmoscraft/osmosmemo (492★ — GitHub-based bookmarking tool), winstonkoh87/Athena-Public (494★ — "Linux OS for AI Agents," requires Linux admin)
+
+---
+
 ## github.com/topics/automation -- 2026-05-24
 
 *60 repos scored across 3 pages. 8 already on skip list (n8n, dify, huginn, career-ops, sim, maxun, automatisch, MoneyPrinterTurbo). 3 flagged synthetic. 5 new qualifying tools found.*
