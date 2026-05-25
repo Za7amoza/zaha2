@@ -1029,3 +1029,45 @@
 - **Dev education / guide (score 3–4):** tukuaiai/vibe-coding-cn (13.8k★ Chinese coding tutorial), frankbria/ralph-claude-code (9.2k★ Claude Code dev loop), zebbern/claude-code-guide (4.2k★ Claude setup guide), KimYx0207/AI-Coding-Guide-Zh (4.1k★ Chinese AI coding guide), filipecalegario/awesome-vibe-coding (4.5k★ vibe coding references), WeThinkIn/AIGC-Interview-Book (3.8k★ ML interview prep), cbamls/AI_Tutorial (3.7k★ industry AI tutorial)
 - **Niche / low relevance (score 4–6):** EvoMap/evolver (7.6k★ GEP self-evolving AI engine), can1357/oh-my-pi (7k★ terminal coding agent), esengine/DeepSeek-Reasonix (6.6k★ DeepSeek terminal agent), Narcooo/inkos (6.5k★ autonomous novel writing agent), ChatLab/ChatLab (6.5k★ local chat history analyzer — score 5, not enough RE angle), holaboss-ai/holaOS (5.6k★ AI operational streams — vague, low verifiability), adongwanai/AgentGuide (5.1k★ LangGraph dev guide), Q00/ouroboros (4.3k★ Agent OS spec tool — too technical framing), AlexAnys/awesome-openclaw-usecases-zh (4.2k★ OpenClaw on skip list), killop/anything_about_game (3.9k★ game dev resources), 1186258278/OpenClawChineseTranslation (3.8k★ OpenClaw translation — skip list)
 
+
+---
+
+## github.com/topics/task-management -- 2026-05-25
+
+*40 repos scored across 2 pages. 1 already on skip list (lotti). 1 duplicate repo (AppFlowy-Web = same project as AppFlowy). 1 flagged synthetic. 9 new qualifying tools found.*
+
+### Found (7+)
+
+- **AppFlowy-IO/AppFlowy** (71,300★) — Score **9**. Open-source Notion/Linear alternative with built-in AI — wiki, task boards, databases, and team workspaces in one app. Non-technical, visually clean, entirely free, fully self-hostable. AI features work without API keys. Real estate angle: deal pipeline as a database (seller name, address, status, follow-up date), knowledge base for scripts and objection handling, AI-assisted note-taking after calls. Already has 71k stars and an active community. If Adam needs one tool to unify deal tracking + knowledge management + daily tasks, this is it. 10x more maintained and polished than any other self-hosted Notion alternative.
+
+- **obsidian-tasks-group/obsidian-tasks** (3,700★) — Score **8**. THE canonical task management plugin for Obsidian — adds due dates, recurrence, priorities, filtering, and global task queries across every note in the vault. Integrates with Adam's existing 246-note vault without restructuring it. Tasks live inside regular markdown notes but surface in a unified dashboard. Real estate angle: track every "call back by Friday" and "send contract by Thursday" embedded inside deal notes, then query them all in one view. Works with the claudian plugin (already found) for a full AI-task loop inside Obsidian.
+
+- **eclaire-labs/eclaire** (862★) — Score **8**. Local-first, open-source AI assistant that unifies tasks, notes, docs, photos, and bookmarks into a single interface — think a personal AI layer over your whole life's data. Non-technical setup, no cloud dependency. Real estate angle: add deal notes, seller photos, property bookmarks, and follow-up tasks in one place, then ask "what do I know about the Johnson lead?" and get a coherent summary. Strong fit for building a private deal intelligence layer without SaaS subscriptions.
+
+- **chrisvel/tududi** (2,900★) — Score **7**. "A calm, open system for organizing life and work — tasks, projects, notes, areas, and smart workflows." Self-hosted, lightweight, intentionally non-overwhelming. ADHD-conscious design: area-based organization prevents cognitive sprawl. Real estate angle: one area per deal stage (leads, under-contract, closed), tasks nested under each, notes attached. No sign-up, no cloud lock-in. Good minimalist alternative to AppFlowy for those who want less visual complexity.
+
+- **roovo/obsidian-card-board** (623★) — Score **7**. Obsidian plugin that renders tasks as a visual kanban board — different from obsidian-tasks (list-based queries) in that it gives a drag-and-drop card view across columns. Real estate angle: pipeline board with columns for Cold → Contacted → Qualified → Under Contract → Closed, all inside Obsidian without leaving the vault. Pairs with obsidian-tasks: one plugin for filtering/querying, the other for visual pipeline movement.
+
+- **taskgenius/taskgenius-plugin** (560★) — Score **7**. Comprehensive AI-powered task management plugin for Obsidian — goes beyond obsidian-tasks by adding AI task generation, smart prioritization, and natural language scheduling. Real estate angle: describe what needs to happen with a deal in plain language, plugin converts it into structured tasks with dates and priorities. Complements (not replaces) obsidian-tasks for AI-assisted task creation inside the vault.
+
+- **kaanozhan/Frame** (306★) — Score **7**. Platform designed specifically for "agentic vibecoders and teams who use Claude Code and Codex CLI" — provides a structured environment for managing Claude Code sessions, tasks, and agent outputs. Direct fit for Adam's Claude Code agentic OS: session management, task queue, agent result tracking without code. Real estate angle: dispatch "research comps for 123 Main St" to an agent, track status, receive output — all from a dashboard rather than a terminal.
+
+- **saltbo/agent-kanban** (291★) — Score **7**. "Agent-first task board — mission control for your AI workforce." Kanban UI designed for tracking AI agent tasks rather than human tasks: dispatch jobs, see status, review outputs. Real estate angle: manage a fleet of specialized Claude agents (comp researcher, email drafter, follow-up scheduler) from a single task board. Low friction if you're already running multiple agents in parallel.
+
+- **Santofer/Remindian** (277★) — Score **7**. Sync Obsidian Tasks and TaskNotes to Apple Reminders or Things 3 — creates a live bridge between Obsidian and native Apple task management. Real estate angle: tasks written in deal notes inside Obsidian automatically appear on iPhone Reminders with due dates. Closes the gap between desktop note-taking and mobile task reminders during field calls. Relevant if Adam uses an iPhone.
+
+### Flagged Synthetic
+
+- **BradGroux/veritas-kanban** (723★) — "Lightweight orchestration platform built for your AI agents emphasizing project transparency." Unknown account, vague AI-platform description, 723 stars — suspicious ratio for a new agentic kanban tool. Skip.
+
+### Filtered
+
+**29 repos** filtered — breakdown:
+
+- **Already on skip list:** matthiasn/lotti (1.1k★) — already found in agentic-workflow batch
+- **Duplicate repo:** AppFlowy-IO/AppFlowy-Web (279★) — same project as AppFlowy (#1 above), separate repo
+- **Unmaintained:** onejgordon/flow-dashboard (1.7k★) — marked unmaintained by author
+- **Adjacent to skip list:** clawwork-ai/ClawWork (509★) — client for OpenClaw, which is already on skip list; derivative, not independent
+- **Dev/technical (score 1–3):** whyisdifficult/jiratui (1.6k★ — Jira terminal UI), cyanheads/atlas-mcp-server (474★ — Neo4j MCP for LLM agents), cadence-workflow/cadence-go-client (376★ — workflow engine SDK), bngarren/checkmate.nvim (370★ — Neovim todo plugin), ETS-PoliTO/esp32-sniffer (286★ — ESP32 WiFi firmware), Devnawjesh/hr-payroll (267★ — HRM payroll system)
+- **Generic PM / requires dev setup (score 5–6):** builderz-labs/mission-control (5k★ — agent orchestration, dev-heavy), Worklenz/worklenz (3.1k★ — generic PM, no differentiator vs already-found tools), hudy9x/namviek (2.4k★ — small team PM app), BaldissaraMatheus/Tasks.md (2.1k★ — self-hosted markdown kanban, too simple), Chorus-AIDLC/Chorus (910★ — AI-human collaboration harness, dev-oriented), dongdongbh/Mindwtr (871★ — GTD desktop app, overlaps with AppFlowy/super-productivity already found), Grashjs/cmms (632★ — enterprise maintenance management, not RE-relevant), Kanba-co/kanba (621★ — generic kanban), L1AD/claude-task-viewer (615★ — Claude Code task viewer, too narrow/niche), bergercookie/syncall (604★ — multi-service task sync, requires technical setup), RARgames/4gaBoards (602★ — basic realtime kanban), huytd/pomoday-v2 (600★ — keyboard-only task web app), kevinschoon/pomo (573★ — Pomodoro CLI), DjangoCRM/django-crm (567★ — CRM with task mgmt, but requires Django deployment; score 5), Taskosaur/Taskosaur (488★ — conversational AI tasks, vague/unverified), darkmoonight/Zest (441★ — basic task app), GreatStackDev/project-management (433★ — ReactJS PM boilerplate), slowernews/hamster-system (350★ — ultra-simple life framework, too abstract), chiriapp/chiri (290★ — CalDAV task app, niche)
+
