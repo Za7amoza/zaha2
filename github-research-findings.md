@@ -950,10 +950,52 @@
 
 **49 repos** — dev frameworks, ML research, orchestration infra, coding agents, language SDKs:
 
-- **Already on skip list:** dify (142k★), Flowise (53k★), sim (28.6k★), claude-code-tips (8.5k★)
+- **Already on skip list / already found:** dify (142k★), Flowise (53k★), sim (28.6k★), claude-code-tips (8.5k★)
 - **Dev/infra frameworks (score 1–3):** daytonaio/daytona (72.5k★ AI code infra), bytedance/deer-flow (69.4k★ SuperAgent for coding), ag-ui-protocol/ag-ui (13.8k★ agent-UI protocol), The-Pocket/PocketFlow (10.7k★ LLM framework), kyegomez/swarms (6.7k★ multi-agent SDK), rllm-org/rllm (5.6k★ RL for LLMs), FellouAI/eko (4.9k★ agentic workflow builder — requires dev setup), SolaceLabs/solace-agent-mesh (4.6k★ event-driven agent framework), algorithmicsuperintelligence/optillm (4k★ LLM inference proxy), Netflix/maestro (3.8k★ workflow orchestrator), dagucloud/dagu (3.4k★ YAML workflow engine), antoinezambelli/forge (1.8k★ Python LLM framework), prefect-archive/ControlFlow (1.4k★ agent control framework), dbos-inc/dbos-transact-py (1.4k★ durable Python workflows), dbos-inc/dbos-transact-ts (1.2k★ durable TS workflows), standardagents/dmux (1.6k★ git worktree agent multiplexer), google/adk-java (1.6k★ Java AI agent SDK), covibes/zeroshot (1.5k★ engineering CLI agent), Dicklesworthstone/agentic_coding_flywheel (1.5k★ VPS dev environment setup), microsoft/Trace (737★ generative optimization for agents), lofcz/LLMTornado (612★ .NET AI agent library), evolution-foundation/evo-ai (591★ agent creation platform — low traction)
 - **ML/AI research (score 1–2):** asinghcsu/AgenticRAG-Survey (1.6k★ research survey), thinkwee/AgentsMeetRL (1.4k★ RL+agents paper list), ombharatiya/ai-system-design-guide (593★ ML systems design), Bessouat40/RAGLight (662★ RAG framework), gmickel/flow-next (616★ spec-driven dev workflow plugin)
 - **Dev education/courses (score 3–4):** Marktechpost/AI-Agents-Projects-Tutorials (2.6k★ multi-agent tutorial repo), neural-maze/ava-whatsapp-agent-course (1.7k★ WhatsApp agent course — course, not tool), neural-maze/philoagents-course (1.5k★ philosophy+AI course), shanraisshan/codex-cli-best-practice (800★ vibe coding guide)
 - **Game/simulation (score 1):** 4thfever/cultivation-world-simulator (1.7k★ Xianxia world game)
 - **Low-code but dev-adjacent (score 5–6):** ModelEngine-Group/app-platform (1.4k★ low-code LLM app engineering — requires some config), eigent-ai/eigent (14.1k★ cowork desktop — unverifiable star count, borderline synthetic), kevinluosl/deepbot (2.3k★ Feishu-specific AI assistant — language/platform barrier), hesamsheikh/octogent (1.1k★ Claude Code orchestration dashboard — dev-headspace framing), DeepMyst/Mysti (1.1k★ VS Code coding agents — IDE-specific), formkit/formkit (4.7k★ form framework for coding agents — dev tool), modu-ai/moai-adk (1k★ Claude Code dev kit — TDD/DDD framing too technical), vm0-ai/vm0 (1.1k★ AI teammate — vague, low traction), GreenSheep01201/claw-empire (1.2k★ AI agent office simulator — references "claw" ecosystem, likely connected to OpenClaw synthetic cluster), romainsimon/paperasse (2k★ French accounting agents — language barrier), splx-ai/agentic-radar (972★ LLM security scanner — dev/security tool), bergside/awesome-design-skills (942★ design skill files — designer tool), PolyArch/humanize (800★ idea-to-realization framework — vague/research), alirezarezvani/claude-code-tresor ✅ FOUND above, rush86999/atom ✅ FOUND above
+
+---
+
+## github.com/topics/ai-agent -- 2026-05-25
+
+*60 repos scored across 3 pages (sorted by stars). 12 flagged synthetic (implausible star counts). 3 already found (cherry-studio, nocobase, career-ops on skip list). 2 already filtered in prior batches (leon score 4-6, CopilotKit score 2). 4 new qualifying tools found.*
+
+### Found (7+)
+
+- **activepieces/activepieces** (22,400★) — Score **9**. No-code workflow automation platform with 400+ integrations including AI agents, MCPs, and Zapier-style trigger/action chains. Cleaner UI than n8n, newer codebase, actively maintained. Built-in AI step blocks (Claude, GPT, Gemini) let you add intelligence to any automation without touching code. Real estate wholesaling angle: auto-route inbound seller leads from a web form → Google Sheets → SMS → CRM; auto-draft follow-up emails triggered by seller responses; monitor property sites and alert on new matches. Cloud + self-host. Strongly complements n8n as either an alternative or parallel stack.
+
+- **presenton/presenton** (6,700★) — Score **8**. Open-source AI presentation generator — prompt → structured slide deck, exported as native PowerPoint or PDF. API available for programmatic use. No design skills required. Real estate angle: generate deal analysis presentations, seller credibility decks, or market overview slides in seconds. Self-hostable or cloud. Fills a gap in Adam's agentic OS: "create a presentation about this deal" as a one-command agent task.
+
+- **mahseema/awesome-ai-tools** (5,300★) — Score **8**. Curated, continuously updated directory of top AI tools and platforms organized by category (productivity, writing, video, image, research, automation). Not a tool itself but the fastest discovery layer for finding what's new and relevant. Real estate angle: regularly scan for new sales automation, CRM AI, or outreach tools entering the market before they get widely known. Bookmark and revisit quarterly.
+
+- **groupultra/telegram-search** (3,900★) — Score **7**. Export your full Telegram chat history and fuzzy-search it locally. No cloud dependency, runs on your machine. Real estate angle: if Adam uses Telegram for seller outreach, buyer contacts, or team comms, this surfaces any past conversation — "who mentioned probate", "what did that motivated seller say in March". Recovers context that disappears in standard Telegram search. Low setup friction.
+
+### Flagged Synthetic (12 repos — implausible star counts for repo type/age)
+
+- **NousResearch/hermes-agent** (166k★) — 166k would put it among GitHub's top 20 most-starred repos ever. Description is generic. Skip.
+- **shareAI-lab/learn-claude-code** (62.3k★) — Tutorial bash repo with 62k stars is not credible. Skip.
+- **ruvnet/ruflo** (54.8k★) — Already flagged in agentic-ai batch (ruvnet synthetic pattern with 1,400+ automated releases). Skip.
+- **zhayujie/CowAgent** (44.8k★) — zhayujie's real chatgpt-on-wechat project has ~26k stars; CowAgent at 44.8k for a newer harness is suspect inflation. Flag.
+- **HKUDS/nanobot** (43.1k★) — Same HKUDS org behind Vibe-Trading (8.5k) and other suspiciously starred repos. 43k for "lightweight agent" is implausible. Skip.
+- **Gitlawb/openclaude** (27.7k★) — Unknown org, "runs anywhere uses anything" generic description, 27.7k stars. Skip.
+- **iOfficeAI/AionUi** (26.4k★) — Unknown org, 26.4k stars for a local AI app frontend. Suspect. Flag.
+- **hugohe3/ppt-master** (20.6k★) — 20.6k for a single-purpose PPT generator from unknown account. Suspicious. presenton (6.7k from a real org) is the credible alternative found above.
+- **Panniantong/Agent-Reach** (20.2k★) — Already filtered in automation batch; star count remains suspect.
+- **waooAI/waoowaoo** (12.4k★) — "Professional platform for controllable film production" with 12.4k from unknown org. Skip.
+- **op7418/guizang-ppt-skill** (11.7k★) — Claude Code skill repo with 11.7k stars is implausible for a skill file. Skip.
+- **EKKOLearnAI/hermes-web-ui** (5.9k★) — Web dashboard for "multi-platform AI chat" from unknown org; name echoes the synthetic hermes-agent cluster. Skip.
+
+### Filtered
+
+**39 repos** — dev/ML/infra/coding tools, score 1–6:
+
+- **Already found / skip list:** cherry-studio (46.2k★ already in findings), nocobase (22.5k★ already in findings), career-ops (47k★ skip list)
+- **Already filtered prior batches:** leon/leon-ai (17.3k★ score 4-6, filtered in automation batch — requires server setup), CopilotKit (31.7k★ score 2, filtered in agentic-ai batch)
+- **Stock/finance (not RE):** ZhuLinsen/daily_stock_analysis (38.7k★), HKUDS/Vibe-Trading (8.5k★)
+- **Dev framework/SDK (score 1–3):** googleworkspace/cli (26.5k★ Google Workspace CLI), jackwener/OpenCLI (22.5k★ website-to-CLI converter), trycua/cua (17.1k★ computer-use agent infrastructure), browser-use/web-ui (16k★ browser automation framework), browser-use/browser-harness (13.6k★ LLM browser harness), e2b-dev/E2B (12.3k★ sandbox runtime), alibaba/OpenSandbox (10.8k★ agent sandbox runtime), Bindu/GetBindu (6.7k★ agent identity/payments infra), crestalnetwork/intentkit (6.5k★ cloud agent cluster management), learn-harness-engineering/walkinglabs (6.3k★ tutorial), UfoMiao/zcf (6k★ zero-config code flow tool), camofox-browser/jo-inc (5.7k★ stealth headless browser SDK), Integuru-AI/Integuru (4.6k★ API reverse-engineering agent), SWE-agent/mini-swe-agent (4.5k★ GitHub issues coding agent), FedML-AI/FedML (4k★ distributed ML library), Tencent/TencentDB-Agent-Memory (4k★ agent memory pipeline), LazyAGI/LazyLLM (3.8k★ LLM multi-agent framework), smallcloudai/refact (3.5k★ engineering task coding agent)
+- **Dev education / guide (score 3–4):** tukuaiai/vibe-coding-cn (13.8k★ Chinese coding tutorial), frankbria/ralph-claude-code (9.2k★ Claude Code dev loop), zebbern/claude-code-guide (4.2k★ Claude setup guide), KimYx0207/AI-Coding-Guide-Zh (4.1k★ Chinese AI coding guide), filipecalegario/awesome-vibe-coding (4.5k★ vibe coding references), WeThinkIn/AIGC-Interview-Book (3.8k★ ML interview prep), cbamls/AI_Tutorial (3.7k★ industry AI tutorial)
+- **Niche / low relevance (score 4–6):** EvoMap/evolver (7.6k★ GEP self-evolving AI engine), can1357/oh-my-pi (7k★ terminal coding agent), esengine/DeepSeek-Reasonix (6.6k★ DeepSeek terminal agent), Narcooo/inkos (6.5k★ autonomous novel writing agent), ChatLab/ChatLab (6.5k★ local chat history analyzer — score 5, not enough RE angle), holaboss-ai/holaOS (5.6k★ AI operational streams — vague, low verifiability), adongwanai/AgentGuide (5.1k★ LangGraph dev guide), Q00/ouroboros (4.3k★ Agent OS spec tool — too technical framing), AlexAnys/awesome-openclaw-usecases-zh (4.2k★ OpenClaw on skip list), killop/anything_about_game (3.9k★ game dev resources), 1186258278/OpenClawChineseTranslation (3.8k★ OpenClaw translation — skip list)
 
