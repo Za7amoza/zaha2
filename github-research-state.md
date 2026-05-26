@@ -1,7 +1,7 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-26 (github.com/topics/real-estate — 40 repos, 4 found; 36 filtered dev/ML/infra)
+2026-05-26 (github.com/topics/note-taking — 40 repos, 8 found; 13 skip-list; 19 filtered)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
@@ -9,8 +9,9 @@
 | github.com/topics/real-estate | ✅ SCANNED | 2026-05-26 | 40 repos (2 pages), 4 found (skills-for-architects, RealEstateCRM, awesome-real-estate, ai-real-estate-assistant); 36 filtered dev/ML/infra/landlord |
 | github.com/topics/second-brain | ✅ SCANNED | 2026-05-26 | 40 repos (2 pages), 17 found (agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates, NotionAI-MyMind, mcp-logseq, QOwnNotes, Neurite, kindle2notion, notabase, Mindwtr, Lumina-Note, octo, NicholasSpisak/second-brain, dual-obsidian-client, pm-brain, bear-notes-mcp); 5 flagged synthetic (3 repeats) |
 | github.com/topics/knowledge-management | ✅ SCANNED | 2026-05-25 | 40 repos (2 pages), 14 found (basic-memory, Trilium, surf, freeplane, revezone, KnowledgeCanvas, iwe, obsidian-ava, silverbullet, MrDoc, documize, TidGi-Desktop, quillpad, awesome-knowledge-management); 4 flagged synthetic |
-| githublb.vercel.app/topic/agentic-workflow | ❌ FAILED | 2026-05-23 | HTTP 403 Forbidden (retried 2026-05-19, 2026-05-23, 2026-05-24) |
-| githublb.vercel.app/topic/agentic-framework | ❌ FAILED | 2026-05-23 | HTTP 403 Forbidden (retried 2026-05-19, 2026-05-23, 2026-05-24) |
+| githublb.vercel.app/topic/agentic-workflow | ❌ FAILED | 2026-05-26 | HTTP 403 Forbidden (retried 2026-05-19, 2026-05-23, 2026-05-24, 2026-05-26) |
+| githublb.vercel.app/topic/agentic-framework | ❌ FAILED | 2026-05-26 | HTTP 403 Forbidden (retried 2026-05-19, 2026-05-23, 2026-05-24, 2026-05-26) |
+| github.com/topics/note-taking | ✅ SCANNED | 2026-05-26 | 40 repos (2 pages), 8 found (memos, joplin, siyuan, open-notebook, note-gen, Standard Notes, tagspaces, Memex); 13 skip-list; 19 filtered |
 | github.com/topics/task-management | ✅ SCANNED | 2026-05-25 | 40 repos (2 pages), 9 found (AppFlowy, obsidian-tasks, eclaire, tududi, obsidian-card-board, taskgenius, Frame, agent-kanban, Remindian); 1 flagged synthetic |
 | github.com/topics/ai-agent | ✅ SCANNED | 2026-05-25 | 60 repos (3 pages), 4 found (activepieces, presenton, awesome-ai-tools, telegram-search); 12 flagged synthetic |
 | github.com/topics/personal-productivity | ✅ SCANNED | 2026-05-25 | 40 repos (2 pages), 5 found (gaia, agentic-os, alicerun, AetherMind, Koja); 1 flagged suspicious (crack software) |
@@ -74,12 +75,12 @@ Suggested new sources for future sessions:
 - awesome-selfhosted filtered list (already in finds; drill into sub-categories)
 - github.com/topics/second-brain ✅ SCANNED 2026-05-26
 - github.com/topics/real-estate ✅ SCANNED 2026-05-26
-- github.com/topics/note-taking (untried) ← NEXT
-- github.com/topics/crm (untried — high RE relevance)
+- github.com/topics/note-taking ✅ SCANNED 2026-05-26
+- github.com/topics/crm (untried — high RE relevance) ← NEXT
 - github.com/topics/lead-generation (untried — relevant for closers)
 
 ## Global Skip List (already found in prior sessions)
-MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB, Flowise, dify, AutoGPT, agenticSeek, MaxKB, automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic, claudian, super-productivity, rowboat, inbox-zero, excalidraw, activitywatch, espanso, ChatGPT-Shortcut, automa, gpt-researcher, skyvern, nanobrowser, nexent, atom, claude-code-tresor, lotti, metorial, awesome_ai_agents, WriteHERE, babysitter, activepieces, presenton, awesome-ai-tools, telegram-search, AppFlowy, obsidian-tasks, eclaire, tududi, obsidian-card-board, taskgenius-plugin, Frame, agent-kanban, Remindian, basic-memory, Trilium, surf, freeplane, revezone, knowledge (KnowledgeCanvas), iwe, obsidian-ava, silverbullet, MrDoc, documize, TidGi-Desktop, quillpad, awesome-knowledge-management, agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates (groepl), NotionAI-MyMind, mcp-logseq, QOwnNotes, Neurite, kindle2notion, notabase, Mindwtr, Lumina-Note, octo (davidmyersdev), NicholasSpisak/second-brain, dual-obsidian-client, pm-brain (phuryn), bear-notes-mcp, skills-for-architects, RealEstateCRM, awesome-real-estate, ai-real-estate-assistant
+MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB, Flowise, dify, AutoGPT, agenticSeek, MaxKB, automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic, claudian, super-productivity, rowboat, inbox-zero, excalidraw, activitywatch, espanso, ChatGPT-Shortcut, automa, gpt-researcher, skyvern, nanobrowser, nexent, atom, claude-code-tresor, lotti, metorial, awesome_ai_agents, WriteHERE, babysitter, activepieces, presenton, awesome-ai-tools, telegram-search, AppFlowy, obsidian-tasks, eclaire, tududi, obsidian-card-board, taskgenius-plugin, Frame, agent-kanban, Remindian, basic-memory, Trilium, surf, freeplane, revezone, knowledge (KnowledgeCanvas), iwe, obsidian-ava, silverbullet, MrDoc, documize, TidGi-Desktop, quillpad, awesome-knowledge-management, agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates (groepl), NotionAI-MyMind, mcp-logseq, QOwnNotes, Neurite, kindle2notion, notabase, Mindwtr, Lumina-Note, octo (davidmyersdev), NicholasSpisak/second-brain, dual-obsidian-client, pm-brain (phuryn), bear-notes-mcp, skills-for-architects, RealEstateCRM, awesome-real-estate, ai-real-estate-assistant, memos, joplin, siyuan, open-notebook, note-gen, Standard Notes, tagspaces, Memex
 
 ## New Finds (2026-05-18 Python batch)
 awesome-claude-skills, odoo, open-webui, open-interpreter, MoneyPrinterTurbo
@@ -198,7 +199,10 @@ agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates (groep
 ## New Finds (2026-05-26 github.com/topics/real-estate)
 skills-for-architects, RealEstateCRM, awesome-real-estate, ai-real-estate-assistant
 
+## New Finds (2026-05-26 github.com/topics/note-taking)
+memos, joplin, siyuan, open-notebook, note-gen, Standard Notes, tagspaces, Memex
+
 ## Session Total Found
-160 new qualifying repos (cumulative)
+168 new qualifying repos (cumulative)
 EvanLi Top100 research COMPLETE: 41 language/list files, ~4,100 repos reviewed, 79 qualifying tools found.
-github.com/topics/* research IN PROGRESS: 11 topics scanned (agentic-ai + no-code + productivity + automation + agentic-workflow + ai-agent + personal-productivity + task-management + knowledge-management + second-brain + real-estate), 76 total found (2026-05-26).
+github.com/topics/* research IN PROGRESS: 12 topics scanned (agentic-ai + no-code + productivity + automation + agentic-workflow + ai-agent + personal-productivity + task-management + knowledge-management + second-brain + real-estate + note-taking), 84 total found (2026-05-26).

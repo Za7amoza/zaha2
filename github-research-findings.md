@@ -3,6 +3,47 @@
 
 ---
 
+## github.com/topics/note-taking -- 2026-05-26
+
+*40 repos scored across 2 pages (sorted by stars). 13 already found/skip-listed. 8 new qualifying tools found. 19 filtered dev/infra/unmaintained/score ≤6.*
+
+### Found (7+)
+
+- **usememos/memos** (60,100★) — Score **8**. "A privacy-first, lightweight note service." Ultra-fast self-hosted micro-note capture — think Twitter for your own brain. Type a thought, it saves instantly; Markdown, tags, full-text search, no folders or hierarchy. Real estate angle: fastest-possible deal note creation during or right after a seller call — no app switching, no structuring required, just type and save from any browser. Works as a frictionless capture inbox feeding Adam's Obsidian vault or deal tracker. Self-host for $0; Docker one-liner. Different category from Obsidian — this is the quick-capture layer, not the PKM layer.
+
+- **laurent22/joplin** (55,000★) — Score **8**. "An open source note-taking app." Cross-platform (Windows, Mac, Linux, iOS, Android), E2E-encrypted, syncs via Nextcloud, Dropbox, or OneDrive — works fully offline. Markdown, attachments, web clipper extension, 20+ plugins. Real estate angle: one no-fuss cross-platform private notes app — captures seller call notes on mobile, syncs to desktop, attaches property photos and contracts, accessible without internet. No subscription, no cloud lock-in. If Adam needs the Joplin web clipper → Obsidian pipeline, this bridges browser-to-vault natively.
+
+- **siyuan-note/siyuan** (44,100★) — Score **8**. "A privacy-first, self-hosted, fully encrypted personal knowledge management software." Block-based like Notion (not file-based like Obsidian) — each paragraph, heading, or list item is its own referenceable block. Local-first, E2E-encrypted, desktop and mobile apps including Windows. Real estate angle: build a Notion-style deal database locally without Notion's cloud or subscription — property pages, seller profiles, offer history, task tracking all as linked blocks. More structured than Obsidian for people who think in databases rather than files. No server needed, fully offline.
+
+- **KorigamoOS/open-notebook** (23,800★) — Score **8**. "NotebookLM but better." Open-source Google NotebookLM alternative — upload documents, websites, or notes into a notebook, then AI answers questions from those specific sources with citations. No hallucination drift because answers are grounded in your materials. Generates podcast-style audio summaries of uploaded content. Real estate angle: dump a neighborhood's comp data, seller property history, and ARV analysis → ask "what's a fair cash offer range?" and get a cited answer. Also useful for uploading wholesale scripts and objection-handler docs to quiz yourself pre-call. Local or self-hostable, no Google account needed.
+
+- **codexu/note-gen** (12,000★) — Score **7**. "A cross-platform Markdown AI note-taking application." Desktop app (Windows/Mac/Linux) with AI assistance built in — captures Markdown notes, auto-links related notes, summarizes, and suggests connections. Note versioning included. Real estate angle: lighter-weight than Obsidian with AI already integrated — write rough post-call notes, AI structures and surfaces related deals without plugin assembly. Minimal setup friction, works on Windows. Good option if the Obsidian plugin overhead becomes a blocker.
+
+- **standardnotes/app** (6,500★) — Score **7**. "A free, open-source, and completely encrypted notes app." Every platform (Windows, Mac, Linux, iOS, Android, web). E2E-encrypted at rest and in transit. Plugins available: spreadsheet editor, task manager, rich text, Markdown. Core is free; extended plan ~$10/month. Real estate angle: most privacy-hardened notes option for sensitive deal data — seller motivation, below-market acquisition details, investor contact lists. Syncs across all devices with zero-trust architecture. If Adam handles deals where information confidentiality is a competitive concern, this is the highest-security notes layer available in OSS.
+
+- **tagspaces/tagspaces** (5,100★) — Score **7**. "Offline, open source document manager with tagging support." Manages existing files on disk using a tagging system — no upload, no cloud, tags written directly into filenames or sidecar files. Works with any file type: PDFs, images, Word docs, spreadsheets. Real estate angle: tag every deal document (contract, comp report, seller photo, county form) directly within Windows without moving files — search by tag, date, location, or deal name. Eliminates "where did I save that contract?" permanently. Zero dependency, pure local file management layered over Adam's existing folder structure.
+
+- **WorldBrain-Memex/Memex** (4,700★) — Score **8**. "Browser extension to curate, annotate, and discuss the most valuable content and ideas on the web." Annotates any webpage, highlights sections, adds notes — all stored in a local database with full-text search. Syncs optionally to Notion, Obsidian, or Roam. Real estate angle: Adam browses county assessor pages, Zillow listings, probate records, and wholesaling blogs; Memex captures and annotates those pages with deal-relevant notes inline ("motivated seller in this zip," "ARV $280k per this comp") — all searchable later without re-finding the URL. Bridges browser research directly to the knowledge base. One-click install, no setup.
+
+### Filtered
+
+**13 already found or on skip list:** AppFlowy (task-management batch), logseq (Clojure batch), Trilium (knowledge-management batch), reor (knowledge-management filtered — Ollama required), nb (productivity filtered — CLI-only), jrnl (productivity filtered — CLI), massCode (productivity filtered — dev tool), QOwnNotes (second-brain batch), silverbullet (knowledge-management batch), GitJournal (knowledge-management filtered — Git knowledge needed), freeplane (knowledge-management batch), revezone (knowledge-management batch), Neurite (second-brain batch).
+
+**19 new repos filtered** — reason breakdown:
+- **Score 4–6 / dev tooling:** foam (17.2k★ — VSCode extension, requires VSCode setup), takenote (7.1k★ — explicitly developer-focused), marksman (3.2k★ — Markdown language server for code editors), dnote (3k★ — CLI-only notebook)
+- **Score 6 / generic notes apps with no RE-specific edge over already-found tools:** vnote (12.8k★ — C++ native notes app, no AI/agent features), heynote (5.3k★ — scratchpad tool, no PKM features), notes/nuttyartist (4.2k★ — minimalist C++ notes, no differentiation), flatnotes (3.1k★ — flat Markdown folder web app, covered by memos), batnoter (2.4k★ — basic self-hosted Markdown webapp), NoteDiscovery (2.5k★ — generic self-hosted KB with low traction)
+- **Unmaintained:** laverna (9.2k★ — last commit 2020, effectively abandoned)
+- **macOS/iOS only (Adam is on Windows):** fsnotes (7.4k★)
+- **Encrypted-niche / already covered:** notesnook (14.1k★ — already filtered in productivity batch, Standard Notes covers this category better)
+- **Requires S3/cloud infra setup:** notea (2.1k★)
+- **Platform management, not notes:** plain-app (4.9k★ — manages phone files via browser, not a notes tool)
+- **Canvas drawing (not notes/PKM):** Lorien (6.7k★ — infinite canvas drawing, score 6, no text/search/link features)
+- **Translation project, not a tool:** trilium-translation (2.9k★)
+- **Android-only / no desktop:** Omni-Notes (2.8k★ — Android-only, Adam on Windows desktop)
+- **Knowledge repo (self-hosted, setup overhead, low differentiation):** archivy (3.3k★ — self-hosted KR, requires Docker, similar to already-found surf/KnowledgeCanvas)
+
+---
+
 ## github.com/topics/real-estate -- 2026-05-26
 
 *40 repos scored across 2 pages (sorted by stars). Ruthless filter: dev/ML/scraper/infra repos all cut. 4 new qualifying tools found.*
