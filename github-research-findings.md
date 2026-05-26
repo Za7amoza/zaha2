@@ -3,6 +3,64 @@
 
 ---
 
+## github.com/topics/second-brain -- 2026-05-26
+
+*40 repos scored across 2 pages (sorted by stars). 2 skip-list variants (revezone, obsidian-ava). 2 flagged synthetic. 17 new qualifying tools found.*
+
+### Found (7+)
+
+- **smixs/agent-second-brain** (258★) — Score **9**. "Send voice notes to Telegram → get organized knowledge base, tasks in Todoist, and daily reports." Voice memo hits Telegram → agent transcribes → extracts tasks into Todoist, stores knowledge with Ebbinghaus spaced-repetition decay, sends a daily digest. Built by a marketing professional transitioning into AI automation (not a dev tool). Real estate angle: record a 60-second voice note after every seller call → system auto-creates follow-up tasks, files the deal context in PKM, and reminds Adam when to re-contact based on forgetting curves. The Todoist + daily report loop is directly actionable. ~$25/month to run.
+
+- **huytieu/COG-second-brain** (487★) — Score **9**. "Self-evolving second brain with 17 AI skills, 6 worker agents, and people CRM — inspired by Garry Tan's gstack and gbrain." Local-first, Obsidian + Git, no external database, multi-AI-platform (Claude Code, Cursor, Kiro, Gemini CLI). Comes with a built-in people CRM — contacts, relationship notes, follow-up tracking. Real estate angle: 17 pre-built AI skills covering PKM, team intelligence, and PM workflows map directly to deal management; the CRM layer tracks sellers, buyers, and contacts without paying for a separate CRM tool. Everything is markdown files locally owned.
+
+- **Dataojitori/nocturne_memory** (1,100★) — Score **8**. "Lightweight, rollbackable, and visual Long-Term Memory Server for MCP Agents." Persistent, structured memory for AI agents across sessions — graph-based (not vector RAG), with a visual dashboard to inspect and edit what the agent remembers, full version history and rollback. Real estate angle: plugs into Claude Code as an MCP server to give every Claude session persistent memory of deal state, seller history, and Adam's preferences — without re-briefing. The visual dashboard means Adam can see and correct what Claude "knows," which matters when bad data could influence a deal. Complements basic-memory from prior batch.
+
+- **groepl/Obsidian-Templates** (1,700★) — Score **8**. Zettelkasten method templates and scripts for Obsidian — structured note templates for daily notes, literature notes, permanent notes, meeting notes, project notes, and MOCs. All plug-and-play inside Obsidian. Real estate angle: Adam's 246-note vault is live; these templates add structure immediately — a "Seller Call" template that auto-prompts for motivation, timeline, price, condition, and follow-up; a "Deal Note" template that links seller → property → status → tasks. No setup beyond downloading the templates folder. Best immediate wins for vault hygiene.
+
+- **elblogbruno/NotionAI-MyMind** (281★) — Score **8**. "Uses AI and Notion to add web content to your 'Mind' — forget about everything else." Browser-based AI capture that sends any webpage, article, or resource directly to a Notion database, AI-categorized and summarized. No copy-paste. Real estate angle: browsing a county assessor page, a comparable sale, a neighborhood report, or a wholesaling blog post → one click sends it to the deal or research database in Notion, tagged and summarized. Eliminates the "I'll save this to read later" chaos. Works alongside existing Notion setups.
+
+- **ergut/mcp-logseq** (273★) — Score **8**. "MCP server to interact with Logseq via its Local HTTP API — enabling AI assistants like Claude to seamlessly read, write, and manage your LogSeq graph." Logseq is a powerful outliner/journal/PKM app (free, local-first, used by non-developers heavily); this MCP server connects it directly to Claude Code. Real estate angle: if Adam uses Logseq for daily journaling and deal notes, Claude can read entries, create new blocks, update task statuses, and search the graph — all from within a Claude Code session. Turns Logseq into a live context layer for the agentic OS.
+
+- **pbek/QOwnNotes** (5,800★) — Score **7**. "Plain-text file notepad and todo-list manager with Markdown support and Nextcloud / ownCloud integration." Desktop notes app (Windows/Mac/Linux), works with plain Markdown files on disk, syncs via Nextcloud. No cloud lock-in, no subscription, 20+ years of active development. Real estate angle: simple, reliable Markdown notes synced across devices without the complexity of Obsidian's plugin ecosystem. Good fallback or secondary capture app for people overwhelmed by Obsidian's setup overhead. File-compatible with Obsidian.
+
+- **satellitecomponent/Neurite** (2,100★) — Score **7**. "Fractal Graph-of-Thought. Rhizomatic Mind-Mapping for AI Agents, Web-Links, Notes, and Code." Visual canvas where notes, web pages, and AI conversations all live as connected nodes in a fractal/spatial interface. Not a flat list — everything is spatially arranged and linked visually. Real estate angle: ADHD-friendly spatial thinking tool — map out a deal's moving parts (seller → motivation → timeline → comps → offer range → title → exit strategy) as a live visual graph with notes attached. AI agents can navigate and annotate the graph. No cloud required.
+
+- **paperboi/kindle2notion** (964★) — Score **7**. "Export all clippings from your Kindle device to a database in Notion." Automatically pulls all highlights and notes from a Kindle into a clean Notion database — tagged by book, sortable, searchable. Real estate angle: Adam reads real estate books, wholesaling guides, and sales psychology material on Kindle; this converts passive reading highlights into a searchable Notion reference database. Compounds reading investment into actionable reference material. One-time setup, runs on demand.
+
+- **churichard/notabase** (904★) — Score **7**. "A second brain for your knowledge, thoughts, and ideas." Clean, modern note-taking app built specifically around second brain concepts — bidirectional links, backlinks graph, rich text with Markdown. Self-hostable. Real estate angle: simpler than Obsidian with a cleaner interface — useful as a lightweight deal-notes app or for contacts who need shared access to a deal knowledge base. More approachable than Obsidian for non-technical collaborators.
+
+- **dongdongbh/Mindwtr** (871★) — Score **7**. "A complete Getting Things Done (GTD) productivity system for desktop and mobile." Full GTD implementation — inbox, next actions, projects, waiting-for, someday-maybe, weekly reviews — packaged as a cross-platform desktop and mobile app. No code, no plugins. Real estate angle: GTD is the most proven system for managing a high-volume pipeline with interrupts (cold calls, inbound leads, follow-ups, title delays). Weekly reviews prevent deals from dying in the "waiting" folder. More opinionated and structured than a blank Obsidian vault.
+
+- **blueberrycongee/Lumina-Note** (860★) — Score **7**. "Modern Markdown note-taking app with live preview, bidirectional links, and AI assistant." Desktop app — clean UI, AI-assisted writing and summarization built in, bidirectional links for knowledge connections. Real estate angle: fast capture with AI formatting inline — write raw call notes, AI structures them on save; bidirectional links connect the seller note to the deal note to the follow-up note automatically. Good alternative to Obsidian with less setup friction and an AI assistant already integrated.
+
+- **davidmyersdev/octo** (508★) — Score **7**. "A local-first knowledge management app." Minimalist KM app that stores everything locally in the browser's storage (no server needed), Markdown-based, search and tag support. Works offline. Real estate angle: ultra-simple capture and organization — no plugins, no setup, no accounts. Good for a specific use case: a browser-accessible local note system for quick capture at a shared computer or when the main machine isn't available.
+
+- **NicholasSpisak/second-brain** (352★) — Score **7**. "LLM-maintained personal knowledge base for Obsidian. Based on Andrej Karpathy's LLM Wiki pattern." An Obsidian vault structure where an LLM continuously synthesizes, links, and updates entries based on new inputs — the wiki grows and cross-references itself over time. Real estate angle: deal notes and seller research fed into the vault get automatically synthesized into a growing knowledge base — patterns across deals (what seller motivations lead to accepted offers, which counties process title faster) emerge without manual analysis.
+
+- **paulbricman/dual-obsidian-client** (238★) — Score **7**. "A skilled virtual assistant for Obsidian." Obsidian plugin that adds an AI assistant sidebar with access to vault context — ask questions, get answers grounded in your notes, generate new content. By Paul Bricman, a known AI/PKM researcher. Real estate angle: ask "what do I know about this seller?" or "what are all the pending deals in Phoenix?" without leaving Obsidian. AI answers are vault-grounded, not generic. Complements obsidian-ava (already in list) as a different layer — ava for formatting, dual for conversational querying.
+
+- **phuryn/pm-brain** (226★) — Score **7**. "PM Brain OS: The Second Brain for Product Managers, Made of Markdown." A complete Markdown-based second brain system pre-built for operators — project tracking, OKRs, meeting notes, decision logs, stakeholder maps — all in structured templates designed for non-developers managing complex workstreams. Real estate angle: the template structure maps cleanly to wholesaling — replace "product" with "deal," "stakeholders" with "seller/buyer/title/agent," OKRs with monthly offer targets. Download the vault structure, rename the categories, run it in Obsidian. No setup beyond that.
+
+- **vasylenko/bear-notes-mcp** (193★) — Score **7**. "MCP Server for Bear note-taking app — available as Claude Desktop extension or standalone server for any AI tool." Bear is a polished macOS/iOS Markdown note app (paid, ~$30/year). This MCP server lets Claude read, write, and search Bear notes directly in a session. Real estate angle: if Adam uses Bear for mobile capture (clean iPhone UX), this bridges Bear into the Claude Code agentic OS — Claude can pull a seller note from Bear mid-session, update it with new info, and the change syncs to iPhone immediately. Native Apple ecosystem integration.
+
+### Flagged Synthetic (implausible star-to-commit ratios / suspicious accounts)
+
+- **ballred/obsidian-claude-pkm** (1,500★) — "Complete starter kit for Obsidian + Claude Code PKM." Unknown account, 1.5k stars for niche Claude Code–specific PKM starter kit, owner name pattern matches prior synthetic clusters. Skip.
+- **lucasrosati/claude-code-memory-setup** (705★) — "Up to 71.5x fewer tokens per session on Claude Code with Obsidian + Graphify." The "71.5x" figure is a synthetic-style precision marketing claim; account unverifiable; 705 stars for a very niche benchmark setup is disproportionate. Skip.
+- **AgriciDaniel/claude-obsidian** (5,500★) — already flagged in knowledge-management batch. Reappears here; skip.
+- **agenticnotetaking/arscontexta** (3,400★) — already flagged in knowledge-management batch. Reappears here; skip.
+- **eugeniughelbur/obsidian-second-brain** (1,400★) — already flagged in knowledge-management batch. Reappears here; skip.
+
+### Filtered
+
+**16 repos** — reason breakdown:
+
+- **Technical setup required / score 4–6:** reorproject/reor (8,600★ — requires Ollama install for local AI), zk-org/zk (2,600★ — CLI plain-text Zettelkasten tool), maximevaillancourt/digital-garden-jekyll-template (1,300★ — Jekyll/dev publishing template), kytmanov/obsidian-llm-wiki-local (653★ — requires Ollama), mathieudutour/gatsby-digital-garden (686★ — Gatsby/dev template), jobindjohn/obsidian-publish-mkdocs (649★ — dev publishing pipeline), davidmyersdev/octo is included above
+- **Resource lists only (not tools):** MaggieAppleton/digital-gardeners (4,700★ — list of PKM resources), KasperZutterman/Second-Brain (1,800★ — curated awesome-list), oldwinter/knowledge-garden (2,400★ — personal Obsidian public vault, not a tool)
+- **Dev/infra/score 1–3:** ChristianLempa/cheat-sheets (4,800★ — sysadmin cheat sheets), lyz-code/blue-book (958★ — developer personal notes), grumpyp/aixplora (274★ — generic file-querying CLI tool), flepied/second-brain-agent (297★ — vague AI agent stub), costinEEST/almanacs (240★ — recipe search app, off-topic), paulbricman/dual-obsidian-client listed above; see also gatsby above
+
+---
+
 ## github.com/topics/knowledge-management -- 2026-05-25
 
 *40 repos scored across 2 pages (sorted by stars). 1 skip-list variant (awesome-openclaw-usecases-zh). 1 defunct (athens). 4 flagged synthetic. 14 new qualifying tools found.*

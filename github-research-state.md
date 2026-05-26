@@ -1,11 +1,12 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-25 (github.com/topics/knowledge-management — 40 repos, 14 found; 4 flagged synthetic)
+2026-05-26 (github.com/topics/second-brain — 40 repos, 17 found; 5 flagged synthetic [3 repeats from prior batches])
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
 |--------|--------|------|-------|
+| github.com/topics/second-brain | ✅ SCANNED | 2026-05-26 | 40 repos (2 pages), 17 found (agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates, NotionAI-MyMind, mcp-logseq, QOwnNotes, Neurite, kindle2notion, notabase, Mindwtr, Lumina-Note, octo, NicholasSpisak/second-brain, dual-obsidian-client, pm-brain, bear-notes-mcp); 5 flagged synthetic (3 repeats) |
 | github.com/topics/knowledge-management | ✅ SCANNED | 2026-05-25 | 40 repos (2 pages), 14 found (basic-memory, Trilium, surf, freeplane, revezone, KnowledgeCanvas, iwe, obsidian-ava, silverbullet, MrDoc, documize, TidGi-Desktop, quillpad, awesome-knowledge-management); 4 flagged synthetic |
 | githublb.vercel.app/topic/agentic-workflow | ❌ FAILED | 2026-05-23 | HTTP 403 Forbidden (retried 2026-05-19, 2026-05-23, 2026-05-24) |
 | githublb.vercel.app/topic/agentic-framework | ❌ FAILED | 2026-05-23 | HTTP 403 Forbidden (retried 2026-05-19, 2026-05-23, 2026-05-24) |
@@ -70,13 +71,13 @@ Suggested new sources for future sessions:
 - github.com/topics/task-management ✅ SCANNED 2026-05-25
 - github.com/topics/knowledge-management ✅ SCANNED 2026-05-25
 - awesome-selfhosted filtered list (already in finds; drill into sub-categories)
-- github.com/topics/second-brain (untried) ← NEXT
-- github.com/topics/real-estate (untried)
+- github.com/topics/second-brain ✅ SCANNED 2026-05-26
+- github.com/topics/real-estate (untried) ← NEXT
 - github.com/topics/note-taking (untried)
 - github.com/topics/crm (untried — high RE relevance)
 
 ## Global Skip List (already found in prior sessions)
-MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB, Flowise, dify, AutoGPT, agenticSeek, MaxKB, automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic, claudian, super-productivity, rowboat, inbox-zero, excalidraw, activitywatch, espanso, ChatGPT-Shortcut, automa, gpt-researcher, skyvern, nanobrowser, nexent, atom, claude-code-tresor, lotti, metorial, awesome_ai_agents, WriteHERE, babysitter, activepieces, presenton, awesome-ai-tools, telegram-search, AppFlowy, obsidian-tasks, eclaire, tududi, obsidian-card-board, taskgenius-plugin, Frame, agent-kanban, Remindian, basic-memory, Trilium, surf, freeplane, revezone, knowledge (KnowledgeCanvas), iwe, obsidian-ava, silverbullet, MrDoc, documize, TidGi-Desktop, quillpad, awesome-knowledge-management
+MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB, Flowise, dify, AutoGPT, agenticSeek, MaxKB, automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic, claudian, super-productivity, rowboat, inbox-zero, excalidraw, activitywatch, espanso, ChatGPT-Shortcut, automa, gpt-researcher, skyvern, nanobrowser, nexent, atom, claude-code-tresor, lotti, metorial, awesome_ai_agents, WriteHERE, babysitter, activepieces, presenton, awesome-ai-tools, telegram-search, AppFlowy, obsidian-tasks, eclaire, tududi, obsidian-card-board, taskgenius-plugin, Frame, agent-kanban, Remindian, basic-memory, Trilium, surf, freeplane, revezone, knowledge (KnowledgeCanvas), iwe, obsidian-ava, silverbullet, MrDoc, documize, TidGi-Desktop, quillpad, awesome-knowledge-management, agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates (groepl), NotionAI-MyMind, mcp-logseq, QOwnNotes, Neurite, kindle2notion, notabase, Mindwtr, Lumina-Note, octo (davidmyersdev), NicholasSpisak/second-brain, dual-obsidian-client, pm-brain (phuryn), bear-notes-mcp
 
 ## New Finds (2026-05-18 Python batch)
 awesome-claude-skills, odoo, open-webui, open-interpreter, MoneyPrinterTurbo
@@ -183,13 +184,16 @@ activepieces, presenton, awesome-ai-tools, telegram-search
 ## New Finds (2026-05-25 github.com/topics/personal-productivity)
 gaia, agentic-os, alicerun, AetherMind, Koja
 
-## Session Total Found
-139 new qualifying repos (cumulative — Python + JavaScript + Go + TypeScript + Java + Shell + CPP + Rust + PHP + Swift + Ruby + Kotlin + CSS + HTML + CSharp + Top-100-stars + Dart + PowerShell + MATLAB + R + Top-100-forks + Objective-C + Vim-script + Haskell + ActionScript + CoffeeScript + Clojure + DM + Groovy + Julia + Perl + TeX + github-topics-agentic-ai + github-topics-no-code + github-topics-productivity + github-topics-automation + github-topics-agentic-workflow + github-topics-ai-agent + github-topics-personal-productivity + github-topics-task-management + github-topics-knowledge-management)
-EvanLi Top100 research COMPLETE: 41 language/list files, ~4,100 repos reviewed, 79 qualifying tools found.
-github.com/topics/* research IN PROGRESS: 9 topics scanned (agentic-ai + no-code + productivity + automation + agentic-workflow + ai-agent + personal-productivity + task-management + knowledge-management), 55 total found (2026-05-25).
-
 ## New Finds (2026-05-25 github.com/topics/task-management)
 AppFlowy, obsidian-tasks, eclaire, tududi, obsidian-card-board, taskgenius-plugin, Frame, agent-kanban, Remindian
 
 ## New Finds (2026-05-25 github.com/topics/knowledge-management)
 basic-memory, Trilium, surf, freeplane, revezone, KnowledgeCanvas/knowledge, iwe, obsidian-ava, silverbullet, MrDoc, documize, TidGi-Desktop, quillpad, awesome-knowledge-management
+
+## New Finds (2026-05-26 github.com/topics/second-brain)
+agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates (groepl), NotionAI-MyMind, mcp-logseq, QOwnNotes, Neurite, kindle2notion, notabase, Mindwtr, Lumina-Note, octo (davidmyersdev), NicholasSpisak/second-brain, dual-obsidian-client, pm-brain (phuryn), bear-notes-mcp
+
+## Session Total Found
+156 new qualifying repos (cumulative)
+EvanLi Top100 research COMPLETE: 41 language/list files, ~4,100 repos reviewed, 79 qualifying tools found.
+github.com/topics/* research IN PROGRESS: 10 topics scanned (agentic-ai + no-code + productivity + automation + agentic-workflow + ai-agent + personal-productivity + task-management + knowledge-management + second-brain), 72 total found (2026-05-26).
