@@ -3,6 +3,62 @@
 
 ---
 
+## github.com/topics/real-estate -- 2026-05-26
+
+*40 repos scored across 2 pages (sorted by stars). Ruthless filter: dev/ML/scraper/infra repos all cut. 4 new qualifying tools found.*
+
+### Found (7+)
+
+- **AlpacaLabsLLC/skills-for-architects** (156★) — Score **9**. "Claude Code skills for architecture, real estate, and workplace strategy." Pre-built Claude Code skill set targeting RE professionals — not dev skills, but actual operational skills for real estate work (space planning, property strategy, workplace decisions). Real estate angle: Adam runs Claude Code as his Agentic OS; installing these skills drops pre-wired RE workflows directly into his command palette. Could include deal analysis templates, comp research flows, or client communication drafts. Exact skill inventory needs inspection but the target audience (RE + non-dev) is spot-on. Zero build effort — just install.
+
+- **prolinkinfo/RealEstateCRM** (318★) — Score **8**. "CRM: Empowering Real Estate Agents with Modern CRM Tools." Open-source CRM purpose-built for real estate — lead tracking, deal pipeline, contact management, follow-up reminders. Built for RE agents/closers, not generic sales. Real estate angle: Adam's core tool as a remote closer is a CRM; most paid options (HubSpot, Podio, Follow Up Boss) cost $30-$200/month. This is self-hostable via a standard web stack and designed around RE-specific workflows (leads → motivated sellers → offers → under contract → closed). Inspect whether it handles wholesaling pipeline stages or can be configured for it.
+
+- **etewiah/awesome-real-estate** (314★) — Score **7**. "Curated list of awesome real estate related resources and projects." Aggregated directory of RE tools, APIs, datasets, platforms, and OSS projects — the meta-resource. Real estate angle: Adam's research sessions produce findings one topic at a time; this list could surface 10-20 additional non-technical RE tools in one scan. Includes sections on property data APIs, valuation tools, CRM software, and investment calculators. Worth one dedicated review session to mine it for Adam-relevant picks before moving to other GitHub topics.
+
+- **AleksNeStu/ai-real-estate-assistant** (193★) — Score **7**. "AI platform with conversational property search and analytics." AI-powered conversational interface layered over property data — ask natural-language questions about properties, get structured analytics back. Real estate angle: useful for US market comp research, neighborhood analysis, and deal viability checks — the kind of quick-hit research a closer does before a call or after getting a lead address. Not a wholesaling pipeline tool, but a research accelerator that reduces the time between "got a lead" and "have enough data to make an offer."
+
+### Filtered
+
+36 repos — dev/ML/infra:
+- **API-mega-list** (5.5k) — developer API reference
+- **streamlit-geospatial** (1k) — Python/ML geospatial data science
+- **flathunter** (1k) — Python bot, German rental market only
+- **HomeHarvest** (684) — Python scraping package
+- **property_web_builder** (617) — Rails developer tool
+- **fredy** (638) — German property search bot, dev setup required
+- **building-sunlight-simulator** (446) — frontend engineering tool
+- **real-estate-mcp** (348) — Korea-specific apartment data MCP (market irrelevant)
+- **3dio-js** (281) — JavaScript interior-app toolkit
+- **real-estate-management** (280) — dev platform (React/Node)
+- **PropertyFindAR** (268) — Android architecture sample app
+- **loca** (240) — PHP/self-hosted landlord mgmt, requires dev deploy
+- **movinin** (207) — rental property mgmt app, requires dev deploy
+- **daftlistings** (189) — Python library for Irish property site
+- **hdb-price-predictor** (179) — ML/Streamlit, Singapore HDB only
+- **ResidenceCMS** (178) — PHP/Symfony CMS, dev deploy
+- **Predicting_real_estate_prices** (176) — ML regression, dev/Jupyter
+- **online-rental-property-manager** (174) — landlord mgmt (not wholesaling)
+- **Hozn-RealEstate-Fullstack** (159) — MERN stack dev project
+- **pyfunda** (143) — Python API wrapper, Dutch market
+- **real-estate-ai-agent** (138) — Python/JSON extraction, dev tool
+- **property_web_scraper** (116) — scraper UI, dev-adjacent
+- **ai-resources** (112) — generic daily-updated AI link dump
+- **real-estate-laravel** (106) — Laravel dev project
+- **RedfinScraper** (98) — Python Redfin scraper
+- **Real-Estate-Website** (92) — MERN stack dev project
+- **property-seeker** (89) — Chrome extension (house-hunter, not wholesaler)
+- **estatezilla** (88) — PHP CMS, dev deploy
+- **Real-Estate-Booking-Website** (86) — MERN stack dev project
+- **real_estate_ml** (84) — ML/Jupyter notebooks
+- **Real-Estate-Rental-and-Tenant-Management-System** (80) — PHP/dev platform
+- **orpms** (79) — PHP RPMS, dev deploy
+- **real-estate-neighborhood-prediction** (78) — ML/Python
+- **financial_lessons** (725) — passive reading resource, no action lever
+- **condo** (346) — property mgmt SaaS, self-hosting overhead, not for wholesaling
+- **microrealestate** (1.1k) — landlord/rental mgmt, not wholesaling
+
+---
+
 ## github.com/topics/second-brain -- 2026-05-26
 
 *40 repos scored across 2 pages (sorted by stars). 2 skip-list variants (revezone, obsidian-ava). 2 flagged synthetic. 17 new qualifying tools found.*

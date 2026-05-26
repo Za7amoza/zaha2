@@ -1,11 +1,12 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-26 (github.com/topics/second-brain — 40 repos, 17 found; 5 flagged synthetic [3 repeats from prior batches])
+2026-05-26 (github.com/topics/real-estate — 40 repos, 4 found; 36 filtered dev/ML/infra)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
 |--------|--------|------|-------|
+| github.com/topics/real-estate | ✅ SCANNED | 2026-05-26 | 40 repos (2 pages), 4 found (skills-for-architects, RealEstateCRM, awesome-real-estate, ai-real-estate-assistant); 36 filtered dev/ML/infra/landlord |
 | github.com/topics/second-brain | ✅ SCANNED | 2026-05-26 | 40 repos (2 pages), 17 found (agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates, NotionAI-MyMind, mcp-logseq, QOwnNotes, Neurite, kindle2notion, notabase, Mindwtr, Lumina-Note, octo, NicholasSpisak/second-brain, dual-obsidian-client, pm-brain, bear-notes-mcp); 5 flagged synthetic (3 repeats) |
 | github.com/topics/knowledge-management | ✅ SCANNED | 2026-05-25 | 40 repos (2 pages), 14 found (basic-memory, Trilium, surf, freeplane, revezone, KnowledgeCanvas, iwe, obsidian-ava, silverbullet, MrDoc, documize, TidGi-Desktop, quillpad, awesome-knowledge-management); 4 flagged synthetic |
 | githublb.vercel.app/topic/agentic-workflow | ❌ FAILED | 2026-05-23 | HTTP 403 Forbidden (retried 2026-05-19, 2026-05-23, 2026-05-24) |
@@ -72,12 +73,13 @@ Suggested new sources for future sessions:
 - github.com/topics/knowledge-management ✅ SCANNED 2026-05-25
 - awesome-selfhosted filtered list (already in finds; drill into sub-categories)
 - github.com/topics/second-brain ✅ SCANNED 2026-05-26
-- github.com/topics/real-estate (untried) ← NEXT
-- github.com/topics/note-taking (untried)
+- github.com/topics/real-estate ✅ SCANNED 2026-05-26
+- github.com/topics/note-taking (untried) ← NEXT
 - github.com/topics/crm (untried — high RE relevance)
+- github.com/topics/lead-generation (untried — relevant for closers)
 
 ## Global Skip List (already found in prior sessions)
-MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB, Flowise, dify, AutoGPT, agenticSeek, MaxKB, automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic, claudian, super-productivity, rowboat, inbox-zero, excalidraw, activitywatch, espanso, ChatGPT-Shortcut, automa, gpt-researcher, skyvern, nanobrowser, nexent, atom, claude-code-tresor, lotti, metorial, awesome_ai_agents, WriteHERE, babysitter, activepieces, presenton, awesome-ai-tools, telegram-search, AppFlowy, obsidian-tasks, eclaire, tududi, obsidian-card-board, taskgenius-plugin, Frame, agent-kanban, Remindian, basic-memory, Trilium, surf, freeplane, revezone, knowledge (KnowledgeCanvas), iwe, obsidian-ava, silverbullet, MrDoc, documize, TidGi-Desktop, quillpad, awesome-knowledge-management, agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates (groepl), NotionAI-MyMind, mcp-logseq, QOwnNotes, Neurite, kindle2notion, notabase, Mindwtr, Lumina-Note, octo (davidmyersdev), NicholasSpisak/second-brain, dual-obsidian-client, pm-brain (phuryn), bear-notes-mcp
+MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB, Flowise, dify, AutoGPT, agenticSeek, MaxKB, automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic, claudian, super-productivity, rowboat, inbox-zero, excalidraw, activitywatch, espanso, ChatGPT-Shortcut, automa, gpt-researcher, skyvern, nanobrowser, nexent, atom, claude-code-tresor, lotti, metorial, awesome_ai_agents, WriteHERE, babysitter, activepieces, presenton, awesome-ai-tools, telegram-search, AppFlowy, obsidian-tasks, eclaire, tududi, obsidian-card-board, taskgenius-plugin, Frame, agent-kanban, Remindian, basic-memory, Trilium, surf, freeplane, revezone, knowledge (KnowledgeCanvas), iwe, obsidian-ava, silverbullet, MrDoc, documize, TidGi-Desktop, quillpad, awesome-knowledge-management, agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates (groepl), NotionAI-MyMind, mcp-logseq, QOwnNotes, Neurite, kindle2notion, notabase, Mindwtr, Lumina-Note, octo (davidmyersdev), NicholasSpisak/second-brain, dual-obsidian-client, pm-brain (phuryn), bear-notes-mcp, skills-for-architects, RealEstateCRM, awesome-real-estate, ai-real-estate-assistant
 
 ## New Finds (2026-05-18 Python batch)
 awesome-claude-skills, odoo, open-webui, open-interpreter, MoneyPrinterTurbo
@@ -193,7 +195,10 @@ basic-memory, Trilium, surf, freeplane, revezone, KnowledgeCanvas/knowledge, iwe
 ## New Finds (2026-05-26 github.com/topics/second-brain)
 agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates (groepl), NotionAI-MyMind, mcp-logseq, QOwnNotes, Neurite, kindle2notion, notabase, Mindwtr, Lumina-Note, octo (davidmyersdev), NicholasSpisak/second-brain, dual-obsidian-client, pm-brain (phuryn), bear-notes-mcp
 
+## New Finds (2026-05-26 github.com/topics/real-estate)
+skills-for-architects, RealEstateCRM, awesome-real-estate, ai-real-estate-assistant
+
 ## Session Total Found
-156 new qualifying repos (cumulative)
+160 new qualifying repos (cumulative)
 EvanLi Top100 research COMPLETE: 41 language/list files, ~4,100 repos reviewed, 79 qualifying tools found.
-github.com/topics/* research IN PROGRESS: 10 topics scanned (agentic-ai + no-code + productivity + automation + agentic-workflow + ai-agent + personal-productivity + task-management + knowledge-management + second-brain), 72 total found (2026-05-26).
+github.com/topics/* research IN PROGRESS: 11 topics scanned (agentic-ai + no-code + productivity + automation + agentic-workflow + ai-agent + personal-productivity + task-management + knowledge-management + second-brain + real-estate), 76 total found (2026-05-26).
