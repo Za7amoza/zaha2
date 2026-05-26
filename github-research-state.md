@@ -1,11 +1,12 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-26 (github.com/topics/note-taking — 40 repos, 8 found; 13 skip-list; 19 filtered)
+2026-05-26 (github.com/topics/crm — 40 repos, 7 found; 4 skip-list; 29 filtered)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
 |--------|--------|------|-------|
+| github.com/topics/crm | ✅ SCANNED | 2026-05-26 | 40 repos (2 pages), 7 found (platform/Huly, SuiteCRM, espocrm, frappe/crm, DaybydayCRM, CordysCRM, relaticle); 4 skip-list; 29 filtered dev/ERP/infra |
 | github.com/topics/real-estate | ✅ SCANNED | 2026-05-26 | 40 repos (2 pages), 4 found (skills-for-architects, RealEstateCRM, awesome-real-estate, ai-real-estate-assistant); 36 filtered dev/ML/infra/landlord |
 | github.com/topics/second-brain | ✅ SCANNED | 2026-05-26 | 40 repos (2 pages), 17 found (agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates, NotionAI-MyMind, mcp-logseq, QOwnNotes, Neurite, kindle2notion, notabase, Mindwtr, Lumina-Note, octo, NicholasSpisak/second-brain, dual-obsidian-client, pm-brain, bear-notes-mcp); 5 flagged synthetic (3 repeats) |
 | github.com/topics/knowledge-management | ✅ SCANNED | 2026-05-25 | 40 repos (2 pages), 14 found (basic-memory, Trilium, surf, freeplane, revezone, KnowledgeCanvas, iwe, obsidian-ava, silverbullet, MrDoc, documize, TidGi-Desktop, quillpad, awesome-knowledge-management); 4 flagged synthetic |
@@ -76,11 +77,14 @@ Suggested new sources for future sessions:
 - github.com/topics/second-brain ✅ SCANNED 2026-05-26
 - github.com/topics/real-estate ✅ SCANNED 2026-05-26
 - github.com/topics/note-taking ✅ SCANNED 2026-05-26
-- github.com/topics/crm (untried — high RE relevance) ← NEXT
-- github.com/topics/lead-generation (untried — relevant for closers)
+- github.com/topics/crm ✅ SCANNED 2026-05-26
+- github.com/topics/lead-generation (untried — relevant for closers) ← NEXT
+- github.com/topics/sales-automation (untried — closers/follow-up workflows)
+- github.com/topics/email-automation (untried — outreach tools)
+- github.com/topics/workflow-automation (untried — broader than n8n)
 
 ## Global Skip List (already found in prior sessions)
-MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB, Flowise, dify, AutoGPT, agenticSeek, MaxKB, automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic, claudian, super-productivity, rowboat, inbox-zero, excalidraw, activitywatch, espanso, ChatGPT-Shortcut, automa, gpt-researcher, skyvern, nanobrowser, nexent, atom, claude-code-tresor, lotti, metorial, awesome_ai_agents, WriteHERE, babysitter, activepieces, presenton, awesome-ai-tools, telegram-search, AppFlowy, obsidian-tasks, eclaire, tududi, obsidian-card-board, taskgenius-plugin, Frame, agent-kanban, Remindian, basic-memory, Trilium, surf, freeplane, revezone, knowledge (KnowledgeCanvas), iwe, obsidian-ava, silverbullet, MrDoc, documize, TidGi-Desktop, quillpad, awesome-knowledge-management, agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates (groepl), NotionAI-MyMind, mcp-logseq, QOwnNotes, Neurite, kindle2notion, notabase, Mindwtr, Lumina-Note, octo (davidmyersdev), NicholasSpisak/second-brain, dual-obsidian-client, pm-brain (phuryn), bear-notes-mcp, skills-for-architects, RealEstateCRM, awesome-real-estate, ai-real-estate-assistant, memos, joplin, siyuan, open-notebook, note-gen, Standard Notes, tagspaces, Memex
+MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB, Flowise, dify, AutoGPT, agenticSeek, MaxKB, automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic, claudian, super-productivity, rowboat, inbox-zero, excalidraw, activitywatch, espanso, ChatGPT-Shortcut, automa, gpt-researcher, skyvern, nanobrowser, nexent, atom, claude-code-tresor, lotti, metorial, awesome_ai_agents, WriteHERE, babysitter, activepieces, presenton, awesome-ai-tools, telegram-search, AppFlowy, obsidian-tasks, eclaire, tududi, obsidian-card-board, taskgenius-plugin, Frame, agent-kanban, Remindian, basic-memory, Trilium, surf, freeplane, revezone, knowledge (KnowledgeCanvas), iwe, obsidian-ava, silverbullet, MrDoc, documize, TidGi-Desktop, quillpad, awesome-knowledge-management, agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates (groepl), NotionAI-MyMind, mcp-logseq, QOwnNotes, Neurite, kindle2notion, notabase, Mindwtr, Lumina-Note, octo (davidmyersdev), NicholasSpisak/second-brain, dual-obsidian-client, pm-brain (phuryn), bear-notes-mcp, skills-for-architects, RealEstateCRM, awesome-real-estate, ai-real-estate-assistant, memos, joplin, siyuan, open-notebook, note-gen, Standard Notes, tagspaces, Memex, platform (hcengineering/Huly), SuiteCRM, espocrm, frappe/crm, DaybydayCRM, CordysCRM, relaticle
 
 ## New Finds (2026-05-18 Python batch)
 awesome-claude-skills, odoo, open-webui, open-interpreter, MoneyPrinterTurbo
@@ -202,7 +206,10 @@ skills-for-architects, RealEstateCRM, awesome-real-estate, ai-real-estate-assist
 ## New Finds (2026-05-26 github.com/topics/note-taking)
 memos, joplin, siyuan, open-notebook, note-gen, Standard Notes, tagspaces, Memex
 
+## New Finds (2026-05-26 github.com/topics/crm)
+platform (hcengineering/Huly), SuiteCRM, espocrm, frappe/crm, DaybydayCRM, CordysCRM, relaticle
+
 ## Session Total Found
-168 new qualifying repos (cumulative)
+175 new qualifying repos (cumulative)
 EvanLi Top100 research COMPLETE: 41 language/list files, ~4,100 repos reviewed, 79 qualifying tools found.
-github.com/topics/* research IN PROGRESS: 12 topics scanned (agentic-ai + no-code + productivity + automation + agentic-workflow + ai-agent + personal-productivity + task-management + knowledge-management + second-brain + real-estate + note-taking), 84 total found (2026-05-26).
+github.com/topics/* research IN PROGRESS: 13 topics scanned (agentic-ai + no-code + productivity + automation + agentic-workflow + ai-agent + personal-productivity + task-management + knowledge-management + second-brain + real-estate + note-taking + crm), 91 total found (2026-05-26).

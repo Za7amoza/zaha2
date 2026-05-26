@@ -1263,6 +1263,41 @@
 
 - **Santofer/Remindian** (277★) — Score **7**. Sync Obsidian Tasks and TaskNotes to Apple Reminders or Things 3 — creates a live bridge between Obsidian and native Apple task management. Real estate angle: tasks written in deal notes inside Obsidian automatically appear on iPhone Reminders with due dates. Closes the gap between desktop note-taking and mobile task reminders during field calls. Relevant if Adam uses an iPhone.
 
+---
+
+## github.com/topics/crm -- 2026-05-26
+
+*40 repos scored across 2 pages (sorted by stars). 4 already on skip list (twenty, nocobase, akaunting, monica). 7 new qualifying tools found. 29 filtered dev/ERP/infra/score ≤6.*
+
+### Found (7+)
+
+- **hcengineering/platform** (26,000★) — Score **8**. "All-in-one Project Management Platform — alternative to Linear, Jira, Slack, Notion, Motion." This is Huly: cloud app + self-hosted, with CRM, project management, team messaging, HR and deal tracking all in one interface. Real estate angle: Adam needs deal pipeline management, seller follow-up tracking, and task coordination in one place without assembling four separate tools. Huly's CRM layer handles contacts and leads; the PM layer tracks deals through stages; the messaging layer replaces Slack. Available as a managed cloud (free tier) with no server setup needed. Higher integration ceiling than any single-category tool already found.
+
+- **SuiteCRM/SuiteCRM** (5,500★) — Score **8**. "Open source CRM for the world — full Salesforce alternative." Mature, feature-complete CRM: lead management, deal pipeline, contact history, email integration, reports and dashboards, activity tracking. Real estate angle: designed to replace Salesforce at zero cost — for a remote closer in wholesaling, that means a full lead-to-close pipeline (new lead → seller call → offer → under contract → closed/dead) with custom fields for ARV, motivated-seller score, and follow-up date. Web-based, self-hosted on any server. Most complete RE wholesaling pipeline of any OSS CRM found so far.
+
+- **espocrm/espocrm** (3,000★) — Score **8**. "EspoCRM – Open Source CRM Application." Clean, modern UI — lighter weight than SuiteCRM but still full-featured: contacts, leads, accounts, opportunities, calendar, email, documents, dashboards. Highly customizable entity/field system without touching code. Real estate angle: fastest path to a working RE wholesaling CRM — create a "Lead" entity with custom fields (address, motivated-seller level, ARV, asking price, contact count), map it to an "Opportunity" pipeline for deals in progress. Web-based, installable on cheap VPS or shared hosting. The UI is closest to what a non-developer would expect from a modern SaaS CRM.
+
+- **frappe/crm** (2,800★) — Score **7**. "Fully featured, open source CRM by Frappe." Standalone CRM product (separate from ERPNext) — pipeline views, lead scoring, call logging, email sequences, analytics. Built as a modern React + Frappe backend app. Real estate angle: the pipeline view with drag-and-drop stage management is the most visually intuitive of any OSS CRM found — for a remote closer managing 20-50 active leads across different stages, visual pipeline drag-and-drop replaces spreadsheet chaos. Cloud-hosted or self-hosted.
+
+- **Bottelet/DaybydayCRM** (2,300★) — Score **7**. "Open-source CRM — to help you keep track of your daily workflow." Deliberately simple: contacts, tasks, leads, and follow-ups — all in a minimal Laravel/Vue web app. No ERP bloat, no dozens of modules. Real estate angle: Adam's deal volume as a solo closer doesn't need enterprise CRM complexity — this is the lightest-weight option that still covers the core loop (add lead → log calls → set follow-up date → mark closed/dead). Ideal if Huly or SuiteCRM feel overwhelming. Self-hosted.
+
+- **1Panel-dev/CordysCRM** (2,200★) — Score **8**. "Next-generation open-source AI-powered CRM system supporting private deployment." AI-native CRM: built-in LLM integration for auto-generating follow-up suggestions, summarizing call notes, and scoring leads. Real estate angle: after a seller call, paste rough notes → AI summarizes motivation, extracts key facts (price expectation, timeline, condition), scores the lead, and drafts a follow-up message. This is the AI-augmented CRM loop Adam needs as a closer — less data entry, more deal flow. Private deployment means data stays local.
+
+- **relaticle/relaticle** (1,300★) — Score **9**. "Open-source CRM with native AI agent support. 30 MCP tools, REST API, self-hosted." Built specifically for AI-augmented workflows: 30 MCP tools expose every CRM action (create contact, update lead stage, log activity, search deals) to any MCP-compatible AI — including Claude Code. Real estate angle: the highest integration value of any CRM found. Adam's Claude Code Agentic OS can directly manipulate the CRM — "log this call with seller John Smith, mark as follow up in 3 days, note he wants $280k" — without opening a browser. The 30 MCP tools mean full agentic CRM control from within Claude sessions. Zero-code setup via Docker; self-hosted.
+
+### Filtered
+
+**4 already on skip list:** twenty (20/TypeScript batch), nocobase (no-code batch), akaunting (PHP batch), monica (Ruby batch).
+
+**29 repos filtered** — breakdown:
+
+- **Full ERP / requires dev setup (score 2–4):** frappe/erpnext (35k★ — massive ERP, requires Frappe server stack), krayin/laravel-crm (22.6k★ — Laravel, dev deploy required), idurar/idurar-erp-crm (8.4k★ — Node.js/React, dev stack), Dolibarr/dolibarr (7.3k★ — PHP ERP, server setup overhead), ever-co/ever-gauzy (3.7k★ — ERP/HRM dev platform), ONLYOFFICE/CommunityServer (3.1k★ — office suite, not CRM-focused), WuKongOpenSource/WukongCRM (2.4k★ — Chinese/microservices architecture), metasfresh/metasfresh (2.3k★ — ERP), MicroPyramid/Django-CRM (2.3k★ — Django REST, dev setup), andrewdwallo/erpsaas (1.4k★ — Laravel accounting platform), YetiForceCompany/YetiForceCRM (1.8k★ — enterprise CRM, heavy module system), oroinc/crm-application (996★ — enterprise ORM-based CRM)
+- **Low-code/app-builder dev tools (score 3–4):** openblocks-dev/openblocks (6.2k★ — Retool alternative for developers), open-mercato (1.3k★ — AI engineering framework), moonshine-software/moonshine (1.3k★ — Laravel admin panel), tegojs/tego (1.1k★ — Node.js low-code framework), panoratech/Panora (1k★ — API integration engine), getrebuild/rebuild (1k★ — enterprise no-code, Chinese UI), marmelab/atomic-crm (1k★ — React/Supabase dev project)
+- **Niche/irrelevant (score 2–4):** Peppermint-Lab/peppermint (3.1k★ — help desk, not sales CRM), InvoicePlane/InvoicePlane (3.1k★ — invoicing only, no pipeline), frappe/frappe_docker (2.4k★ — Docker deploy config, not a tool), FJ-OMS/oms-erp (1.9k★ — omnichannel order management), officelifehq/officelife (948★ — HR employee management), avo-hq/avo (1.8k★ — Rails admin builder)
+- **Curated lists / insufficient as tools:** asyraffff/Open-Source-Ruby-and-Rails-Apps (1.3k★ — dev app directory), Ibexoft/awesome-startup-tools-list (1k★ — startup tools meta-list, generic)
+- **Unmaintained / dead:** dromara/skyeye (1.2k★ — Chinese OA system, low activity)
+- **Agency OS (dev-built, not user-facing):** directus-labs/agency-os (940★ — Nuxt/Directus framework template)
+
 ### Flagged Synthetic
 
 - **BradGroux/veritas-kanban** (723★) — "Lightweight orchestration platform built for your AI agents emphasizing project transparency." Unknown account, vague AI-platform description, 723 stars — suspicious ratio for a new agentic kanban tool. Skip.
