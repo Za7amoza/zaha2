@@ -1,11 +1,12 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-26 (github.com/topics/lead-generation — 40 repos, 7 found; 1 skip-list; 32 filtered)
+2026-05-27 (github.com/topics/sales-automation — 40 repos, 12 found; 6 skip-list; 22 filtered)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
 |--------|--------|------|-------|
+| github.com/topics/sales-automation | ✅ SCANNED | 2026-05-27 | 40 repos (2 pages), 12 found (gtm-skills, markster-os, mailsheet, linkedin-skills, next-level-outreach, awesome-ai-sales-tools, harvey, YALC-gtm-os, linkedapi-mcp, agentfactory-business-plugins, Lead-Generation-System-using-Google-Map, clay-claude-code-skill-pack); 6 skip-list; 22 filtered dev/code/infra |
 | github.com/topics/lead-generation | ✅ SCANNED | 2026-05-26 | 40 repos (2 pages), 7 found (Outbound-Real-State-Voice-AI-Agent, gtm-engineer-playbook, sales-skills/sales, awesome-ai-lead-generation, funnel-architect-plugin, bricks, gtm-eng-skills); 1 skip-list; 32 filtered dev/scraper/ML |
 | github.com/topics/crm | ✅ SCANNED | 2026-05-26 | 40 repos (2 pages), 7 found (platform/Huly, SuiteCRM, espocrm, frappe/crm, DaybydayCRM, CordysCRM, relaticle); 4 skip-list; 29 filtered dev/ERP/infra |
 | github.com/topics/real-estate | ✅ SCANNED | 2026-05-26 | 40 repos (2 pages), 4 found (skills-for-architects, RealEstateCRM, awesome-real-estate, ai-real-estate-assistant); 36 filtered dev/ML/infra/landlord |
@@ -80,12 +81,14 @@ Suggested new sources for future sessions:
 - github.com/topics/note-taking ✅ SCANNED 2026-05-26
 - github.com/topics/crm ✅ SCANNED 2026-05-26
 - github.com/topics/lead-generation ✅ SCANNED 2026-05-26
-- github.com/topics/sales-automation (untried — closers/follow-up workflows) ← NEXT
-- github.com/topics/email-automation (untried — outreach tools)
+- github.com/topics/sales-automation ✅ SCANNED 2026-05-27
+- github.com/topics/email-automation (untried — outreach tools) ← NEXT
 - github.com/topics/workflow-automation (untried — broader than n8n)
+- github.com/topics/cold-email (untried — cold outreach tools)
+- github.com/topics/outreach (untried — general outreach automation)
 
 ## Global Skip List (already found in prior sessions)
-MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB, Flowise, dify, AutoGPT, agenticSeek, MaxKB, automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic, claudian, super-productivity, rowboat, inbox-zero, excalidraw, activitywatch, espanso, ChatGPT-Shortcut, automa, gpt-researcher, skyvern, nanobrowser, nexent, atom, claude-code-tresor, lotti, metorial, awesome_ai_agents, WriteHERE, babysitter, activepieces, presenton, awesome-ai-tools, telegram-search, AppFlowy, obsidian-tasks, eclaire, tududi, obsidian-card-board, taskgenius-plugin, Frame, agent-kanban, Remindian, basic-memory, Trilium, surf, freeplane, revezone, knowledge (KnowledgeCanvas), iwe, obsidian-ava, silverbullet, MrDoc, documize, TidGi-Desktop, quillpad, awesome-knowledge-management, agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates (groepl), NotionAI-MyMind, mcp-logseq, QOwnNotes, Neurite, kindle2notion, notabase, Mindwtr, Lumina-Note, octo (davidmyersdev), NicholasSpisak/second-brain, dual-obsidian-client, pm-brain (phuryn), bear-notes-mcp, skills-for-architects, RealEstateCRM, awesome-real-estate, ai-real-estate-assistant, memos, joplin, siyuan, open-notebook, note-gen, Standard Notes, tagspaces, Memex, platform (hcengineering/Huly), SuiteCRM, espocrm, frappe/crm, DaybydayCRM, CordysCRM, relaticle, Outbound-Real-State-Voice-AI-Agent, gtm-engineer-playbook (Othmane-Khadri), sales-skills/sales, awesome-ai-lead-generation, funnel-architect-plugin, bricks (BraaMohammed), gtm-eng-skills (getaero-io)
+MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB, Flowise, dify, AutoGPT, agenticSeek, MaxKB, automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic, claudian, super-productivity, rowboat, inbox-zero, excalidraw, activitywatch, espanso, ChatGPT-Shortcut, automa, gpt-researcher, skyvern, nanobrowser, nexent, atom, claude-code-tresor, lotti, metorial, awesome_ai_agents, WriteHERE, babysitter, activepieces, presenton, awesome-ai-tools, telegram-search, AppFlowy, obsidian-tasks, eclaire, tududi, obsidian-card-board, taskgenius-plugin, Frame, agent-kanban, Remindian, basic-memory, Trilium, surf, freeplane, revezone, knowledge (KnowledgeCanvas), iwe, obsidian-ava, silverbullet, MrDoc, documize, TidGi-Desktop, quillpad, awesome-knowledge-management, agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates (groepl), NotionAI-MyMind, mcp-logseq, QOwnNotes, Neurite, kindle2notion, notabase, Mindwtr, Lumina-Note, octo (davidmyersdev), NicholasSpisak/second-brain, dual-obsidian-client, pm-brain (phuryn), bear-notes-mcp, skills-for-architects, RealEstateCRM, awesome-real-estate, ai-real-estate-assistant, memos, joplin, siyuan, open-notebook, note-gen, Standard Notes, tagspaces, Memex, platform (hcengineering/Huly), SuiteCRM, espocrm, frappe/crm, DaybydayCRM, CordysCRM, relaticle, Outbound-Real-State-Voice-AI-Agent, gtm-engineer-playbook (Othmane-Khadri), sales-skills/sales, awesome-ai-lead-generation, funnel-architect-plugin, bricks (BraaMohammed), gtm-eng-skills (getaero-io), gtm-skills (Prospeda), markster-os, mailsheet (nickvidal), linkedin-skills (Linked-API), next-level-outreach (henriquecaner), awesome-ai-sales-tools (LLMbreaker), harvey (ethanplusai), YALC-the-GTM-operating-system (Othmane-Khadri), linkedapi-mcp (Linked-API), agentfactory-business-plugins (panaversity), Lead-Generation-System-using-Google-Map (Awaisali36), clay-claude-code-skill-pack (forma-norden)
 
 ## New Finds (2026-05-18 Python batch)
 awesome-claude-skills, odoo, open-webui, open-interpreter, MoneyPrinterTurbo
@@ -213,7 +216,10 @@ platform (hcengineering/Huly), SuiteCRM, espocrm, frappe/crm, DaybydayCRM, Cordy
 ## New Finds (2026-05-26 github.com/topics/lead-generation)
 Outbound-Real-State-Voice-AI-Agent, gtm-engineer-playbook, sales-skills/sales, awesome-ai-lead-generation, funnel-architect-plugin, bricks (BraaMohammed), gtm-eng-skills (getaero-io)
 
+## New Finds (2026-05-27 github.com/topics/sales-automation batch)
+gtm-skills (Prospeda), markster-os, mailsheet (nickvidal), linkedin-skills (Linked-API), next-level-outreach (henriquecaner), awesome-ai-sales-tools (LLMbreaker), harvey (ethanplusai), YALC-the-GTM-operating-system (Othmane-Khadri), linkedapi-mcp (Linked-API), agentfactory-business-plugins (panaversity), Lead-Generation-System-using-Google-Map (Awaisali36), clay-claude-code-skill-pack (forma-norden)
+
 ## Session Total Found
-182 new qualifying repos (cumulative)
+194 new qualifying repos (cumulative)
 EvanLi Top100 research COMPLETE: 41 language/list files, ~4,100 repos reviewed, 79 qualifying tools found.
-github.com/topics/* research IN PROGRESS: 14 topics scanned (agentic-ai + no-code + productivity + automation + agentic-workflow + ai-agent + personal-productivity + task-management + knowledge-management + second-brain + real-estate + note-taking + crm + lead-generation), 98 total found (2026-05-26).
+github.com/topics/* research IN PROGRESS: 15 topics scanned (agentic-ai + no-code + productivity + automation + agentic-workflow + ai-agent + personal-productivity + task-management + knowledge-management + second-brain + real-estate + note-taking + crm + lead-generation + sales-automation), 110 total found (2026-05-27).

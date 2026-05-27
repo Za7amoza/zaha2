@@ -3,6 +3,45 @@
 
 ---
 
+## github.com/topics/sales-automation -- 2026-05-27
+
+*40 repos scored across 2 pages (sorted by stars). 6 already found/skip-listed. 12 new qualifying tools found. 22 filtered dev/infra/code-only.*
+*(githublb.vercel.app/topic/agentic-workflow and /agentic-framework still 403 — 5th retry, permanently blocked. All EvanLi Top100 sources previously scanned. Fell through to next suggested source.)*
+
+### Found (7+)
+
+- **Prospeda/gtm-skills** (15★) — Score **9**. "2,500+ AI prompts for B2B sales & GTM teams. Works with Claude, ChatGPT, and any LLM. The definitive open-source resource for AI-powered sales." Massive ready-to-paste prompt library covering prospecting, cold email, objection handling, follow-up sequences, and deal qualification — zero code, just paste and run. Real estate angle: Adam can drop any prompt into Claude and get a cold outreach email, a follow-up sequence, or a seller motivation script in seconds. No setup, no subscription — better than $200/month prompt packs. Searchable by sales stage.
+
+- **markster-public/markster-os** (41★) — Score **8**. "B2B sales and marketing OS (aka GTM) inside Claude, GPT, Gemini, or Openclaw. Cold email to close. No dashboard. No SaaS." Complete sales operating system that runs entirely within Claude's chat interface — no separate tool to open, no SaaS subscription, no dashboard login. Covers the full workflow from list building to cold email drafting to follow-up. Real estate angle: Adam's outreach workflow (build list → write cold email → handle replies → close) run through Claude Code. Directly complementary to his existing Agentic OS setup.
+
+- **nickvidal/mailsheet** (68★) — Score **8**. "Send emails from Google Sheets." No-code mail merge — build a prospect list in Google Sheets, write one email template with {{FirstName}} / {{Property}} fields, click send and it dispatches personalized emails to every row. No email software, no Mailchimp account, no API setup. Real estate angle: Adam builds a motivated-seller outreach list in Sheets, templates one cold email, fires off 50 personalized emails in one click. Free within Google Workspace limits. Eliminates the need for a bulk-email SaaS tool entirely.
+
+- **Linked-API/linkedin-skills** (22★) — Score **8**. "LinkedIn automation skills enabling AI agents to perform social selling, data extraction, and sales activities." Claude Code skills that let the agent control LinkedIn — send connection requests, pull profile data, run message sequences, extract lead lists. Real estate angle: Adam uses Claude Code to run LinkedIn outreach for investor buyers or seller leads without paying for Sales Navigator or LinkedIn automation SaaS ($100+/month). Skills drop-in; no Python knowledge required to run them.
+
+- **henriquecaner/next-level-outreach** (9★) — Score **8**. "Plugin para Claude Code com 40 skills de outbound B2B + briefing canônico que persiste entre sessões. Tunado para lemlist." 40 Claude Code outbound skills covering the full B2B prospecting and email workflow, with session-persistent briefing context. Written in Portuguese but skills work language-agnostically. Real estate angle: install the plugin → Claude Code runs 40 outbound workflows (prospect research, email drafts, follow-up cadences, list building) with deal context persisting across sessions. Direct drop-in into Adam's Agentic OS.
+
+- **LLMbreaker/awesome-ai-sales-tools** (7★) — Score **8**. "Curated list of AI tools for sales automation, LinkedIn outreach, cold email, and B2B lead generation." Reference directory of AI sales tools organized by category: cold email, LinkedIn automation, lead enrichment, CRM, calling. Real estate angle: Adam's go-to lookup when evaluating a new sales workflow — scan the list, find the best-fit tool per use case without trial-and-error. Saves hours of googling "best AI cold email tool 2026."
+
+- **ethanplusai/harvey** (6★) — Score **8**. "Autonomous AI sales agent powered by Claude Code finding prospects, writing cold emails, sending campaigns, handling replies, booking meetings." Full outbound sales agent built on Claude Code — gives it a target persona and it autonomously completes the entire sales loop: prospect → draft email → send → read reply → book meeting. Real estate angle: point Harvey at "motivated sellers in [zip code]" or "cash buyers in [market]" and it handles the outreach loop while Adam is on other calls. Claude Code native — integrates directly into his existing setup.
+
+- **Othmane-Khadri/YALC-the-GTM-operating-system** (204★) — Score **7**. "AI-native GTM operating system. CLI-first. Open source Clay alternative." Clay.com charges $700+/month for prospect enrichment and lead scoring; YALC replicates that workflow for free via CLI. Pulls company data, enriches leads with AI, scores by ICP criteria, exports to CRM. Real estate angle: build enriched wholesale buyer or motivated-seller lists with AI scoring at $0. CLI-first is fine for Adam since he already operates in terminal/Claude Code.
+
+- **Linked-API/linkedapi-mcp** (53★) — Score **7**. "MCP server enabling AI assistants to control LinkedIn accounts and retrieve real-time data for growth hacking and social selling." LinkedIn MCP server — add to Claude Code's MCP config and the agent can search LinkedIn profiles, send messages, extract contact lists, and run outreach sequences through natural language. Real estate angle: tell Claude "find cash buyers in Phoenix who follow wholesale real estate accounts" → agent does the LinkedIn search and extraction. Replaces Apollo.io/Sales Nav for LinkedIn prospecting.
+
+- **panaversity/agentfactory-business-plugins** (17★) — Score **7**. "Marketplace of domain-specific plugins for AI agents. Build autonomous business workflows for finance, banking, legal operations, and sales." Plugin marketplace specifically for business automation agents — pre-built plugins for sales pipelines, document workflows, and business operations. Real estate angle: browse the sales and legal plugins to find pre-built workflows (contract generation, lead qualification, pipeline management) that drop into Claude Code without building from scratch.
+
+- **Awaisali36/Lead-Generation-System-using-Google-Map** (10★) — Score **7**. "Conversational AI agent extracting unlimited business leads from Google Maps with automatic email enrichment using GPT-4o." Chat with an AI agent, tell it "find motivated sellers in [neighborhood]" — it scrapes Google Maps business listings and auto-enriches emails. Real estate angle: Cairo market angle — use it to pull commercial property leads or investor buyer contacts from Egyptian market Google Maps data where US databases don't reach. Also works for US wholesale markets.
+
+- **forma-norden/clay-claude-code-skill-pack** (6★) — Score **7**. "Claude Code skill files for building Clay enrichment tables, AI columns, and outbound exports for GTM engineers." Pre-built Claude Code skills that replicate Clay.com's enrichment table workflows — build prospect lists with AI-populated columns (job title, tech stack, recent news) and export for outreach. Real estate angle: build an enriched cash-buyer or investor list inside Claude Code without a Clay subscription — same logic (waterfall enrichment, AI scoring columns, CSV export) at zero cost.
+
+### Filtered
+
+**6 already found or on skip list:** espocrm (crm batch), awesome-ai-lead-generation (lead-generation batch), Outbound-Real-State-Voice-AI-Agent (lead-generation batch), bricks/BraaMohammed (no-code batch), sales-skills/sales (lead-generation batch), gtm-eng-skills/getaero-io (lead-generation batch).
+
+**22 filtered — dev/code/infra:** kaymen99/sales-outreach-automation-langgraph (297★ — LangGraph dev code), iPythoning/b2b-sdr-agent-template (102★ — dev template), kaymen99/AI-Sales-agent (84★ — dev agent code), jacob-dietle/Autonomous-Sales-Inbox-and-CRM-Assistant (51★ — dev code), kaymen99/leads-reactivation-with-AI-Voice-Agent (48★ — dev voice AI), Awaisali36/50k-lead-generation-system (45★ — dev scraping stack), KlementMultiverse/ai-crm-agents (38★ — dev CRM), browser-use/contact-use (35★ — dev browser automation), kvyb/opentulpa (35★ — dev self-hosted agent), Linked-API/linkedin-cli (28★ — dev CLI), yerdaulet-damir/langgraph-sales-agent (22★ — LangGraph dev), Andersen-soft/Sales.CRM (21★ — dev CRM), iPythoning/b2b-sdr-hermes-skill (15★ — requires Hermes Agent dev setup), Dominien/hubspot-sales-agent (11★ — dev code), rabinsxp/hostmario (11★ — web hosting mgmt, off-topic), AviVAvi/AI-Lead-Qualification-Sales-Automation (8★ — dev n8n), LeadMagic/leadmagic-n8n (8★ — dev n8n node), buildingopen/opengtm (7★ — dev GTM tool), gensx-inc/cortex-sdk (7★ — SDK), mmTheBest/AI-Agents-for-Production (6★ — dev heavy), Dominien/sales-agent (5★ — dev code), redmindsteam/fresh (9★ — pre-sale inventory mgmt, off-topic).
+
+---
+
 ## github.com/topics/note-taking -- 2026-05-26
 
 *40 repos scored across 2 pages (sorted by stars). 13 already found/skip-listed. 8 new qualifying tools found. 19 filtered dev/infra/unmaintained/score ≤6.*
