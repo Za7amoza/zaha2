@@ -3,6 +3,39 @@
 
 ---
 
+## github.com/topics/outreach -- 2026-05-27
+
+*40 repos scored across 2 pages (sorted by stars). 4 already found/skip-listed. 9 new qualifying tools found. 27 filtered dev/scientific/off-topic/score ≤6.*
+*(All 6 original sources from task exhausted — githublb.vercel.app both 403-permanent; EvanLi Scala/Lua/Elixir/C all scanned 2026-05-18. Used next unscanned source from state file.)*
+
+### Found (7+)
+
+- **Belkins/revenue-os** (24★) — Score **8**. "Claude Code plugin for ICP discovery, value propositions, pricing, outreach, and more." Full revenue operations plugin for Claude Code — defines your Ideal Customer Profile, generates value propositions, builds pricing structures, and runs outreach campaigns, all inside Claude Code. Real estate angle: point the ICP tool at "motivated sellers in [market]" or "cash buyers in Phoenix," let it define the ideal target profile, then run outreach sequences from Claude Code without switching tools. Built by Belkins (established B2B outbound agency) — real-world outbound credibility, not a hobbyist repo. Direct drop-in to Adam's existing `.claude/` setup.
+
+- **builderz-labs/marketing-dashboard** (297★) — Score **8**. "Open-source marketing operations control center for AI agent teams — CRM, outreach, content, and analytics powered by OpenClaw + SQLite." Unified marketing ops dashboard that aggregates CRM data, outreach activity, content pipeline, and analytics in a single SQLite-backed interface running on top of OpenClaw. Real estate angle: single dashboard view of all outreach activity — who was contacted, when, what content was sent, and what the response rate looks like — without toggling between separate tools. Dashboard-layer complement to the OpenClaw agents already doing the work.
+
+- **eracle/OpenOutreach** (1.9k★) — Score **7**. "LinkedIn Automation Tool: Describe your product. Define your target market. The AI finds the leads for you." Natural-language LinkedIn lead gen — describe a target market in plain text and the AI surfaces matching profiles with outreach drafts. Real estate angle: describe "motivated sellers — homeowners behind on property taxes in [city]" or "cash buyers — real estate investors in [market]" and the AI builds the lead list without manual searching or Sales Navigator. 1.9k stars, actively maintained; non-technical entry point.
+
+- **OutreachStud-io/studio** (55★) — Score **7**. "Open-source outreach software for cold emailing." Self-hosted cold email platform covering contact management, campaign sequences, and reply tracking — equivalent to Instantly.ai or Lemlist but free and self-hosted. Real estate angle: run wholesale outreach campaigns (motivated seller lists or cash buyer lists) without paying $97–$197/month for a cold email SaaS. Own your data, no per-email limits, no deliverability lock-in. Docker deploy; no coding after initial setup.
+
+- **moaljumaa/linki** (37★) — Score **7**. "Self-hosted LinkedIn outreach automation tool." Automates LinkedIn connection requests, profile visits, and message sequences from a self-hosted web UI — no per-seat SaaS fees. Real estate angle: run LinkedIn buyer or seller outreach campaigns for $0/month instead of $100+/month for tools like Expandi or Dux-Soup. Self-hosted means no shared IP pools, reducing the LinkedIn account-flag risk that affects cloud-based automation tools.
+
+- **sausi-7/inkwell** (24★) — Score **7**. "Self-hosted, BYOK outreach intelligence. Scan forums free; draft replies in your voice only on demand." Monitors online forums and communities, then drafts personalized reply outreach in the user's own voice — AI-assisted, BYOK, fully local processing. Real estate angle: monitor BiggerPockets, Reddit r/realestateinvesting, or local Facebook groups for motivated seller posts and draft replies that sound like Adam, not a template bot. This forum-monitoring → outreach-reply pipeline is not covered by any other tool found so far.
+
+- **getsoyuz/soyuz** (9★) — Score **7**. "Soyuz is an open source Apollo.io alternative." Replicates Apollo.io's core workflow — contact database search, lead enrichment, and outreach sequencing — as a self-hosted platform. Real estate angle: Apollo.io charges $49–$119/month; Soyuz delivers the same search-enrich-contact workflow at zero cost. Early-stage (9 stars) but directly addresses the Apollo cost problem for wholesale list-building. Worth tracking for maturity.
+
+- **mihir-kanzariya/openowl-templates** (8★) — Score **7**. "Pre-built automation workflows for OpenOwl + Claude Code." Drop-in automation workflow templates for the OpenOwl platform integrated with Claude Code — covers prospecting, outreach, content generation, and follow-up sequences. Real estate angle: pre-wired Claude Code automation workflows for the full outbound cycle without building from scratch. Very low stars but the Claude Code + outreach angle is directly on-target; worth installing if OpenOwl is in the stack.
+
+- **pad29/KindReach** (6★) — Score **7**. "Multi-step email campaign tool for Gmail with local-only processing." Full email campaign manager built on top of Gmail — multi-step sequences, personalization, scheduling — with all processing happening locally. Real estate angle: run 5-step seller or buyer outreach sequences from Adam's existing Gmail (adam.dak.lm@gmail.com) without a separate cold email SaaS account. Local-only means no email content is logged on third-party servers — important privacy protection for sensitive deal negotiations.
+
+### Filtered
+
+**4 already found or on skip list:** markster-public/markster-os (sales-automation batch), BraaMohammed/bricks (no-code batch), LeadMagic/smartlead-mcp-server (email-automation batch), txampa/claude-skill-b2b-local-outreach (cold-email batch).
+
+**27 filtered — dev/scientific/off-topic/score ≤6:** FujiwaraChoki/MoneyPrinterV2 (30.6k★ — YouTube Shorts automation bot, off-topic), growchief/growchief (3.3k★ — social media bot, Python dev setup required, score 5), supaglue-labs/supaglue (427★ — developer product-integration platform, score 2), FujiwaraChoki/linkedin-bot (106★ — Python/Selenium, dev), MickeyUK/map-email-scraper (88★ — maps scraper, dev; covered by already-found Lead-Generation-System-using-Google-Map), MacCASOutreach/graphicsvg (49★ — SVG graphics library, off-topic), nasa/GeneLab-Training (49★ — NASA bioscience training, off-topic), tomiwaAdey/Nimrod (48★ — Python email-finder bot, dev setup required, score 4), OGGM/oggm-edu (25★ — glacier education, off-topic), Sabique-Islam/raven (20★ — Python bulk email script, dev, score 4), whatisnuclear/outreach-material (15★ — nuclear education, off-topic), OGGM/glacier-graphics (14★ — off-topic), iopipe/servers.lol (13★ — off-topic), neurodata/neurodata.io (12★ — off-topic), cppignite/lessons (11★ — MIT App Inventor course, off-topic), xrubio/evolvingPlanet (10★ — game, off-topic), savedpixel/linkedin-network-connection-bot (9★ — Python/Selenium, dev), heidiawhite/Astrodigenous (9★ — astronomy database, off-topic), simongravelle/publication-data (9★ — scientific data, off-topic), FujiwaraChoki/AutoReach (8★ — Next.js dev app, score 4), HiSPARC/publicdb (8★ — physics experiment database, off-topic), ScazLab/baxter_tictactoe (7★ — robotics research, off-topic), LeadMagic/cold-email-cli (7★ — CLI dev tool, score 4), aboucaud/face_lensing (6★ — gravitational lensing, off-topic), seabbs/blogdown-site (6★ — personal academic website, off-topic), LensmorOfficial/trade-show-email-templates (6★ — static templates only, no automation, score 5), statdivlab/presentations (6★ — statistics presentations, off-topic).
+
+---
+
 ## github.com/topics/workflow-automation -- 2026-05-27
 
 *40 repos scored across 2 pages (sorted by stars). 8 already found/skip-listed. 6 new qualifying tools found. 26 filtered dev/infra/code-only.*

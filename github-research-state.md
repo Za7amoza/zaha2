@@ -1,11 +1,12 @@
 # GitHub Research State
 
 ## Last Updated
-2026-05-27 (github.com/topics/cold-email — 40 repos, 7 found; 7 skip-list; 26 filtered)
+2026-05-27 (github.com/topics/outreach — 40 repos, 9 found; 4 skip-list; 27 filtered)
 
 ## Sources Scanned
 | Source | Status | Date | Notes |
 |--------|--------|------|-------|
+| github.com/topics/outreach | ✅ SCANNED | 2026-05-27 | 40 repos (2 pages), 9 found (revenue-os, marketing-dashboard, OpenOutreach, studio, linki, inkwell, soyuz, openowl-templates, KindReach); 4 skip-list; 27 filtered dev/scientific/off-topic |
 | github.com/topics/cold-email | ✅ SCANNED | 2026-05-27 | 40 repos (2 pages), 7 found (email-sleuth, opengtm, cold-md, claude-skill-b2b-local-outreach, signal-prospecting-kit, trawl, prospector-mcp-email-finder); 7 skip-list; 26 filtered dev/CLI/dataset/off-topic |
 | github.com/topics/email-automation | ✅ SCANNED | 2026-05-27 | 40 repos (2 pages), 8 found (AI-Workflow-Hub-2000-, aomail-app, mcp-mail, claude-coach-kit, outlook-mcp, smartlead-mcp-server, outlook-assistant, hubspot-sales-agent); 0 skip-list; 32 filtered dev/spam/Apple-only |
 | github.com/topics/workflow-automation | ✅ SCANNED | 2026-05-27 | 40 repos (2 pages), 6 found (n8n-skills, Claude-Command-Suite, n8n-as-code, edict, open-claude-cowork, DreamServer); 8 skip-list; 26 filtered dev/infra |
@@ -88,8 +89,8 @@ Suggested new sources for future sessions:
 - github.com/topics/email-automation ✅ SCANNED 2026-05-27
 - github.com/topics/workflow-automation ✅ SCANNED 2026-05-27
 - github.com/topics/cold-email ✅ SCANNED 2026-05-27
-- github.com/topics/outreach (untried — general outreach automation) ← NEXT
-- github.com/topics/prospecting (untried — lead prospecting tools)
+- github.com/topics/outreach ✅ SCANNED 2026-05-27
+- github.com/topics/prospecting (untried — lead prospecting tools) ← NEXT
 
 ## Global Skip List (already found in prior sessions)
 MarkItDown, AnythingLLM, OpenClaw, Khoj, n8n, Huginn, career-ops, NocoDB, MindsDB, Flowise, dify, AutoGPT, agenticSeek, MaxKB, automatisch, sim, maxun, teable, budibase, nocobase, coze-studio, magic, claudian, super-productivity, rowboat, inbox-zero, excalidraw, activitywatch, espanso, ChatGPT-Shortcut, automa, gpt-researcher, skyvern, nanobrowser, nexent, atom, claude-code-tresor, lotti, metorial, awesome_ai_agents, WriteHERE, babysitter, activepieces, presenton, awesome-ai-tools, telegram-search, AppFlowy, obsidian-tasks, eclaire, tududi, obsidian-card-board, taskgenius-plugin, Frame, agent-kanban, Remindian, basic-memory, Trilium, surf, freeplane, revezone, knowledge (KnowledgeCanvas), iwe, obsidian-ava, silverbullet, MrDoc, documize, TidGi-Desktop, quillpad, awesome-knowledge-management, agent-second-brain, COG-second-brain, nocturne_memory, Obsidian-Templates (groepl), NotionAI-MyMind, mcp-logseq, QOwnNotes, Neurite, kindle2notion, notabase, Mindwtr, Lumina-Note, octo (davidmyersdev), NicholasSpisak/second-brain, dual-obsidian-client, pm-brain (phuryn), bear-notes-mcp, skills-for-architects, RealEstateCRM, awesome-real-estate, ai-real-estate-assistant, memos, joplin, siyuan, open-notebook, note-gen, Standard Notes, tagspaces, Memex, platform (hcengineering/Huly), SuiteCRM, espocrm, frappe/crm, DaybydayCRM, CordysCRM, relaticle, Outbound-Real-State-Voice-AI-Agent, gtm-engineer-playbook (Othmane-Khadri), sales-skills/sales, awesome-ai-lead-generation, funnel-architect-plugin, bricks (BraaMohammed), gtm-eng-skills (getaero-io), gtm-skills (Prospeda), markster-os, mailsheet (nickvidal), linkedin-skills (Linked-API), next-level-outreach (henriquecaner), awesome-ai-sales-tools (LLMbreaker), harvey (ethanplusai), YALC-the-GTM-operating-system (Othmane-Khadri), linkedapi-mcp (Linked-API), agentfactory-business-plugins (panaversity), Lead-Generation-System-using-Google-Map (Awaisali36), clay-claude-code-skill-pack (forma-norden), AI-Workflow-Hub-2000- (emretasss), aomail-app (aomail-ai), mcp-mail (shuakami), claude-coach-kit (krishna-build), outlook-mcp (XenoXilus), smartlead-mcp-server (LeadMagic), outlook-assistant (littlebearapps), hubspot-sales-agent (Dominien), n8n-skills (czlonkowski), Claude-Command-Suite (qdhenry), n8n-as-code (EtienneLescot), edict (cft0808), open-claude-cowork (composio-community), DreamServer (Light-Heart-Labs), email-sleuth (buyukakyuz), opengtm (buildingopen), cold-md (concaption), claude-skill-b2b-local-outreach (txampa), signal-prospecting-kit (julienamorgan), trawl (braedonsaunders), prospector-mcp-email-finder (JosieBot26)
@@ -229,10 +230,13 @@ AI-Workflow-Hub-2000- (emretasss), aomail-app (aomail-ai), mcp-mail (shuakami), 
 ## New Finds (2026-05-27 github.com/topics/workflow-automation batch)
 n8n-skills (czlonkowski), Claude-Command-Suite (qdhenry), n8n-as-code (EtienneLescot), edict (cft0808), open-claude-cowork (composio-community), DreamServer (Light-Heart-Labs)
 
+## New Finds (2026-05-27 github.com/topics/outreach batch)
+revenue-os (Belkins), marketing-dashboard (builderz-labs), OpenOutreach (eracle), studio (OutreachStud-io), linki (moaljumaa), inkwell (sausi-7), soyuz (getsoyuz), openowl-templates (mihir-kanzariya), KindReach (pad29)
+
 ## New Finds (2026-05-27 github.com/topics/cold-email batch)
-email-sleuth (buyukakyuz), opengtm (buildingopen), cold-md (concaption), claude-skill-b2b-local-outreach (txampa), signal-prospecting-kit (julienamorgan), trawl (braedonsaunders), prospector-mcp-email-finder (JosieBot26)
+email-sleuth (buyukakyuz), opengtm (buildingopen), cold-md (concaption), claude-skill-b2b-local-outreach (txampa), signal-prospecting-kit (julienamorgan), trawl (braedonsaunders), prospector-mcp-email-finder (JosieBot26), revenue-os (Belkins), marketing-dashboard (builderz-labs), OpenOutreach (eracle), studio (OutreachStud-io), linki (moaljumaa), inkwell (sausi-7), soyuz (getsoyuz), openowl-templates (mihir-kanzariya), KindReach (pad29)
 
 ## Session Total Found
-215 new qualifying repos (cumulative)
+224 new qualifying repos (cumulative)
 EvanLi Top100 research COMPLETE: 41 language/list files, ~4,100 repos reviewed, 79 qualifying tools found.
-github.com/topics/* research IN PROGRESS: 18 topics scanned (agentic-ai + no-code + productivity + automation + agentic-workflow + ai-agent + personal-productivity + task-management + knowledge-management + second-brain + real-estate + note-taking + crm + lead-generation + sales-automation + email-automation + workflow-automation + cold-email), 131 total found (2026-05-27).
+github.com/topics/* research IN PROGRESS: 19 topics scanned (agentic-ai + no-code + productivity + automation + agentic-workflow + ai-agent + personal-productivity + task-management + knowledge-management + second-brain + real-estate + note-taking + crm + lead-generation + sales-automation + email-automation + workflow-automation + cold-email + outreach), 140 total found (2026-05-27).
