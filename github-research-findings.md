@@ -3,6 +3,37 @@
 
 ---
 
+## github.com/topics/workflow-automation -- 2026-05-27
+
+*40 repos scored across 2 pages (sorted by stars). 8 already found/skip-listed. 6 new qualifying tools found. 26 filtered dev/infra/code-only.*
+*(All 6 originally listed sources exhausted: githublb.vercel.app both 403-permanent; EvanLi Scala/Lua/Elixir/C all scanned 2026-05-18. Fell through to state-file next suggested source.)*
+
+### Found (7+)
+
+- **czlonkowski/n8n-skills** (5,200★) — Score **9**. "n8n skillset for Claude Code to build flawless n8n workflows." Pre-built Claude Code skills that let the agent design, debug, and deploy n8n automations through natural language — no n8n UI navigation or JSON editing required. Real estate angle: Adam already knows n8n is on his radar (it's on the skip list as a known tool); these skills are the missing bridge — tell Claude "build me a workflow that routes inbound leads from my web form to a Google Sheet and fires an SMS" and it constructs and deploys the n8n workflow autonomously. Converts a known-but-setup-heavy tool into a zero-friction Claude command. Drop-in skills install.
+
+- **qdhenry/Claude-Command-Suite** (1,300★) — Score **9**. "Professional slash commands for Claude Code providing structured workflows." Curated set of `/slash` commands for Claude Code that enforce structured, repeatable workflows — not ad-hoc prompts but stateful multi-step command sequences with consistent outputs. Real estate angle: Adam's agentic OS runs on Claude Code; these commands give it a professional command palette instantly — deal analysis workflow, cold email generator, follow-up sequence builder, research briefing — all invocable as single slash commands without re-prompting from scratch each time. Direct drop-in to his existing `.claude/commands/` folder.
+
+- **EtienneLescot/n8n-as-code** (1,300★) — Score **8**. "Give your AI agent n8n superpowers with 537 nodes and 7,700+ templates." Claude Code plugin exposing the entire n8n node library (537 nodes) and 7,700+ community workflow templates as agent-accessible tools — the agent can browse, modify, and deploy workflows without the n8n visual UI. Real estate angle: combined with n8n-skills above, this gives Claude a comprehensive n8n vocabulary — build a lead enrichment pipeline, a multi-step email drip sequence, or a Zillow-to-CRM sync by describing it in plain language. The 7,700 template library means most common real estate automation patterns already exist; Claude adapts them to Adam's specifics.
+
+- **cft0808/edict** (15,900★) — Score **7**. "Three-tier system · OpenClaw Multi-Agent Orchestration System with 9 specialized AI agents, real-time dashboard, model config, and full audit trails." Complete multi-agent orchestration layer on top of OpenClaw — adds a real-time web dashboard showing all running agents, their task states, model assignments, and a full decision audit trail. Not just the base tool but a control center that makes multi-agent workflows inspectable and manageable. Real estate angle: when Adam has multiple Claude agents running in parallel (one doing comp research, one drafting outreach, one monitoring follow-up timelines), edict gives him a live dashboard to see what each agent is doing and intervene if needed — without opening terminals. Note: requires OpenClaw (already on skip list as a known tool).
+
+- **composio-community/open-claude-cowork** (4,200★) — Score **7**. "Open source version of Claude Cowork with 500+ SaaS app integrations." Open-source collaborative AI workspace built around Claude with 500+ pre-wired SaaS integrations (Gmail, Sheets, CRMs, Slack, Notion, HubSpot, etc.) — no API config per integration; connect once, use all. Real estate angle: a unified workspace where Claude can pull from and push to any tool Adam already uses — read a lead from Google Sheets, draft a follow-up in Gmail, update a CRM row, log to Notion — all from one Claude interface without stitching n8n or Zapier workflows together. Significant reduction in integration overhead compared to building piece by piece.
+
+- **Light-Heart-Labs/DreamServer** (1,800★) — Score **7**. "Turn your PC into a private AI server with agents, workflows, RAG, and generation." One-click deployment that transforms a Windows/Mac PC into a self-hosted AI server running agents, workflow automation, RAG document chat, and image generation — no cloud costs, no SaaS subscriptions, everything runs locally. Real estate angle: Adam's deal docs, seller notes, comp reports, and call transcripts stay on-device; the RAG layer lets Claude answer "what did I learn about the Phoenix market?" from local files; workflow agents run continuously without paying per-execution API costs. Strong privacy guarantee for sensitive deal data.
+
+### Filtered
+
+**8 already found or on skip list:** n8n (skip list), Flowise (skip list / TypeScript batch), ToolJet (JavaScript batch), budibase (no-code batch), awesome-n8n-templates (automation batch), activepieces (ai-agent batch), awesome-openclaw-usecases-zh (previously filtered, skip list variant), awesome-claude-skills/ComposioHQ (flagged synthetic in automation batch — 62k★ for curated list implausible).
+
+**1 flagged suspicious (this session):** foryourhealth111-pixel/Vibe-Skills (2.2k★) — "All-in-one AI skills package." Account name pattern and star count for a niche skills package don't match. Skip.
+
+**1 low-info / filtered:** breaking-brake/cc-wf-studio (5.1k★) — "CC Workflow Studio." Description too sparse to score confidently; no evidence of non-technical usability. Score 5. Filter.
+
+**24 filtered — dev/infra/ML/backend:** conductor-oss/conductor (31.8k★ — Java distributed workflow engine), temporalio/temporal (20.5k★ — distributed workflow infra), dagster-io/dagster (15.6k★ — data engineering orchestration), triggerdotdev/trigger.dev (15.1k★ — developer-coded workflow deployment), Netflix/conductor (12.8k★ — microservices engine), alicevision/Meshroom (12.8k★ — 3D photogrammetry, off-topic), keephq/keep (11.9k★ — AIOps alert management, dev/infra), cadence-workflow/cadence (9.3k★ — distributed orchestration engine), bytedance/flowgram.ai (8.1k★ — dev SDK, filtered no-code batch), freestylefly/awesome-gpt-image-2 (6.6k★ — image-gen prompt library, score 4, not RE-relevant), lowdefy/lowdefy (3k★ — developer low-code app builder), superplanehq/superplane (2.8k★ — platform engineering infra), wanikua/danghuangshang (2.7k★ — Chinese AI tutorial, language barrier), argoproj/argo-events (2.7k★ — Kubernetes event framework), moazbuilds/CodeMachine-CLI (2.5k★ — AI coding agent orchestrator, dev), KhazP/vibe-coding-prompt-template (2.4k★ — dev prompt templates, filtered no-code batch), pydoit/doit (2.1k★ — CLI build automation tool, dev), catlog22/Claude-Code-Workflow (2k★ — JSON multi-agent dev framework, dev-oriented), rulego/rulego (1.5k★ — Go rule engine, dev), nocode-js/sequential-workflow-designer (1.4k★ — React component library, dev tool), obsei/obsei (1.4k★ — score 6, social listening tool, setup overhead), ovh/utask (1.4k★ — YAML automation engine, dev), codeaholicguy/ai-devkit (1.2k★ — AI coding workflow config, dev), pypa/gh-action-pypi-publish (1.2k★ — Python package CI/CD, off-topic).
+
+---
+
 ## github.com/topics/sales-automation -- 2026-05-27
 
 *40 repos scored across 2 pages (sorted by stars). 6 already found/skip-listed. 12 new qualifying tools found. 22 filtered dev/infra/code-only.*
