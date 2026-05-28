@@ -1480,6 +1480,25 @@
 
 ---
 
+## github.com/topics/real-estate-investing -- 2026-05-28
+
+*9 repos scored (sorted by stars). No skip-list hits. 3 new qualifying tools found. 6 filtered dev/scraper/WordPress/portfolio (score ≤6).*
+*(githublb.vercel.app/topic/agentic-workflow still 403 after retry 2026-05-28. All other listed sources (agentic-framework, EvanLi Scala/Lua/Elixir/C) already fully scanned. Used next unscanned source from state file.)*
+
+### Found (7+)
+
+- **ahacker-1/cre-agent-skills** (28★) — **Score: 9** — 50 standalone Claude Code skills for commercial real estate: due diligence (rent roll, operating expenses, title review, tenant credit), underwriting (financial modeling, stress testing, IC memos), financing (lender sourcing, term sheets), legal/closing (purchase agreement review, estoppel tracking), and brokerage (offering memos, BOVs, bid leveling). Zero API keys, no orchestrator required — each skill is a plain markdown file that works standalone in Claude Code or any LLM. Direct drop-in to Adam's `.claude/skills/` folder. Most complete CRE-specific skill library found to date.
+
+- **Deal-Scale/awesome-real-estate-investing** (8★) — **Score: 8** — Curated "awesome list" optimized for real estate investors, not just agents. Categories include CRM and automation software, AI automation platforms, lead generation tools, data/analytics services, listing APIs, and educational resources. Useful as a discovery directory when evaluating tools in Adam's stack — cross-reference any new RE platform against this list to check for established alternatives.
+
+- **hoangtng/real-estate-agents** (2★) — **Score: 7** — 12 Claude agent personas covering the full real estate transaction lifecycle: Client Relationship Manager, Listing Agent, Buyer's Agent, Transaction Coordinator, Market Analyst, Creative Director, Estimator, Investment Advisor, Business Development Director, Property Manager, Concierge, and Legal/Compliance Advisor. Each agent pairs with a production skill that generates professional deliverables (CMA, offer strategy, marketing plan, compliance audit). Built on Claude's native agent framework. File install to `.claude/` required; no coding after that.
+
+### Filtered
+
+**6 repos filtered (score 1–6):** ialejandro/crowdfunding-real-estate-scrapy (3★ — Scrapy dev scraper), KhadimHussain12/Real-Estate-AI-Staging-Plugin-for-WordPress (2★ — WordPress plugin for photo staging), XAKLESK/cre-agent-skills (1★ — likely fork of ahacker-1 above), emanto24/trov-blueprint (0★ — residential underwriting tool for 1-4 units, dev setup), kkarbasi/cityscope (0★ — Python data pipeline for US metros), SierraAdamsDev/lee-holdings-group (0★ — static portfolio website).
+
+---
+
 ## github.com/topics/prospecting -- 2026-05-28
 
 *40 repos scored across 2 pages (sorted by stars). 7 already on skip list (50k-lead-generation-system, sales-skills/sales, gtm-eng-skills, harvey, KindReach, signal-prospecting-kit, prospector-mcp-email-finder). 10 new qualifying tools found. 23 filtered dev/scraper/CLI/off-topic (score ≤6).*
